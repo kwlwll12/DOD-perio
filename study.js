@@ -1,40 +1,40 @@
 'use strict';
 
 const topics = [
-  {id:'structure', title:'건강한 구조', en:'Anatomy', icon:'◇', color:'#315fc3', tint:'#eaf0ff', x:360, y:57,
-    text:'치은은 저작점막의 일부이면서 치주조직의 네 구성 요소 중 하나예요. 이 구조를 알면 탐침이 닿는 위치와 방사선에서 보이는 치조골의 의미를 연결할 수 있어요.',
-    terms:['Periodontium','Oral mucosa','Gingiva','PDL','건강','치은','접합상피','상피','각화','transseptal','백악질','치조골','섬유'], featured:6},
-  {id:'exam', title:'검사와 영상', en:'Examination', icon:'⌖', color:'#137875', tint:'#e5f5f3', x:555, y:104,
-    text:'치주 탐침과 차팅에서 임상부착수준과 출혈을 확인하고, 방사선에서 골 소실과 치근 주변 구조를 살펴봐요. 두 검사 결과가 함께 진단의 근거가 됩니다.',
-    terms:['탐침','차팅','CAL','BOP','방사선','CBCT','영상','X-ray','probing'], featured:8},
-  {id:'disease', title:'질환의 발생', en:'Disease mechanisms', icon:'≋', color:'#9a522c', tint:'#faeee6', x:156, y:111,
-    text:'생물막의 불균형과 숙주 반응이 건강한 조직을 어떻게 바꾸는지 살펴봐요. 염증이 어디까지 진행했는지는 치은염과 치주염을 이해하는 단서예요.',
-    terms:['생물막','미생물','Dysbiosis','병인','치은염','치주염','Biofilm'], featured:10},
-  {id:'risk', title:'위험요인과 전신', en:'Risk & systemic health', icon:'✧', color:'#8051a2', tint:'#f2eafa', x:110, y:260,
-    text:'흡연과 당뇨병 같은 환자 요인을 살펴보고 질환의 진행 가능성과 전신 건강의 관계를 이해해요. 집단의 유병률과 개인의 진행 위험은 서로 다른 질문이에요.',
-    terms:['당뇨','흡연','전신질환','유병률','역학','Diabetes','Smoking'], featured:11},
-  {id:'diagnosis', title:'진단과 분류', en:'Diagnosis', icon:'▤', color:'#2856ac', tint:'#e9f0fc', x:610, y:251,
-    text:'임상부착소실과 골 소실 등 검사 자료를 모아 치주염의 단계와 등급을 정리해요. 단계는 중증도와 치료 복잡성, 등급은 진행 속도와 위험을 판단하는 데 쓰여요.',
-    terms:['Stage','Grade','Staging','Grading','단계','등급','교합','분류'], featured:20},
-  {id:'therapy', title:'치주 치료', en:'Therapy', icon:'✚', color:'#337047', tint:'#e8f4eb', x:510, y:377,
-    text:'초기 치료와 구강위생 관리에서 시작해, 상태에 따라 약물, 급성 병소의 처치와 추가 치료를 연결해요. 재평가 결과를 보면 어느 부위에 후속 치료가 필요한지 판단할 수 있어요.',
-    terms:['치료 계획','약물','항생제','치주농양','근면활택','Scaling','수술'], featured:13},
-  {id:'review', title:'재평가와 유지', en:'Reassessment', icon:'↻', color:'#6a52ae', tint:'#f0ebfb', x:338, y:397,
-    text:'초기 치료 후 출혈, 탐침 깊이와 잔존 문제를 다시 확인해요. 결과에 따라 추가 치료, 의뢰 또는 유지관리로 이어지고, 다음 방문에서 다시 평가합니다.',
-    terms:['초기 치료','재평가','유지관리','Phase I','BOP','Maintenance'], featured:19},
-  {id:'cases', title:'임상 증례', en:'Clinical cases', icon:'▣', color:'#af5967', tint:'#faedf1', x:170, y:377,
-    text:'한 환자의 병력, 차팅과 방사선 자료를 함께 놓고 진단과 치료를 결정해요. 증례에서 발견한 궁금증은 검사, 위험요인 또는 치료로 돌아가 확인할 수 있어요.',
-    terms:['증례','의사결정','Case','Critical Decisions','치료계획'], featured:4},
+  {id:'structure', title:'Healthy Structures', en:'Anatomy', icon:'◇', color:'#315fc3', tint:'#eaf0ff', x:360, y:57,
+    text:'The gingiva is part of the masticatory mucosa and one of the four components of the periodontium. Healthy anatomy helps you locate the landmarks used in probing and interpret the alveolar bone on radiographs.',
+    terms:['Periodontium','Oral mucosa','Gingiva','PDL','Junctional epithelium','Keratinization','Transseptal','Cementum','Alveolar bone','Fibers'], featured:6},
+  {id:'exam', title:'Examination & Imaging', en:'Clinical assessment', icon:'⌖', color:'#137875', tint:'#e5f5f3', x:555, y:104,
+    text:'Periodontal probing and charting measure clinical attachment and bleeding. Radiographs show bone loss and the structures around the roots. Together, these findings inform the diagnosis.',
+    terms:['Probing','Charting','CAL','BOP','Radiographs','CBCT','X-ray','Clinical attachment loss'], featured:8},
+  {id:'disease', title:'Disease Mechanisms', en:'Pathogenesis', icon:'≋', color:'#9a522c', tint:'#faeee6', x:156, y:111,
+    text:'Biofilm dysbiosis and the host response change healthy periodontal tissues. The location and extent of inflammation help explain the difference between gingivitis and periodontitis.',
+    terms:['Biofilm','Microbiology','Dysbiosis','Pathogenesis','Gingivitis','Periodontitis'], featured:10},
+  {id:'risk', title:'Risk & Systemic Health', en:'Risk assessment', icon:'✧', color:'#8051a2', tint:'#f2eafa', x:110, y:260,
+    text:'Smoking and diabetes can affect disease progression. Population prevalence describes how common disease is, while a patient’s risk assessment estimates their likelihood of progression.',
+    terms:['Diabetes','Smoking','Systemic disease','Prevalence','Epidemiology'], featured:11},
+  {id:'diagnosis', title:'Diagnosis & Classification', en:'Staging and grading', icon:'▤', color:'#2856ac', tint:'#e9f0fc', x:610, y:251,
+    text:'Use clinical attachment loss, radiographic bone loss, and other findings to stage and grade periodontitis. Stage describes severity and treatment complexity. Grade estimates progression and incorporates relevant risk factors.',
+    terms:['Staging','Grading','Stage','Grade','Occlusion','Classification'], featured:20},
+  {id:'therapy', title:'Periodontal Therapy', en:'Treatment options', icon:'✚', color:'#337047', tint:'#e8f4eb', x:510, y:377,
+    text:'Begin with initial therapy and oral hygiene. Consider medications, treatment for acute lesions, or further procedures when indicated. Reassessment helps identify sites that need additional treatment.',
+    terms:['Treatment planning','Medications','Antibiotics','Periodontal abscess','Root planing','Scaling','Surgery'], featured:13},
+  {id:'review', title:'Reassessment & Maintenance', en:'Follow-up care', icon:'↻', color:'#6a52ae', tint:'#f0ebfb', x:338, y:397,
+    text:'After initial therapy, reassess bleeding, probing depth, and residual problems. Use the findings to guide further treatment, referral, or maintenance. Continue to reassess at subsequent visits.',
+    terms:['Phase I','Reassessment','Maintenance','BOP','Probing depth'], featured:19},
+  {id:'cases', title:'Clinical Cases', en:'Clinical reasoning', icon:'▣', color:'#af5967', tint:'#faedf1', x:170, y:377,
+    text:'Combine the patient’s history, charting, and radiographs to decide on a diagnosis and treatment. Use the case to revisit the relevant examination findings, risk factors, or therapies.',
+    terms:['Case','Critical Decisions','Treatment planning','Clinical presentation'], featured:4},
 ];
 
 const relationships = [
-  ['structure','exam','건강한 위치를 검사 소견과 비교'], ['structure','disease','건강한 조직과 병소를 비교'],
-  ['exam','diagnosis','차팅과 골 소실로 분류'], ['exam','review','같은 지표를 다시 측정'],
-  ['disease','risk','환자 요인이 질환에 미치는 영향'], ['disease','therapy','염증 원인에 맞춰 관리'],
-  ['risk','diagnosis','흡연과 당뇨를 등급에 반영'], ['risk','cases','병력과 진행 위험 해석'],
-  ['diagnosis','therapy','단계와 상태를 치료에 반영'], ['diagnosis','cases','환자 자료로 단계·등급 결정'],
-  ['therapy','review','반응에 따라 후속 치료 결정'], ['therapy','cases','증례별 치료 계획 수립'],
-  ['review','cases','재평가 결과로 계획 수정'],
+  ['structure','exam','Compare findings with healthy anatomy'], ['structure','disease','Compare healthy tissue with lesions'],
+  ['exam','diagnosis','Classify using charting and bone loss'], ['exam','review','Measure the same clinical indicators again'],
+  ['disease','risk','See how patient factors affect disease'], ['disease','therapy','Address contributors to inflammation'],
+  ['risk','diagnosis','Apply smoking and diabetes as grade modifiers'], ['risk','cases','Interpret the history and risk of progression'],
+  ['diagnosis','therapy','Plan treatment around the stage and findings'], ['diagnosis','cases','Stage and grade from case findings'],
+  ['therapy','review','Choose follow-up care based on response'], ['therapy','cases','Build a treatment plan for each case'],
+  ['review','cases','Revise the treatment plan after reassessment'],
 ];
 
 const $ = selector => document.querySelector(selector);
@@ -81,22 +81,22 @@ function image(source) {
 function sourceCard(source) {
   const card = button('', 'source-card', () => showSource(source));
   const copy = node('div', '', 'source-copy');
-  copy.append(node('small', `${source.code} · ${source.pages}쪽`), node('b', source.title), node('p', source.summary));
+  copy.append(node('small', `${source.code} · ${source.pages} pages`), node('b', source.title), node('p', source.summary));
   card.append(image(source), copy);
   return card;
 }
 
 function showSource(source) {
-  $('#dialog-label').textContent = `${source.code} · 원본 PDF ${source.preview}쪽 미리보기`;
+  $('#dialog-label').textContent = `${source.code} · PDF preview, page ${source.preview}`;
   $('#dialog-title').textContent = source.title;
   const img = image(source);
   img.alt = source.visual;
   img.loading = 'eager';
-  const pdf = node('a','원본 PDF 열기 ↗');
+  const pdf = node('a','Open original PDF ↗');
   pdf.href = `./${encodeURIComponent(source.file)}#page=${source.preview}`;
   pdf.target = '_blank';
   pdf.rel = 'noopener';
-  const download = node('a','PDF 저장');
+  const download = node('a','Download PDF');
   download.href = `./${encodeURIComponent(source.file)}`;
   download.download = source.file;
   download.style.marginLeft = '8px';
@@ -106,11 +106,11 @@ function showSource(source) {
 
 function showStructure() {
   $('#dialog-label').textContent = 'L1b · Periodontal Health';
-  $('#dialog-title').textContent = '건강한 치주조직 구조 확대';
+  $('#dialog-title').textContent = 'Explore Healthy Periodontal Structures';
   const frame = node('iframe');
   frame.src = 'study-assets/structure.html';
-  frame.title = '치은, 상피, 결합조직과 PDL 섬유의 상세 연결 지도';
-  const full = node('a','별도 화면에서 열기 ↗');
+  frame.title = 'Detailed map of gingival epithelium, connective tissue, and PDL fibers';
+  const full = node('a','Open in a new tab ↗');
   full.href = frame.src;
   full.target = '_blank';
   full.rel = 'noopener';
@@ -177,8 +177,8 @@ function renderSelection() {
     const chips = node('div','','chips');
     for (const term of topic.terms.slice(0,4)) chips.append(node('span',term));
     panel.append(label,node('h2',topic.title),node('p',topic.text),chips);
-    if (selected === 'structure') panel.append(button('L1b 구조 지도 열기 ↗','primary-button',showStructure));
-    panel.append(node('div','이 주제에서 이어서 보기','connection-title'));
+    if (selected === 'structure') panel.append(button('Explore the L1b Anatomy Map ↗','primary-button',showStructure));
+    panel.append(node('div','Related Topics','connection-title'));
     for (const [a,b,explanation] of relationships){
       if (a!==selected && b!==selected) continue;
       const related = topicById.get(a===selected?b:a);
@@ -190,11 +190,11 @@ function renderSelection() {
     const featured = sourceById.get(topic.featured);
     const sample = button('','detail-source',()=>showSource(featured));
     const labelText = node('span');
-    labelText.append(node('strong','원본 슬라이드 미리보기'),node('small',`${featured.code} · ${featured.preview}쪽`));
+    labelText.append(node('strong','Preview an original slide'),node('small',`${featured.code} · page ${featured.preview}`));
     sample.append(image(featured),labelText);
     panel.append(sample);
   } else {
-    panel.append(node('h2','어디서 시작할까요?'),node('p','질문에 가까운 주제를 선택하세요. 연결된 개념과 PDF가 여기에 열립니다.'));
+    panel.append(node('h2','Where would you like to start?'),node('p','Choose a topic to see its connections and lecture PDFs.'));
     for (const topic of topics){
       const item = button('','related',()=>choose(topic.id,true));
       tone(item,topic);
@@ -202,7 +202,7 @@ function renderSelection() {
       panel.append(item);
     }
   }
-  $('#sources-description').textContent = topic ? `${topic.title}에 연결된 원본 PDF ${list.length}개` : '주제별 원본 PDF';
+  $('#sources-description').textContent = topic ? `${list.length} original PDFs for ${topic.title}` : 'Original PDFs by topic';
   const visible = topic ? list : topics.map(item=>sourceById.get(item.featured));
   $('#related-sources').replaceChildren(...visible.map(sourceCard));
   renderNav();
@@ -251,7 +251,7 @@ function renderLibrary(){
     return item;
   });
   $('#search-topics').replaceChildren(...chips);
-  $('#library-summary').textContent = found.length ? `원본 PDF ${found.length}개` : '검색 결과가 없습니다. 다른 단어로 검색해 보세요.';
+  $('#library-summary').textContent = found.length ? `${found.length} original PDFs` : 'No results. Try a different search term.';
   $('#library-sources').replaceChildren(...found.map(sourceCard));
 }
 
