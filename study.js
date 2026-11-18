@@ -108,7 +108,7 @@ function showStructure() {
   $('#dialog-label').textContent = 'L1b · Periodontal Health';
   $('#dialog-title').textContent = 'Explore Healthy Periodontal Structures';
   const frame = node('iframe');
-  frame.src = 'study-assets/structure.html';
+  frame.src = 'study-assets/structure.html?v=original-en';
   frame.title = 'Detailed map of gingival epithelium, connective tissue, and PDL fibers';
   const full = node('a','Open in a new tab ↗');
   full.href = frame.src;
