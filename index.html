@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="치주학 강의와 원본 PDF를 연결한 학습 지도">
+  <title>Perio Atlas · 치주학 학습 지도</title>
+  <link rel="stylesheet" href="study.css">
+  <script src="study-content.js" defer></script>
+  <script src="study.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Perio Atlas 홈"><span class="brand-mark" aria-hidden="true">✣</span> Perio<span>Atlas</span></a>
+    <div class="top-links"><button type="button" id="top-map">학습 지도</button><button type="button" id="top-library">자료실 <span>20</span></button></div>
+    <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="개념 또는 강의 검색" autocomplete="off" aria-label="개념 또는 강의 검색"></label>
+  </header>
+  <div class="shell">
+    <nav class="sidebar" aria-label="학습 주제">
+      <div class="section-label">탐색</div>
+      <button class="nav-item overview" type="button" data-nav="overview"><span class="nav-icon" aria-hidden="true">⊞</span> 전체 지도</button>
+      <div class="section-label topic-label">주제별로 보기</div>
+      <div id="topic-nav"></div>
+      <div class="sidebar-bottom"><button class="nav-item" type="button" data-nav="library"><span class="nav-icon" aria-hidden="true">▤</span> PDF 자료실</button></div>
+    </nav>
+    <main id="main">
+      <section id="map-view" aria-labelledby="map-heading">
+        <div class="page-header">
+          <div><p class="eyebrow">PERIODONTICS STUDY ATLAS</p><h1 id="map-heading">치주학 학습 지도</h1><p>관심 있는 주제부터 시작하고, 연결된 개념을 따라가세요.</p></div>
+          <div class="view-toggle" aria-label="보기 방식"><button type="button" id="graph-mode" aria-pressed="true">지도</button><button type="button" id="list-mode" aria-pressed="false">목록</button></div>
+        </div>
+        <div class="board">
+          <section class="graph-card" aria-label="주제 연결 지도">
+            <div class="card-header"><span><i></i> 학습 주제</span><button type="button" id="reset">전체 연결</button></div>
+            <div class="graph-scroll" id="graph-scroll">
+              <div class="graph" id="graph">
+                <svg id="lines" aria-hidden="true" viewBox="0 0 720 450" preserveAspectRatio="none"></svg>
+                <div class="graph-center" aria-hidden="true"><span>✣</span><b>치주학</b><small>Periodontology</small></div>
+              </div>
+            </div>
+            <div id="topic-list" hidden></div>
+            <div class="graph-footer"><span><b></b> 연결된 주제</span><span>한 주제를 선택하면 관련 연결이 강조됩니다.</span></div>
+          </section>
+          <aside id="details" class="detail-card" aria-label="선택한 주제"></aside>
+        </div>
+        <section class="sources-section" aria-labelledby="sources-title">
+          <div class="section-heading"><div><h2 id="sources-title">관련 강의 자료</h2><p id="sources-description"></p></div><button type="button" class="text-button" id="browse-all">자료실 보기 →</button></div>
+          <div class="sources-grid" id="related-sources"></div>
+        </section>
+      </section>
+      <section id="library-view" hidden aria-labelledby="library-heading">
+        <div class="page-header"><div><p class="eyebrow">SOURCE LIBRARY</p><h1 id="library-heading">PDF 자료실</h1><p id="library-summary" aria-live="polite"></p></div></div>
+        <div id="search-topics" class="search-topics"></div>
+        <div class="sources-grid" id="library-sources"></div>
+      </section>
+    </main>
+  </div>
+  <dialog id="source-dialog">
+    <header class="dialog-header"><div><p class="eyebrow" id="dialog-label"></p><h2 id="dialog-title"></h2></div><form method="dialog"><button type="submit" aria-label="닫기">✕</button></form></header>
+    <div id="dialog-body"></div>
+  </dialog>
+</body>
+</html>

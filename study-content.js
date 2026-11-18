@@ -1,0 +1,222 @@
+window.lectureSources = [
+  {
+    "id": 1,
+    "file": "Dr. Tang - Perio Exam HO.pdf",
+    "code": "보충 자료",
+    "title": "Evaluation of the Periodontal Patient I: Data Collection, Charting and Diagnosis",
+    "summary": "병력, 치은 검사, 치주낭 탐침, 임상부착수준, 분지부, 치태·치석, 동요도",
+    "visual": "4, 8쪽 치은·탐침 임상사진, 12쪽 분지부 탐침 그림",
+    "topic": "exam",
+    "pages": 20,
+    "preview": 4
+  },
+  {
+    "id": 2,
+    "file": "Dr. Tang - Radiology HO.pdf",
+    "code": "보충 자료",
+    "title": "Radiographic Examination",
+    "summary": "영상 촬영과 판독, 치조골 소실, 분지부, 교합 외상, 치주농양, 디지털 영상",
+    "visual": "3, 6, 8쪽 치근단·교익 및 골소실·분지부 방사선 영상",
+    "topic": "exam",
+    "pages": 12,
+    "preview": 6
+  },
+  {
+    "id": 3,
+    "file": "L10_Critical Decisions.pdf",
+    "code": "L10",
+    "title": "Critical Decisions in Periodontics",
+    "summary": "치주 차팅·방사선 판독, 단계·등급, 초기치료 재평가, 증례별 진단·치료계획",
+    "visual": "2쪽 차팅·방사선 영상, 5–6쪽 진단표·의사결정도",
+    "topic": "cases",
+    "pages": 12,
+    "preview": 5
+  },
+  {
+    "id": 4,
+    "file": "L11_Periodontal Clinical Case Presentation.pdf",
+    "code": "L11",
+    "title": "Periodontal Clinical Case Presentation",
+    "summary": "병력·임상 소견, 방사선 판독, 단계·등급 결정, 증례별 치료계획",
+    "visual": "2쪽 방사선 영상, 4–5쪽 등급 표·흐름도·막대그래프",
+    "topic": "cases",
+    "pages": 17,
+    "preview": 5
+  },
+  {
+    "id": 5,
+    "file": "L1a_What is a Periodontist__compressed.pdf",
+    "code": "L1a",
+    "title": "What is a Periodontist?",
+    "summary": "치주과 전문의의 수련·역할, 감염 관리, 재생술, 임플란트, 연조직·심미치료",
+    "visual": "10쪽 방사선 영상, 22쪽 수술 과정 사진",
+    "topic": "structure",
+    "pages": 78,
+    "preview": 10
+  },
+  {
+    "id": 6,
+    "file": "L1b_Periodontium in Health.pdf",
+    "code": "L1b",
+    "title": "Periodontal Health",
+    "summary": "치은과 접합상피, 치주인대, 백악질, 치조골, 골개창·골열개",
+    "visual": "41–51쪽 치주인대 섬유 그림, 73쪽 임상사진",
+    "topic": "structure",
+    "pages": 74,
+    "preview": 46
+  },
+  {
+    "id": 7,
+    "file": "L2a_Evaluation of the Periodontal Patient - Data Collection, Charting and Diagnosis_compressed.pdf",
+    "code": "L2a",
+    "title": "Evaluation of the Periodontal Patient: Data Collection, Charting and Diagnosis",
+    "summary": "병력·치은 평가, 퇴축, 탐침 깊이, 임상부착소실, 출혈·분지부, 치태·동요도",
+    "visual": "33쪽 임상사진, 46쪽 탐침 도식, 91쪽 치태 기록표",
+    "topic": "exam",
+    "pages": 107,
+    "preview": 46
+  },
+  {
+    "id": 8,
+    "file": "L2b_Radiographic Examination.pdf",
+    "code": "L2b",
+    "title": "Radiographic Examination",
+    "summary": "치근단·교익·파노라마·CBCT, 치조골 소실 양상, 분지부, 교합 외상, 감별",
+    "visual": "7쪽 CBCT, 14쪽 치조백선 영상, 34쪽 분지부 영상",
+    "topic": "exam",
+    "pages": 54,
+    "preview": 7
+  },
+  {
+    "id": 9,
+    "file": "L3a_Microbiology of Periodontal Disease.pdf",
+    "code": "L3a",
+    "title": "Microbiology of Periodontal Disease / Dysbiosis",
+    "summary": "치태 생물막, 치석, 세균 불균형과 집락 변화, 치은염에서 치주염으로의 이행",
+    "visual": "17쪽 치은염 특성 표·임상사진, 25쪽 치주염 임상사진",
+    "topic": "disease",
+    "pages": 30,
+    "preview": 17
+  },
+  {
+    "id": 10,
+    "file": "L3b_Pathogenesis Of Periodontal Disease.pdf",
+    "code": "L3b",
+    "title": "Pathogenesis of Chronic Inflammatory Periodontal Disease",
+    "summary": "초기·조기·확립·진행 병소, 치주낭, 치조골 소실, 비수술 치료 후 재평가",
+    "visual": "17쪽 조직 사진, 38쪽 골결손 도식",
+    "topic": "disease",
+    "pages": 46,
+    "preview": 38
+  },
+  {
+    "id": 11,
+    "file": "L4a_Systemic Disease Links to Periodontitis.pdf",
+    "code": "L4a",
+    "title": "Systemic Disease Links to Periodontitis",
+    "summary": "전신 위험요인, 당뇨병, 심혈관질환, 흡연, 골다공증, 임신, 호흡기질환",
+    "visual": "22쪽 약제 표, 26쪽 임상사진, 45쪽 당뇨병 인포그래픽",
+    "topic": "risk",
+    "pages": 87,
+    "preview": 45
+  },
+  {
+    "id": 12,
+    "file": "L4b_Risk Factors and Epidemiology of Periodontal Disease.pdf",
+    "code": "L4b",
+    "title": "Epidemiology of Periodontal Disease",
+    "summary": "유병률·발생률, 치태·치석·치은·치주 지수, 연구 방법, 위험변수",
+    "visual": "22쪽 유병률 지도형 인포그래픽",
+    "topic": "risk",
+    "pages": 27,
+    "preview": 22
+  },
+  {
+    "id": 13,
+    "file": "L5_Periodontal Therapy I & II.pdf",
+    "code": "L5",
+    "title": "Periodontal Therapy I: Treatment Planning & Diagnosis / Periodontal Therapy II: Initial Periodontal Therapy",
+    "summary": "치은·치주질환 진단, 단계·등급, 치료 단계, 기구조작·치근활택, 치유, 구강위생",
+    "visual": "40쪽 치료 흐름도, 70쪽 치근활택 도식",
+    "topic": "therapy",
+    "pages": 115,
+    "preview": 40
+  },
+  {
+    "id": 14,
+    "file": "L6a_Occlusion in Diagnosis and Treatment Planning_compressed.pdf",
+    "code": "L6a",
+    "title": "Occlusion in Diagnosis and Treatment Planning",
+    "summary": "기능·이상기능, 이갈이, 교합 외상, 동요도·프레미투스, 교합 조정, 예후·당뇨병",
+    "visual": "84쪽 치주인대 공간 영상, 103쪽 교합 양식 비교",
+    "topic": "diagnosis",
+    "pages": 159,
+    "preview": 103
+  },
+  {
+    "id": 15,
+    "file": "L6b_Classification of Periodontal Diseases_compressed.pdf",
+    "code": "L6b",
+    "title": "Classification of Periodontal and Peri-implant Diseases and Conditions",
+    "summary": "기존 및 2017 분류, 치은·치주질환, 단계·등급, 임플란트 주위질환, 증례",
+    "visual": "10, 24쪽 분류도, 37쪽 증례 등급표",
+    "topic": "diagnosis",
+    "pages": 45,
+    "preview": 10
+  },
+  {
+    "id": 16,
+    "file": "L7a_Pharmacotherapeutics and Periodontal Therapy.pdf",
+    "code": "L7a",
+    "title": "Pharmacotherapeutics and Periodontal Therapy",
+    "summary": "항균 구강세정·치약, 국소 약물 전달, 전신 항생제, 숙주조절",
+    "visual": "30쪽 약제·적용 사진",
+    "topic": "therapy",
+    "pages": 64,
+    "preview": 30
+  },
+  {
+    "id": 17,
+    "file": "L7b_Treatment of Acute and Localized Periodontal Conditions.pdf",
+    "code": "L7b",
+    "title": "Acute and Urgent Periodontal Conditions",
+    "summary": "치주농양, 괴사성 치주질환, 치관주위염, 감별·치료·재평가",
+    "visual": "24쪽 현미경 영상, 38쪽 임상사진",
+    "topic": "therapy",
+    "pages": 44,
+    "preview": 38
+  },
+  {
+    "id": 18,
+    "file": "L8_Periodontal therapy III & IV.pdf",
+    "code": "L8",
+    "title": "Periodontal Therapy III & IV: Chronic & Aggressive Periodontitis",
+    "summary": "만성·공격성 치주염의 분류와 임상 양상, 진행·위험요인, 치료 및 증례",
+    "visual": "40쪽 임상사진",
+    "topic": "therapy",
+    "pages": 83,
+    "preview": 40
+  },
+  {
+    "id": 19,
+    "file": "L9_Evaluation of Phase I Therapy.pdf",
+    "code": "L9",
+    "title": "Evaluation of Phase I Therapy",
+    "summary": "초기 치료 후 재평가, 임상 치유와 성공 기준, 후속 치료, 전문의 의뢰, 유지관리",
+    "visual": "40쪽 치유 설명 그림, 70쪽 치료 결과 비교표",
+    "topic": "review",
+    "pages": 96,
+    "preview": 70
+  },
+  {
+    "id": 20,
+    "file": "Staging and Grading Periodontitis.pdf",
+    "code": "보충 자료",
+    "title": "Staging and Grading Periodontitis",
+    "summary": "단계 I–IV, 등급 A–C, 중증도·복잡성·진행·위험 수정요인",
+    "visual": "1쪽 단계 표, 2쪽 등급 표 (페이지에 그려진 표)",
+    "topic": "diagnosis",
+    "pages": 2,
+    "preview": 1
+  }
+];
