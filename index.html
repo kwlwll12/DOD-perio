@@ -3,61 +3,43 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Explore periodontology topics and the original lecture PDFs.">
-  <title>Perio Atlas · Periodontology Study Map</title>
-  <link rel="stylesheet" href="study.css">
+  <meta name="description" content="One connected map of periodontology, with original lecture text and slides.">
+  <title>Perio Atlas | Periodontology Mind Map</title>
+  <link rel="stylesheet" href="map.css?v=canvas">
   <script src="study-content.js" defer></script>
-  <script src="study.js?v=original-en" defer></script>
+  <script src="map-data.js" defer></script>
+  <script src="map.js?v=canvas" defer></script>
 </head>
 <body>
-  <header class="topbar">
-    <a class="brand" href="index.html" aria-label="Perio Atlas Home"><span class="brand-mark" aria-hidden="true">✣</span> Perio<span>Atlas</span></a>
-    <div class="top-links"><button type="button" id="top-map">Study Map</button><button type="button" id="top-library">Library <span>20</span></button></div>
-    <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search concepts or lectures" autocomplete="off" aria-label="Search concepts or lectures"></label>
+  <main id="viewport" tabindex="0" aria-label="Periodontology mind map. Drag or use the arrow keys to pan. Scroll or use plus and minus to zoom.">
+    <div id="world">
+      <svg id="links" width="4350" height="2470" viewBox="0 0 4350 2470" aria-hidden="true"></svg>
+    </div>
+  </main>
+  <header class="toolbar">
+    <h1>Perio Atlas</h1>
+    <div class="search-wrap">
+      <input id="find" type="search" aria-label="Find a concept or lecture" placeholder="Find a concept" autocomplete="off" aria-controls="matches">
+      <div id="matches" hidden aria-label="Search results"></div>
+    </div>
+    <select id="jump" aria-label="Jump to a topic"><option value="">Jump to topic</option></select>
   </header>
-  <div class="shell">
-    <nav class="sidebar" aria-label="Study Topics">
-      <div class="section-label">Explore</div>
-      <button class="nav-item overview" type="button" data-nav="overview"><span class="nav-icon" aria-hidden="true">⊞</span> Overview</button>
-      <div class="section-label topic-label">By Topic</div>
-      <div id="topic-nav"></div>
-      <div class="sidebar-bottom"><button class="nav-item" type="button" data-nav="library"><span class="nav-icon" aria-hidden="true">▤</span> PDF Library</button></div>
-    </nav>
-    <main id="main">
-      <section id="map-view" aria-labelledby="map-heading">
-        <div class="page-header">
-          <div><p class="eyebrow">PERIODONTICS STUDY ATLAS</p><h1 id="map-heading">Periodontology Study Map</h1><p>Start with any topic and follow the connections that interest you.</p></div>
-          <div class="view-toggle" aria-label="View mode"><button type="button" id="graph-mode" aria-pressed="true">Map</button><button type="button" id="list-mode" aria-pressed="false">List</button></div>
-        </div>
-        <div class="board">
-          <section class="graph-card" aria-label="Topic connection map">
-            <div class="card-header"><span><i></i> Study Topics</span><button type="button" id="reset">Show all links</button></div>
-            <div class="graph-scroll" id="graph-scroll">
-              <div class="graph" id="graph">
-                <svg id="lines" aria-hidden="true" viewBox="0 0 720 450" preserveAspectRatio="none"></svg>
-                <div class="graph-center" aria-hidden="true"><span>✣</span><b>Periodontology</b></div>
-              </div>
-            </div>
-            <div id="topic-list" hidden></div>
-            <div class="graph-footer"><span><b></b> Related topics</span><span>Select a topic to highlight its connections.</span></div>
-          </section>
-          <aside id="details" class="detail-card" aria-label="Selected topic"></aside>
-        </div>
-        <section class="sources-section" aria-labelledby="sources-title">
-          <div class="section-heading"><div><h2 id="sources-title">Related Lectures</h2><p id="sources-description"></p></div><button type="button" class="text-button" id="browse-all">Browse the library →</button></div>
-          <div class="sources-grid" id="related-sources"></div>
-        </section>
-      </section>
-      <section id="library-view" hidden aria-labelledby="library-heading">
-        <div class="page-header"><div><p class="eyebrow">SOURCE LIBRARY</p><h1 id="library-heading">PDF Library</h1><p id="library-summary" aria-live="polite"></p></div></div>
-        <div id="search-topics" class="search-topics"></div>
-        <div class="sources-grid" id="library-sources"></div>
-      </section>
-    </main>
-  </div>
-  <dialog id="source-dialog">
-    <header class="dialog-header"><div><p class="eyebrow" id="dialog-label"></p><h2 id="dialog-title"></h2></div><form method="dialog"><button type="submit" aria-label="Close">✕</button></form></header>
-    <div id="dialog-body"></div>
+  <nav class="zoom" aria-label="Map controls">
+    <button type="button" id="zoom-out" aria-label="Zoom out">−</button>
+    <output id="scale" aria-label="Zoom level"></output>
+    <button type="button" id="zoom-in" aria-label="Zoom in">+</button>
+    <button type="button" id="fit">Fit all</button>
+  </nav>
+  <p class="map-hint">Drag to pan · Scroll to zoom · Click a node for details</p>
+  <aside id="detail" hidden aria-labelledby="detail-title">
+    <button type="button" id="close" aria-label="Close node details">×</button>
+    <p id="detail-group"></p>
+    <h2 id="detail-title"></h2>
+    <div id="detail-body"></div>
+  </aside>
+  <dialog id="slide">
+    <form method="dialog"><span id="slide-title"></span><button type="submit">Close</button></form>
+    <img id="slide-full" alt="">
   </dialog>
 </body>
 </html>
