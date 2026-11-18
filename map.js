@@ -10,6 +10,9 @@ const $ = selector => document.querySelector(selector);
 const viewport = $('#viewport');
 const world = $('#world');
 const detail = $('#detail');
+const reference = $('#reference');
+const referenceSections = window.caseReference;
+let referenceId = referenceSections[0].id;
 const search = $('#find');
 const matches = $('#matches');
 const width = 4350;
@@ -67,13 +70,18 @@ function renderNodes() {
     const group = groupById.get(node.group);
     const item = button(node.isGroup ? node.label : '', () => {
       if (node.isGroup) focusGroup(group);
-      selectNode(node, item);
+      if (node.reference) openReference();
+      else selectNode(node, item);
     }, node.isGroup ? 'region-heading' : 'map-node');
     place(item, node.x, node.isGroup ? group.y + 22 : node.y);
     item.style.setProperty('--tone', group.color);
     item.dataset.node = node.id;
+    if (node.reference) {
+      item.classList.add('reference-node');
+      item.setAttribute('aria-haspopup', 'dialog');
+    }
     item.setAttribute('aria-expanded', 'false');
-    item.setAttribute('aria-controls', 'detail');
+    item.setAttribute('aria-controls', node.reference ? 'reference' : 'detail');
     if (!node.isGroup) item.append(element('strong', node.label), element('small', node.sub));
     item.addEventListener('focus', event => {
       if (event.target.matches(':focus-visible')) {
@@ -173,6 +181,75 @@ function sourceImage([id, page]) {
   return `study-assets/pages/${String(id).padStart(2, '0')}-${String(page).padStart(3, '0')}.jpg`;
 }
 
+function openSlide(ref) {
+  const caption = sourceCaption(ref);
+  $('#slide-title').textContent = caption;
+  $('#slide-full').alt = caption;
+  $('#slide-full').src = sourceImage(ref);
+  $('#slide').showModal();
+}
+
+function openReference(id = referenceId) {
+  renderReference(id);
+  if (!reference.open) reference.showModal();
+}
+
+function renderReference(id) {
+  const section = referenceSections.find(item => item.id === id);
+  referenceId = id;
+  for (const tab of $('#reference-sections').children) {
+    tab.setAttribute('aria-pressed', String(tab.dataset.section === id));
+  }
+  const heading = element('h3', section.title);
+  heading.id = 'reference-table-title';
+  const table = element('table');
+  table.setAttribute('aria-labelledby', heading.id);
+  const headers = table.createTHead().insertRow();
+  for (const label of [...section.columns, 'Map & sources']) {
+    const cell = element('th', label);
+    cell.scope = 'col';
+    headers.append(cell);
+  }
+  const body = table.createTBody();
+  for (const [values, concepts, refs] of section.rows) {
+    const row = body.insertRow();
+    values.forEach((value, index) => {
+      const cell = element(index === 0 ? 'th' : 'td', value);
+      if (index === 0) cell.scope = 'row';
+      row.append(cell);
+    });
+    const links = row.insertCell();
+    const actions = element('div', '', 'reference-links');
+    for (const concept of concepts) {
+      const node = nodeById.get(concept);
+      actions.append(button(node.label, () => {
+        reference.close();
+        selectNode(node, $('#open-reference'));
+        centerNode(node);
+        $('#close').focus({preventScroll:true});
+      }, 'reference-link'));
+    }
+    for (const ref of refs) {
+      const [source, page] = ref;
+      const label = `${sources.get(source).code} p. ${page}`;
+      const slide = button(label, () => openSlide(ref), 'reference-source');
+      slide.setAttribute('aria-label', `Show original slide: ${sourceCaption(ref)}`);
+      actions.append(slide);
+    }
+    links.append(actions);
+  }
+  const pane = element('div', '', 'reference-table');
+  pane.tabIndex = 0;
+  pane.setAttribute('role', 'region');
+  pane.setAttribute('aria-labelledby', heading.id);
+  pane.append(table);
+  const content = $('#reference-content');
+  content.replaceChildren(heading);
+  if (section.note) content.append(element('p', section.note));
+  content.append(pane);
+  content.scrollTop = 0;
+}
+
 function slideToggles(node) {
   const list = element('details');
   list.append(element('summary', `Original lecture slides (${node.refs.length})`));
@@ -185,12 +262,7 @@ function slideToggles(node) {
       img.src = sourceImage(ref);
       img.alt = caption;
       img.loading = 'lazy';
-      const zoomSlide = button('', () => {
-        $('#slide-title').textContent = caption;
-        $('#slide-full').alt = caption;
-        $('#slide-full').src = img.src;
-        $('#slide').showModal();
-      });
+      const zoomSlide = button('', () => openSlide(ref));
       zoomSlide.setAttribute('aria-label', `Enlarge ${caption}`);
       zoomSlide.append(img);
       figure.append(element('figcaption', caption), zoomSlide, sourceLink(ref));
@@ -213,6 +285,7 @@ function highlight() {
 }
 
 function selectNode(node, trigger) {
+  if (node.reference) { openReference(); return; }
   activeId = node.id;
   if (trigger) openFrom = trigger;
   detail.hidden = false;
@@ -234,12 +307,21 @@ function selectNode(node, trigger) {
   for (const {other, description} of linksById.get(node.id) || []) {
     const neighbor = nodeById.get(other);
     const item = button(neighbor.label, () => {
+      if (neighbor.reference) { openReference(); return; }
       selectNode(neighbor);
       centerNode(neighbor);
       $('#close').focus({preventScroll:true});
     }, 'neighbor');
     if (description) item.append(element('small', description));
     linkList.append(item);
+  }
+  const relatedSections = referenceSections.filter(section => section.rows.some(([, concepts]) => concepts.includes(node.id)));
+  if (relatedSections.length) {
+    const shortcuts = element('div', '', 'reference-links');
+    for (const section of relatedSections) {
+      shortcuts.append(button(section.name, () => openReference(section.id), 'reference-link'));
+    }
+    body.append(element('h3', 'Case reference tables'), shortcuts);
   }
   if (linkList.childElementCount) body.append(element('h3', 'Connected concepts'), linkList);
   highlight();
@@ -270,6 +352,7 @@ function findNodes() {
   for (const node of found) {
     matches.append(button(node.label, () => {
       matches.hidden = true;
+      if (node.reference) { openReference(); return; }
       selectNode(node, search);
       centerNode(node);
       $('#close').focus({preventScroll:true});
@@ -278,6 +361,12 @@ function findNodes() {
   if (!found.length) matches.append(element('p', 'No matching concepts.'));
 }
 
+for (const section of referenceSections) {
+  const tab = button(section.name, () => renderReference(section.id));
+  tab.dataset.section = section.id;
+  $('#reference-sections').append(tab);
+}
+$('#open-reference').onclick = () => openReference();
 renderRegions();
 renderNodes();
 renderLinks();
@@ -326,7 +415,7 @@ viewport.addEventListener('lostpointercapture', () => {
   viewport.classList.remove('dragging');
 });
 document.addEventListener('keydown', event => {
-  if ($('#slide').open) return;
+  if ($('#slide').open || reference.open) return;
   if (event.key === 'Escape') {
     if (!matches.hidden) matches.hidden = true;
     else closeDetail(true);

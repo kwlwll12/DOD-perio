@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="One connected map of periodontology, with original lecture text and slides.">
   <title>Perio Atlas | Periodontology Mind Map</title>
-  <link rel="stylesheet" href="map.css?v=canvas">
+  <link rel="stylesheet" href="map.css?v=case-reference">
   <script src="study-content.js" defer></script>
-  <script src="map-data.js" defer></script>
-  <script src="map.js?v=canvas" defer></script>
+  <script src="map-data.js?v=case-reference" defer></script>
+  <script src="reference-data.js" defer></script>
+  <script src="map.js?v=case-reference" defer></script>
 </head>
 <body>
   <main id="viewport" tabindex="0" aria-label="Periodontology mind map. Drag or use the arrow keys to pan. Scroll or use plus and minus to zoom.">
@@ -23,6 +24,7 @@
       <div id="matches" hidden aria-label="Search results"></div>
     </div>
     <select id="jump" aria-label="Jump to a topic"><option value="">Jump to topic</option></select>
+    <button type="button" id="open-reference">Case reference</button>
   </header>
   <nav class="zoom" aria-label="Map controls">
     <button type="button" id="zoom-out" aria-label="Zoom out">−</button>
@@ -37,7 +39,15 @@
     <h2 id="detail-title"></h2>
     <div id="detail-body"></div>
   </aside>
-  <dialog id="slide">
+  <dialog id="reference" aria-labelledby="reference-title">
+    <header class="reference-header">
+      <h2 id="reference-title">Case Reference</h2>
+      <form method="dialog"><button type="submit">Close</button></form>
+    </header>
+    <nav id="reference-sections" aria-label="Reference sections"></nav>
+    <div id="reference-content"></div>
+  </dialog>
+  <dialog id="slide" aria-labelledby="slide-title">
     <form method="dialog"><span id="slide-title"></span><button type="submit">Close</button></form>
     <img id="slide-full" alt="">
   </dialog>

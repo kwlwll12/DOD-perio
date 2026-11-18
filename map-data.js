@@ -3258,6 +3258,15 @@ window.perioMap = {
       "x": 105,
       "y": 1466,
       "isGroup": true
+    },
+    {
+      "id": "case-reference",
+      "group": "cases",
+      "label": "Case Reference",
+      "sub": "Measurements, stages, phases, and doses",
+      "x": 1150,
+      "y": 1190,
+      "reference": true
     }
   ],
   "edges": [
@@ -3990,6 +3999,41 @@ window.perioMap = {
       "periodontist",
       "regeneration",
       "Regeneration is part of periodontal practice"
+    ],
+    [
+      "case-reference",
+      "cal",
+      "Attachment loss formula and examples"
+    ],
+    [
+      "case-reference",
+      "stage",
+      "Stage I–IV thresholds"
+    ],
+    [
+      "case-reference",
+      "grade",
+      "Grade A–C thresholds and modifiers"
+    ],
+    [
+      "case-reference",
+      "case-workup",
+      "Case diagnosis checklist"
+    ],
+    [
+      "case-reference",
+      "plan",
+      "Phase I–IV treatment sequence"
+    ],
+    [
+      "case-reference",
+      "antibiotics",
+      "Lecture dose and duration examples"
+    ],
+    [
+      "case-reference",
+      "healing",
+      "Clinical reassessment and timing"
     ]
   ]
 };
