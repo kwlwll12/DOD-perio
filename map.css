@@ -14,7 +14,14 @@ dialog{width:min(1100px,95vw);border:1px solid var(--line);border-radius:12px;ma
 @media(max-width:650px){.toolbar{left:8px;top:8px;gap:5px;padding:6px;max-width:calc(100% - 16px)}h1{font-size:14px}input,select{font-size:12px;padding:6px;width:128px}select{width:101px}#detail{top:55px;right:8px;max-height:calc(100dvh - 111px);width:min(400px,calc(100% - 16px))}.map-hint{display:none}.zoom{left:8px;bottom:8px}}
 #open-reference{white-space:nowrap;border:1px solid #b8cfc4;background:#e9f4ed;color:#285441;border-radius:8px;padding:7px 10px;font-weight:680}
 #open-reference:hover,.reference-link:hover,.reference-source:hover{background:#dceee3}
-.map-node.reference-node{border-color:#2d6152;border-width:2px 2px 2px 7px;background:#e9f4ed}.reference-node strong{color:#184638}
+#world .map-node.reference-node{width:322px;height:108px;border:3px solid #07554a;background:#11685a;box-shadow:0 5px 14px #13443a32;padding:9px 15px}
+#world .reference-node strong{font-size:26px;color:white}
+#world .reference-node small{color:#e4f3ed}
+#world .map-node.reference-node:hover,#world .map-node.reference-node:focus-visible{background:#0b5549}
+.link.reference-edge{stroke:#147367;stroke-width:6;stroke-opacity:.82}
+.link.reference-edge.dim{stroke-opacity:.3}
+.link.reference-edge.active{stroke:#0b5c50;stroke-width:9;stroke-opacity:1}
+.reference-key{display:inline-block;width:16px;height:3px;background:#147367;margin-inline:12px 4px;vertical-align:middle;border-radius:2px}
 #reference{width:min(1160px,96vw);padding:0;border-radius:14px;max-height:92dvh;overflow:auto;color:#24372e}
 .reference-header{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:14px 16px 10px}
 .reference-header h2{margin:0;font-size:23px}.reference-header form{margin:0}

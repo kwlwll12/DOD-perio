@@ -114,7 +114,8 @@ function renderLinks() {
     const cx = (x1 + x2) / 2 - bend * dy / norm;
     const cy = (y1 + y2) / 2 + bend * dx / norm;
     path.setAttribute('d', `M ${x1} ${y1} Q ${cx} ${cy} ${x2} ${y2}`);
-    path.setAttribute('class', description ? 'link cross' : 'link');
+    const kind = a.reference || b.reference ? ' reference-edge' : description ? ' cross' : '';
+    path.setAttribute('class', 'link' + kind);
     $('#links').append(path);
     for (const [id, other] of [[from, to], [to, from]]) {
       if (!linksById.has(id)) linksById.set(id, []);

@@ -3264,8 +3264,8 @@ window.perioMap = {
       "group": "cases",
       "label": "Case Reference",
       "sub": "Measurements, stages, phases, and doses",
-      "x": 1150,
-      "y": 1190,
+      "x": 1400,
+      "y": 1170,
       "reference": true
     }
   ],
