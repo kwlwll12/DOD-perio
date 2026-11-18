@@ -1,44 +1,43 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="An interactive L1b periodontal anatomy cutaway.">
-<title>Periodontal Cutaway | Perio Atlas</title>
-<link rel="stylesheet" href="cutaway.css">
-<script type="module" src="cutaway.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="One annotated L1b diagram showing all four components of the periodontium.">
+  <title>The Periodontium in One Section | Perio Atlas</title>
+  <link rel="stylesheet" href="plate.css">
+  <script src="plate.js" defer></script>
 </head>
 <body>
-<header class="top">
-  <a href="../" class="back">← Perio Atlas</a>
-  <div><h1>Periodontal cutaway</h1><p>L1b · Periodontal Health</p></div>
-</header>
-<main>
-  <section class="stage" aria-label="Interactive periodontal cutaway">
-    <div class="controls" aria-label="Select an anatomy view">
-      <button type="button" data-view="overview" aria-pressed="true">Overview</button>
-      <button type="button" data-view="gingiva" aria-pressed="false">Gingival margin</button>
-      <button type="button" data-view="attachment" aria-pressed="false">Attachment</button>
+  <header class="bar">
+    <nav aria-label="Anatomy navigation">
+      <a href="../">← Perio Atlas</a>
+      <a href="3d.html">3D sample</a>
+    </nav>
+    <div class="controls" aria-label="Diagram controls">
+      <button id="fit" type="button">Fit plate</button>
+      <button id="out" type="button" aria-label="Zoom out">−</button>
+      <output id="zoom" aria-label="Diagram zoom"></output>
+      <button id="in" type="button" aria-label="Zoom in">+</button>
+      <a href="periodontium-plate.svg" target="_blank" rel="noopener">Open SVG ↗</a>
     </div>
-    <div id="model" tabindex="0" aria-label="3D cutaway. Drag or use arrow keys to rotate. Scroll or use plus and minus to zoom.">
-      <svg id="leaders" aria-hidden="true"></svg>
-      <div id="pins" aria-label="Anatomical labels"></div>
+  </header>
+  <main>
+    <h1 class="sr-only">The periodontium in one section</h1>
+    <div class="canvas" id="canvas" tabindex="0" aria-label="Anatomy plate. Scroll to inspect. Use the plus and minus buttons to zoom.">
+      <img id="plate" src="periodontium-plate.svg" width="1560" height="1290"
+        alt="One annotated facial tooth section with all four periodontal components. Insets enlarge the junctional epithelium and its basal laminae, the cementum-to-bone fiber attachment, interdental and interradicular fibers, gingival layers, cementum variants, and bone defects.">
     </div>
-    <div class="controls stage-bottom">
-      <span>Drag to rotate · Scroll to zoom</span>
-      <button id="minus" type="button" aria-label="Zoom out">−</button>
-      <button id="plus" type="button" aria-label="Zoom in">+</button>
-      <button id="reset" type="button">Reset view</button>
-    </div>
-    <div id="unavailable" hidden>3D rendering is unavailable in this browser. The labels and original lecture slides are still available.</div>
-  </section>
-  <aside class="panel" aria-label="Anatomy details">
-    <section id="detail" aria-live="polite"></section>
-    <section class="layers">
-      <h2>Explore the structures</h2>
-      <div id="layer-list"></div>
-    </section>
-  </aside>
-</main>
+    <nav class="sources" aria-label="Original L1b lecture slides">
+      <strong>Original L1b slides</strong>
+      <a href="../L1b_Periodontium%20in%20Health.pdf#page=4" target="_blank" rel="noopener">Gingiva</a>
+      <a href="../L1b_Periodontium%20in%20Health.pdf#page=25" target="_blank" rel="noopener">JE attachment</a>
+      <a href="../L1b_Periodontium%20in%20Health.pdf#page=31" target="_blank" rel="noopener">Gingival fibers</a>
+      <a href="../L1b_Periodontium%20in%20Health.pdf#page=39" target="_blank" rel="noopener">PDL fibers</a>
+      <a href="../L1b_Periodontium%20in%20Health.pdf#page=52" target="_blank" rel="noopener">Cementum</a>
+      <a href="../L1b_Periodontium%20in%20Health.pdf#page=65" target="_blank" rel="noopener">Alveolar process</a>
+      <a href="../L1b_Periodontium%20in%20Health.pdf#page=69" target="_blank" rel="noopener">Socket wall</a>
+    </nav>
+  </main>
 </body>
 </html>
