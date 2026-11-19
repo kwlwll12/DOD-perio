@@ -38,6 +38,6 @@ dialog{width:min(1100px,95vw);border:1px solid var(--line);border-radius:12px;ma
 .reference-link,.reference-source{border:1px solid var(--line);border-radius:6px;padding:3px 6px;background:#f5faf5;color:#235642;font-size:11px;text-align:left}
 .reference-source{background:#fff;color:#3d596b}
 @media(max-width:650px){#open-reference{font-size:11px;padding:6px} .toolbar{flex-wrap:wrap}.toolbar input{width:105px}#detail{top:85px;max-height:calc(100dvh - 141px)}.reference-table table{min-width:520px}.reference-header{padding:10px}.reference-header h2{font-size:19px}#reference-sections,#reference-content{padding-inline:10px}}
-#anatomy-cutaway,#past-exams{color:#285441;border:1px solid #b8cfc4;border-radius:8px;background:white;padding:7px 10px;text-decoration:none;font-weight:680;white-space:nowrap}
-#anatomy-cutaway:hover,#past-exams:hover{background:#e9f4ed}
-@media(max-width:650px){#anatomy-cutaway,#past-exams{font-size:11px;padding:6px}}
+#anatomy-cutaway,#case-practice{color:#285441;border:1px solid #b8cfc4;border-radius:8px;background:white;padding:7px 10px;text-decoration:none;font-weight:680;white-space:nowrap}
+#anatomy-cutaway:hover,#case-practice:hover{background:#e9f4ed}
+@media(max-width:650px){#anatomy-cutaway,#case-practice{font-size:11px;padding:6px}}
