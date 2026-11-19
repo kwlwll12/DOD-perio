@@ -105,3 +105,13 @@ dialog::backdrop { background: #132b2390; }
   color: #fff;
 }
 .answer-status { margin-left: auto; font-size: .85rem; font-weight: 700; }
+.notes-panel { margin-bottom: 18px; }
+.notes-panel summary { font-weight: 700; cursor: pointer; }
+.notes-panel textarea {
+  min-height: 150px;
+  resize: vertical;
+  margin-bottom: 0;
+  font-size: .9rem;
+  color: var(--ink);
+  background: #fcfdfa;
+}

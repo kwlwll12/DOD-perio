@@ -6,6 +6,7 @@ const attempt = byId('attempt');
 const questionPanel = byId('question');
 const palette = byId('palette');
 const dialog = byId('confirm');
+const caseNotes = byId('case-notes');
 let year;
 let state;
 
@@ -70,6 +71,11 @@ function openExam(selectedYear, previous) {
   home.hidden = true;
   attempt.hidden = false;
   const exam = exams[year];
+  if (caseNotes) {
+    byId('notes-panel').hidden = !exam.figures;
+    byId('notes-panel').open = true;
+    caseNotes.value = state.notes || '';
+  }
   byId('exam-title').textContent = exam.title || `${year} Perio Exam`;
   byId('source').href = exam.source || (exam.pdf ? `../${encodeURIComponent(exam.pdf)}` : '#');
   save();
@@ -269,6 +275,11 @@ function record(id, value) {
   updatePalette();
   updateMetrics();
 }
+
+caseNotes?.addEventListener('input', () => {
+  state.notes = caseNotes.value;
+  save();
+});
 
 byId('back').addEventListener('click', showHome);
 byId('submit').addEventListener('click', () => {
