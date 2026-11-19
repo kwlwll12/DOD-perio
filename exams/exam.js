@@ -49,7 +49,11 @@ function showHome() {
   attempt.hidden = true;
   const list = byId('years');
   list.replaceChildren();
-  for (const [selectedYear, exam] of Object.entries(exams).sort(([a], [b]) => practice ? a.localeCompare(b) : Number(b) - Number(a))) {
+  const sets = Object.entries(exams);
+  sets.sort(([a, first], [b, second]) => practice
+    ? Number(Boolean(second.figures)) - Number(Boolean(first.figures)) || a.localeCompare(b)
+    : Number(b) - Number(a));
+  for (const [selectedYear, exam] of sets) {
     const previous = load(selectedYear);
     const card = element('article', null, 'year');
     card.append(element('h2', exam.title || selectedYear), element('p', `${exam.questions.length} ${practice ? 'questions' : 'recovered questions'}`, 'subtle'),
