@@ -24,13 +24,13 @@ function button(label, action, className) {
   return node;
 }
 
-function storageKey(id) {
-  return `dod-perio-${practice ? 'practice-' : ''}${id}-v1`;
+function storageKey(id, revision = exams[id].revision || 1) {
+  return `dod-perio-${practice ? 'practice-' : ''}${id}-v${revision}`;
 }
 
-function load(selectedYear) {
+function load(selectedYear, revision) {
   try {
-    return JSON.parse(localStorage.getItem(storageKey(selectedYear)));
+    return JSON.parse(localStorage.getItem(storageKey(selectedYear, revision)));
   } catch {
     return null;
   }
@@ -67,10 +67,11 @@ function showHome() {
 
 function openExam(selectedYear, previous) {
   year = selectedYear;
-  state = previous || { index: 0, answers: {}, flags: {}, started: Date.now(), finished: null };
+  const exam = exams[year];
+  const priorNotes = exam.revision && !load(year) ? load(year, 1)?.notes : '';
+  state = previous || { index: 0, answers: {}, flags: {}, started: Date.now(), finished: null, notes: priorNotes || '' };
   home.hidden = true;
   attempt.hidden = false;
-  const exam = exams[year];
   if (caseNotes) {
     byId('notes-panel').hidden = !exam.figures;
     byId('notes-panel').open = true;
