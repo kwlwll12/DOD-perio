@@ -65,10 +65,18 @@ function showHome() {
   }
 }
 
+function previousNotes(id, revision) {
+  for (let version = revision - 1; version >= 1; version -= 1) {
+    const attempt = load(id, version);
+    if (attempt) return attempt.notes || '';
+  }
+  return '';
+}
+
 function openExam(selectedYear, previous) {
   year = selectedYear;
   const exam = exams[year];
-  const priorNotes = exam.revision && !load(year) ? load(year, 1)?.notes : '';
+  const priorNotes = exam.revision && !load(year) ? previousNotes(year, exam.revision) : '';
   state = previous || { index: 0, answers: {}, flags: {}, started: Date.now(), finished: null, notes: priorNotes || '' };
   home.hidden = true;
   attempt.hidden = false;

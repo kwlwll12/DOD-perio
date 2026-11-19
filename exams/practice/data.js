@@ -124,6 +124,36 @@ window.perioPractice = {
         ],
         "reference": "L7b · Differential diagnosis. A gingival abscess is confined to gingiva without attachment or bone loss attributable to that lesion.",
         "id": "8"
+      },
+      {
+        "id": "9",
+        "case": "1",
+        "stem": "At this visit the uncomfortable incisor has an apical radiolucency. Which assessment sequence best follows the course before committing to endodontic versus periodontal treatment?",
+        "choices": {
+          "a": "Classify the source from the periapical film, then review the history after treatment has begun",
+          "b": "Review symptom and medical history, localize the periodontal findings by examination and probing, then integrate these findings with pulp responses and the film",
+          "c": "Use the regional nodes to identify the tooth of origin, then use probing to determine systemic involvement",
+          "d": "Assign a periodontal diagnosis from the presence of calculus, then interpret the film only if it persists"
+        },
+        "key": [
+          "b"
+        ],
+        "reference": "Dr. Tang · Periodontal diagnosis; L7b · Diagnosis. Assess the patient and clinical findings before integrating the tests. The radiolucency and systemic findings do not independently identify the source."
+      },
+      {
+        "id": "10",
+        "case": "1",
+        "stem": "After urgent drainage and later completion of full initial periodontal therapy, which appointment is the formal Phase I outcome assessment?",
+        "choices": {
+          "a": "Use a three-month maintenance visit as the first Phase I outcome assessment",
+          "b": "Use the end of the antibiotic course as the formal Phase I outcome assessment",
+          "c": "Re-evaluate 4–8 weeks after completion of initial therapy; arrange an earlier urgent-care check if indicated",
+          "d": "Wait 4–8 weeks for the first check of the acute episode, then begin initial therapy"
+        },
+        "key": [
+          "c"
+        ],
+        "reference": "L5 and L9 · Re-evaluation. The 4–8 week window is anchored to completion of initial periodontal therapy. Acute follow-up is a separate decision."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -150,7 +180,7 @@ window.perioPractice = {
         "number": "2"
       }
     ],
-    "revision": 2
+    "revision": 3
   },
   "02": {
     "title": "Case 02 · A previously treated lower molar",
@@ -277,6 +307,36 @@ window.perioPractice = {
         ],
         "reference": "L2b · Radiographic examination. The interradicular region lies between the roots; use that location rather than inferring a cause.",
         "id": "8"
+      },
+      {
+        "id": "9",
+        "case": "1",
+        "stem": "Assume drainage is achieved, the patient is immunocompetent, and examination confirms no fever, malaise, lymphadenopathy, or spreading swelling. What is the best antibiotic decision at this visit?",
+        "choices": {
+          "a": "Use systemic antibiotics in place of further treatment of the sources",
+          "b": "Add systemic antibiotics solely because there is a prior root filling",
+          "c": "Add systemic antibiotics solely because pus was obtained",
+          "d": "Use local treatment and arrange follow-up; the supplied findings do not justify routine systemic antibiotics"
+        },
+        "key": [
+          "d"
+        ],
+        "reference": "L7a and L7b · Systemic adjuncts and acute care. With localized disease and achievable source control, the findings alone do not support routine systemic antibiotic use. Reassess promptly if the presentation worsens."
+      },
+      {
+        "id": "10",
+        "case": "1",
+        "stem": "Before choosing definitive treatment, which sequence provides the best basis for interpreting the molar's findings?",
+        "choices": {
+          "a": "Assign the primary source from the deepest probing value, then assess the previous canal treatment only if swelling returns",
+          "b": "Review prior treatment and symptoms, chart the involved sites, then reconcile probing and clinical findings with the radiographs",
+          "c": "Decide the definitive restoration first, then use the postoperative film to distinguish the source",
+          "d": "Make a definitive endodontic diagnosis from the film, then obtain periodontal measurements only if retreatment fails"
+        },
+        "key": [
+          "b"
+        ],
+        "reference": "Dr. Tang · Diagnostic sequence; L7b · Clinical history, probing and radiographic appearance. Neither a single image nor a deep reading independently establishes the primary source."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -309,7 +369,7 @@ window.perioPractice = {
         "number": "6"
       }
     ],
-    "revision": 2
+    "revision": 3
   },
   "03": {
     "title": "Case 03 · Progressive anterior spacing",
@@ -436,6 +496,36 @@ window.perioPractice = {
         ],
         "reference": "L6b · Classification. Periodontitis-related tooth loss and Stage IV complexity can alter stage. The ratio and progression evidence inform grade.",
         "id": "8"
+      },
+      {
+        "id": "9",
+        "case": "1",
+        "stem": "The patient finishes initial instrumentation today. Which review plan best distinguishes re-evaluation from maintenance?",
+        "choices": {
+          "a": "Start three-month maintenance now and re-evaluate only if percussion is painful",
+          "b": "Book the first re-evaluation as a three-month periodontal maintenance visit regardless of the findings",
+          "c": "Count 4–8 weeks from the diagnostic consultation even if instrumentation finishes later",
+          "d": "Re-evaluate in 4–8 weeks; decide readiness and the maintenance interval from the response"
+        },
+        "key": [
+          "d"
+        ],
+        "reference": "L5 and L9. Formal Phase I re-evaluation is timed from completion of initial therapy. Maintenance is a later decision."
+      },
+      {
+        "id": "10",
+        "case": "1",
+        "stem": "Which sequence best follows the periodontal diagnosis handout?",
+        "choices": {
+          "a": "Determine the cause from past smoking first; then judge whether disease exists after therapy",
+          "b": "Assign extent from bleeding percentage; assign grade from deepest PD; then verify attachment loss",
+          "c": "Determine severity from the chief complaint; treat the space; then decide the disease type from treatment response",
+          "d": "Establish disease from the combined findings; determine type, extent and severity; then integrate contributing causes"
+        },
+        "key": [
+          "d"
+        ],
+        "reference": "Dr. Tang · Periodontal Diagnosis. Determine whether disease exists before describing its pattern and explaining its drivers."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -465,7 +555,7 @@ window.perioPractice = {
         "number": "3"
       }
     ],
-    "revision": 2
+    "revision": 3
   },
   "04": {
     "title": "Case 04 · Upper molar furcation",
@@ -592,6 +682,36 @@ window.perioPractice = {
         ],
         "reference": "L9 · Determining future treatment. Lingering disease plus access and anatomic complexity inform additional care.",
         "id": "8"
+      },
+      {
+        "id": "9",
+        "case": "1",
+        "stem": "Which assessment sequence best distinguishes the pocket depth and furcation findings before planning additional care?",
+        "choices": {
+          "a": "Assign furcation class from the 10 mm distal depth, then use the radiograph to confirm horizontal passage",
+          "b": "Use the radiograph to assign the horizontal furcation class, then use probing only to estimate inflammatory activity",
+          "c": "Use BOP to classify the furcation first and chart horizontal penetration only after treatment",
+          "d": "Record site-specific vertical probing and horizontal furcation penetration, then relate both to the radiographic defect"
+        },
+        "key": [
+          "d"
+        ],
+        "reference": "L2a and L2b. Vertical site probing, horizontal furcation examination and imaging give complementary information."
+      },
+      {
+        "id": "10",
+        "case": "1",
+        "stem": "If initial periodontal therapy is complete and the clinician plans a formal re-evaluation, which interval is the course default?",
+        "choices": {
+          "a": "4–8 weeks after the first baseline periodontal chart",
+          "b": "Three months after diagnosis even if treatment is still underway",
+          "c": "One year because the source has a one-year outcome record",
+          "d": "4–8 weeks after the last initial instrumentation visit"
+        },
+        "key": [
+          "d"
+        ],
+        "reference": "L5 and L9. Use completion of initial treatment as the anchor; timing in the report describes follow-up data."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -612,7 +732,7 @@ window.perioPractice = {
         "number": "1"
       }
     ],
-    "revision": 2
+    "revision": 3
   },
   "05": {
     "title": "Case 05 · Protrusion and reduced anterior support",
@@ -739,6 +859,36 @@ window.perioPractice = {
         ],
         "reference": "L9 · Maintenance. Clinical measurements track inflammation and attachment relative to the baseline.",
         "id": "8"
+      },
+      {
+        "id": "9",
+        "case": "1",
+        "stem": "If active treatment is complete and the current exam confirms periodontal stability, which initial maintenance interval best matches the lecture for a history of periodontitis?",
+        "choices": {
+          "a": "Every 4–8 weeks indefinitely because that is the Phase I re-evaluation window",
+          "b": "Every 6 months regardless of risk because the patient is in maintenance",
+          "c": "Every 12 months unless the patient reports orthodontic discomfort",
+          "d": "About 3 months, adjusted for risk and response"
+        },
+        "key": [
+          "d"
+        ],
+        "reference": "L9 · How Often Should We Do a PMP and PMP Interval. The course gives three months as a starting schedule while considering severity, oral hygiene and local or systemic factors."
+      },
+      {
+        "id": "10",
+        "case": "1",
+        "stem": "At a maintenance visit before further tooth movement, which sequence best follows L9?",
+        "choices": {
+          "a": "Calculate overjet and change the recall interval before checking periodontal status",
+          "b": "Set next recall from the original stage before asking about new symptoms or probing",
+          "c": "Update history and concerns, reassess oral hygiene and the periodontal exam, compare with prior findings, then determine care and recall",
+          "d": "Instrument all sites before reviewing the history, then use mobility alone to judge progression"
+        },
+        "key": [
+          "c"
+        ],
+        "reference": "L9 · What Is Done at a PMP Visit. Review history and new concerns, assess, compare and then plan future care."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -773,7 +923,7 @@ window.perioPractice = {
         "number": "4"
       }
     ],
-    "revision": 2
+    "revision": 3
   },
   "06": {
     "title": "Case 06 · Spacing, migration and plaque control",
@@ -900,6 +1050,36 @@ window.perioPractice = {
         ],
         "reference": "L9 · Re-evaluation. Future treatment uses current clinical findings and the response to the initial phase.",
         "id": "8"
+      },
+      {
+        "id": "9",
+        "case": "1",
+        "stem": "The patient is still in the initial treatment phase. Which scheduling choice follows the course?",
+        "choices": {
+          "a": "Start the re-evaluation clock from the first visit regardless of when Phase I ends",
+          "b": "Complete Phase I and re-evaluate in 4–8 weeks before selecting a maintenance interval",
+          "c": "Assign a three-month maintenance visit now and use it instead of Phase I re-evaluation",
+          "d": "Set a fixed six-month recall before reviewing home care and residual sites"
+        },
+        "key": [
+          "b"
+        ],
+        "reference": "L5 and L9. Re-evaluation comes after Phase I and precedes the maintenance decision."
+      },
+      {
+        "id": "10",
+        "case": "1",
+        "stem": "Before recording the final periodontal diagnosis, what order best uses the incomplete history and the available chart?",
+        "choices": {
+          "a": "Assign Grade C from mobility first and obtain the history only if the grade changes",
+          "b": "Assign Stage IV from the missing teeth first and verify the extraction history after scheduling treatment",
+          "c": "Use the plaque record to assign extent before confirming which teeth meet disease criteria",
+          "d": "Clarify the history, including reasons for extractions; examine clinical and radiographic findings; then assign supported descriptors"
+        },
+        "key": [
+          "d"
+        ],
+        "reference": "Dr. Tang · Diagnostic sequence; L6b · Staging. Missing teeth count toward stage only if lost to periodontitis. Assessment precedes classification."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -933,7 +1113,7 @@ window.perioPractice = {
         "number": "2"
       }
     ],
-    "revision": 2
+    "revision": 3
   },
   "07": {
     "title": "Case 07 · Persistent inflammation after initial therapy",
@@ -1060,6 +1240,36 @@ window.perioPractice = {
         ],
         "reference": "L9 · Future treatment. The current disease response needs review before deciding whether treatment is complete.",
         "id": "8"
+      },
+      {
+        "id": "9",
+        "case": "1",
+        "stem": "The patient asks whether more bleeding after prior SRP automatically means antibiotics are next. What is the best answer?",
+        "choices": {
+          "a": "Select a systemic drug solely from the change in BOP, then examine the sites at maintenance",
+          "b": "Start systemic antibiotics because angular defects indicate spread beyond the periodontium",
+          "c": "Start a systemic antibiotic whenever mean PD increases after SRP",
+          "d": "Review home care, residual deposits and local site findings first; worsening averages alone do not select a systemic drug"
+        },
+        "key": [
+          "d"
+        ],
+        "reference": "L7a and L9. Review reasons for persistent disease and determine whether specific indications exist before choosing adjuncts."
+      },
+      {
+        "id": "10",
+        "case": "1",
+        "stem": "If the assessment shows unresolved disease, what is the most appropriate interpretation of the usual three-month maintenance interval?",
+        "choices": {
+          "a": "It applies to every patient at re-evaluation regardless of residual disease",
+          "b": "It is required before the clinician can refine initial instrumentation",
+          "c": "It is a supportive-care starting point after appropriate active treatment; residual disease still requires a decision now",
+          "d": "It replaces the re-evaluation visit once any initial instrumentation is finished"
+        },
+        "key": [
+          "c"
+        ],
+        "reference": "L9. The transition to supportive care depends on the clinical response. Its interval does not replace active management."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -1085,7 +1295,7 @@ window.perioPractice = {
         "number": "2"
       }
     ],
-    "revision": 2
+    "revision": 3
   },
   "08": {
     "title": "Case 08 · Severe support loss in a young adult",
@@ -1212,6 +1422,36 @@ window.perioPractice = {
         ],
         "reference": "L2b and L9. Radiographic changes complement clinical reassessment.",
         "id": "8"
+      },
+      {
+        "id": "9",
+        "case": "1",
+        "stem": "If exam confirms that the remaining deep sites still bleed, which sequence best follows the course?",
+        "choices": {
+          "a": "Set a three-month maintenance interval solely because the overall plaque score improved, then assess those sites if they hurt",
+          "b": "Change the grade based on six-month BOP, then use that grade as the sole treatment criterion",
+          "c": "Identify the sites and local contributors, refine care as indicated, then decide maintenance from the response",
+          "d": "Start a systemic antibiotic from the baseline deep-site percentage, then localize residual sites"
+        },
+        "key": [
+          "c"
+        ],
+        "reference": "L9 and L7a. Reassessment is driven by site findings and risk, not aggregate improvement or a reflex antibiotic choice."
+      },
+      {
+        "id": "10",
+        "case": "1",
+        "stem": "What does the six-month report tell you about the course's usual first Phase I re-evaluation interval?",
+        "choices": {
+          "a": "It replaces the 4–8 week re-evaluation with a six-month default",
+          "b": "It describes a study follow-up; the course's usual 4–8 weeks is after completing initial periodontal therapy",
+          "c": "It establishes six months as the maintenance interval for every young patient",
+          "d": "It makes re-evaluation unnecessary when BOP improves"
+        },
+        "key": [
+          "b"
+        ],
+        "reference": "L5 and L9. The study follow-up is a data point; course timing governs the question."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -1237,7 +1477,7 @@ window.perioPractice = {
         "number": "6"
       }
     ],
-    "revision": 2
+    "revision": 3
   },
   "09": {
     "title": "Case 09 · Posterior bone loss and three-month review",
@@ -1364,6 +1604,36 @@ window.perioPractice = {
         ],
         "reference": "L9. Subtract the reported initial and final numbers. There is no reported matching CAL change.",
         "id": "8"
+      },
+      {
+        "id": "9",
+        "case": "1",
+        "stem": "Suppose a subsequent site-level review confirms stability after active therapy. Which appointment would be most appropriate to schedule under the lecture's usual starting plan?",
+        "choices": {
+          "a": "Periodontal maintenance in about 3 months, individualized to risk",
+          "b": "Maintenance every 4–8 weeks because that is the initial re-evaluation interval",
+          "c": "A routine six-month prophylaxis because no sites reached 6 mm at the earlier review",
+          "d": "First Phase I re-evaluation in about 3 months even though re-evaluation is complete"
+        },
+        "key": [
+          "a"
+        ],
+        "reference": "L9 · PMP. A three-month starting interval is taught for patients with a history of periodontitis. Individual factors may change it."
+      },
+      {
+        "id": "10",
+        "case": "1",
+        "stem": "Before concluding that active therapy is complete, which workflow best uses the report?",
+        "choices": {
+          "a": "Choose a maintenance interval from the improvement in mean PD before checking individual sites",
+          "b": "Compare baseline and current charting, examine residual sites and plaque control, then select additional treatment or maintenance",
+          "c": "Reassign the original stage from the follow-up depth, then skip assessment of bleeding if the stage is lower",
+          "d": "Declare stability from the report of radiographic fill, then schedule maintenance before reviewing the chart"
+        },
+        "key": [
+          "b"
+        ],
+        "reference": "L9. Evaluate outcome at patient and site level before deciding on the next phase."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -1389,7 +1659,7 @@ window.perioPractice = {
         "number": "10"
       }
     ],
-    "revision": 2
+    "revision": 3
   },
   "10": {
     "title": "Case 10 · Extensive bone loss and early response",
@@ -1516,6 +1786,36 @@ window.perioPractice = {
         ],
         "reference": "L9 · Residual disease. Current clinical findings and accessibility guide treatment decisions.",
         "id": "8"
+      },
+      {
+        "id": "9",
+        "case": "1",
+        "stem": "How should the clinician use the early improvement when discussing recall?",
+        "choices": {
+          "a": "Start a fixed three-month maintenance plan now based solely on the lower mean PD",
+          "b": "Start six-month prophylaxis because fewer than 5% of sites now measure at least 6 mm",
+          "c": "Reassess the remaining inflamed or deep sites first; if stable after active care, consider about three months for maintenance and adjust by risk",
+          "d": "Use 4–8 weeks as a permanent maintenance interval because it is the usual Phase I re-evaluation window"
+        },
+        "key": [
+          "c"
+        ],
+        "reference": "L9 · Re-evaluation and PMP Interval. Improvement is documented, but the appropriate phase depends on reassessment of disease. Three months is a starting point once stable."
+      },
+      {
+        "id": "10",
+        "case": "1",
+        "stem": "Which sequence best distinguishes the whole-patient classification from a local imaging finding?",
+        "choices": {
+          "a": "Assign Stage IV from the furcation image, assign Grade C from BOP, then use the history to confirm both",
+          "b": "Choose the recall interval from mean PD, then infer grade from how often the patient returns",
+          "c": "Integrate history, charting and films to establish the disease and supported stage and grade, then plan care",
+          "d": "Determine the grade from mobility, then determine whether the patient meets periodontitis criteria"
+        },
+        "key": [
+          "c"
+        ],
+        "reference": "Dr. Tang · Diagnostic sequence; L6b · Classification. Furcations are one complexity feature. BOP does not measure progression grade."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -1541,7 +1841,7 @@ window.perioPractice = {
         "number": "14"
       }
     ],
-    "revision": 2
+    "revision": 3
   },
   "11": {
     "title": "Concepts & calculations",
