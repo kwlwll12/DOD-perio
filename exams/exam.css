@@ -115,3 +115,22 @@ dialog::backdrop { background: #132b2390; }
   color: var(--ink);
   background: #fcfdfa;
 }
+.question-column { min-width: 0; }
+.question-hint, .drug-reference { margin-bottom: 14px; border-radius: 8px; }
+.question-hint summary, .drug-reference summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--green);
+}
+.question-hint p { margin: 6px 0 0; padding: 8px 12px; background: var(--wash); border-radius: 6px; }
+.drug-reference { background: white; border: 1px solid var(--line); padding: 10px 14px; }
+.drug-reference-body { font-size: .84rem; }
+.drug-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 10px 0; }
+.abx-indicated { color: #a22a25; font-weight: 700; }
+.abx-optional { color: #185a9b; font-weight: 700; }
+.drug-table { width: 100%; border-collapse: collapse; table-layout: fixed; margin-bottom: 12px; }
+.drug-table caption { text-align: left; font-weight: 750; margin-bottom: 4px; }
+.drug-table th, .drug-table td { text-align: left; vertical-align: top; padding: 5px; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+.drug-table thead th { background: var(--wash); }
+.drug-table th:first-child { width: 26%; }
+.drug-footnote { margin: 4px 0 0; color: var(--muted); }

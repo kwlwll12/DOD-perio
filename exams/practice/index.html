@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Perio Case Practice | Perio Atlas</title>
-  <link rel="stylesheet" href="../exam.css?v=expanded-practice">
-  <script src="data.js?v=expanded-practice" defer></script>
-  <script src="../exam.js?v=expanded-practice" defer></script>
+  <link rel="stylesheet" href="../exam.css?v=hints-reference">
+  <script src="data.js?v=hints-reference" defer></script>
+  <script src="../exam.js?v=hints-reference" defer></script>
 </head>
 <body>
   <header class="top">
@@ -26,7 +26,44 @@
       </div>
       <p id="result" role="status" hidden></p>
       <div class="exam-layout">
-        <article id="question"></article>
+        <div class="question-column">
+          <details id="drug-reference" class="drug-reference" hidden>
+            <summary>Antibiotics &amp; drug quick reference</summary>
+            <div class="drug-reference-body">
+              <p class="drug-legend">
+                <span class="abx-indicated">Indicated when criteria are met</span>
+                <span class="abx-optional">Optional / case-dependent</span>
+              </p>
+              <table class="drug-table">
+                <caption>Antibiotic use in periodontal treatment</caption>
+                <thead><tr><th scope="col">Condition</th><th scope="col">Plan</th><th scope="col">When to consider Abx</th></tr></thead>
+                <tbody>
+                  <tr><th scope="row">Periodontal abscess</th><td>Drainage + debridement ± systemic Abx</td><td class="abx-indicated">Systemic involvement or spread</td></tr>
+                  <tr><th scope="row">NUG</th><td>Debridement + antimicrobial rinse ± systemic metronidazole</td><td class="abx-indicated">Systemic symptoms (fever, malaise)</td></tr>
+                  <tr><th scope="row">NUP</th><td>Debridement + antimicrobial rinse ± systemic Abx; further periodontal care</td><td class="abx-indicated">Systemic symptoms or severe infection</td></tr>
+                  <tr><th scope="row">Pericoronitis</th><td>Irrigation + debridement ± systemic Abx</td><td class="abx-indicated">Systemic complications or spread</td></tr>
+                  <tr><th scope="row">Grade C</th><td>SRP + adjunctive systemic Abx if selected, e.g., amoxicillin + metronidazole</td><td class="abx-optional">Selected high-risk or rapidly progressing cases</td></tr>
+                  <tr><th scope="row">Generalized periodontitis</th><td>SRP ± systemic Abx</td><td class="abx-optional">Selected cases; no routine Abx</td></tr>
+                  <tr><th scope="row">Residual / localized pockets</th><td>SRP ± Atridox / Arestin</td><td class="abx-optional">Persistent sites needing a local adjunct</td></tr>
+                  <tr><th scope="row">Medically complex cases</th><td>OHI + medical consult; culture/sensitivity if indicated; SRP ± concurrent Abx</td><td class="abx-optional">Individual medical and periodontal assessment</td></tr>
+                </tbody>
+              </table>
+              <table class="drug-table">
+                <caption>Drug names, frequency &amp; allergies</caption>
+                <thead><tr><th scope="col">Drug</th><th scope="col">L7a example</th><th scope="col">Allergy check</th></tr></thead>
+                <tbody>
+                  <tr><th scope="row">Amoxicillin</th><td>500 mg · 3×/day · 8 days</td><td>Penicillin</td></tr>
+                  <tr><th scope="row">Metronidazole</th><td>500 mg · 3×/day · 8 days</td><td>Metronidazole</td></tr>
+                  <tr><th scope="row">Clindamycin</th><td>300 mg · 3×/day · 10 days</td><td>Clindamycin; no automatic substitution</td></tr>
+                  <tr><th scope="row">Arestin / Atridox</th><td>Minocycline / doxycycline · local</td><td>Tetracycline class</td></tr>
+                  <tr><th scope="row">PerioChip</th><td>Chlorhexidine · local</td><td>Chlorhexidine</td></tr>
+                </tbody>
+              </table>
+              <p class="drug-footnote">Study aid · L7a/L7b. Decide if an adjunct is needed, then check the allergy and reaction. Frequencies are slide examples.</p>
+            </div>
+          </details>
+          <article id="question"></article>
+        </div>
         <aside aria-label="Case notes and practice navigation">
           <details id="notes-panel" class="notes-panel" open hidden>
             <summary id="notes-label">Case notes</summary>

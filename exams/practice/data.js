@@ -18,7 +18,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L7b · Acute vs chronic abscess and differential diagnosis. The abrupt painful swelling is acute. The localized periodontal changes and responsive pulp favor a periodontal source even with an apical-appearing radiolucency.",
-        "id": "1"
+        "id": "1",
+        "hint": "영상 소견과 치수 반응을 각각 따로 해석한 뒤, 두 소견을 함께 설명해 보세요."
       },
       {
         "case": "1",
@@ -33,7 +34,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L7b · Diagnosis. Fever and tenderness establish severity, but the location of the lesion together with pulp status helps distinguish periodontal from primary endodontic disease.",
-        "id": "2"
+        "id": "2",
+        "hint": "감염의 위치를 가르는 단서와 감염의 정도를 보여주는 단서를 나눠 보세요."
       },
       {
         "case": "1",
@@ -48,7 +50,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L7b · Treatment and outcomes. Immediate drainage addresses the collection. The need for adjunctive systemic treatment and later definitive therapy are separate decisions.",
-        "id": "3"
+        "id": "3",
+        "hint": "지금 당장 가능한 국소 처치와 이후에 결정할 치료를 구분해 보세요."
       },
       {
         "case": "1",
@@ -63,7 +66,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L7b and L7a · Acute presentation and systemic antibiotics. Fever and regional lymphadenopathy are signs beyond a purely local collection.",
-        "id": "4"
+        "id": "4",
+        "hint": "국소 소견인지, 국소 부위를 넘어선 소견인지 나눠 보세요."
       },
       {
         "case": "1",
@@ -78,7 +82,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L7a · Prescription for amoxicillin. The slide specifies one 500 mg capsule three times a day for eight days. This asks for the course example.",
-        "id": "5"
+        "id": "5",
+        "hint": "L7a의 처방 예시에서 1회 용량, 하루 횟수, 기간을 따로 떠올려 보세요."
       },
       {
         "case": "1",
@@ -93,7 +98,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L7b · Outcomes assessment lists pocket exudate as an unfavorable outcome. Early radiographic appearance and recession alone do not establish persistence.",
-        "id": "6"
+        "id": "6",
+        "hint": "통증 감소와 병소가 실제로 해소됐다는 증거를 구분해 보세요."
       },
       {
         "case": "1",
@@ -108,7 +114,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L7b · Acute vs chronic periodontal abscess. A chronic sinus or fistula can precede an acute painful exacerbation.",
-        "id": "7"
+        "id": "7",
+        "hint": "오늘의 증상뿐 아니라 그 전 몇 주간의 경과를 먼저 보세요."
       },
       {
         "case": "1",
@@ -123,7 +130,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L7b · Differential diagnosis. A gingival abscess is confined to gingiva without attachment or bone loss attributable to that lesion.",
-        "id": "8"
+        "id": "8",
+        "hint": "병소가 어느 조직까지 영향을 미쳤는지 비교해 보세요."
       },
       {
         "id": "9",
@@ -138,7 +146,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "Dr. Tang · Periodontal diagnosis; L7b · Diagnosis. Assess the patient and clinical findings before integrating the tests. The radiolucency and systemic findings do not independently identify the source."
+        "reference": "Dr. Tang · Periodontal diagnosis; L7b · Diagnosis. Assess the patient and clinical findings before integrating the tests. The radiolucency and systemic findings do not independently identify the source.",
+        "hint": "병력, 국소 검사, 영상이 각각 어떤 질문에 답하는지 생각해 보세요."
       },
       {
         "id": "10",
@@ -153,7 +162,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L5 and L9 · Re-evaluation. The 4–8 week window is anchored to completion of initial periodontal therapy. Acute follow-up is a separate decision."
+        "reference": "L5 and L9 · Re-evaluation. The 4–8 week window is anchored to completion of initial periodontal therapy. Acute follow-up is a separate decision.",
+        "hint": "일정의 기준점을 응급 방문, 약 복용 종료, 초기 치료 완료 중 어디에 둘지 생각해 보세요."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -201,7 +211,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L7b · Diagnosis. Combine probing, history and radiographic findings. Deep pockets and a previously treated tooth with periradicular changes do not prove which disease started first.",
-        "id": "1"
+        "id": "1",
+        "hint": "한 가지 검사로 병소의 시작점을 단정할 수 있는지 살펴보세요."
       },
       {
         "case": "1",
@@ -216,7 +227,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L7b · Treatment. Drainage is an immediate intervention. Definitive therapy is planned according to findings.",
-        "id": "2"
+        "id": "2",
+        "hint": "응급 방문에서 해결할 문제와 보존 여부를 결정할 문제를 나눠 보세요."
       },
       {
         "case": "1",
@@ -231,7 +243,8 @@ window.perioPractice = {
           "c"
         ],
         "reference": "L2a · Charting. PD measures from the margin; CAL is CEJ referenced. Margin position is required to calculate the change in CAL.",
-        "id": "3"
+        "id": "3",
+        "hint": "각 방문에서 탐침이 어디서부터 들어갔는지 비교해 보세요."
       },
       {
         "case": "1",
@@ -246,7 +259,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L2a · Charting. Baseline CAL = 9 mm; follow-up CAL = 3 + 2 = 5 mm. Attachment gain is 4 mm even though PD fell by 6 mm.",
-        "id": "4"
+        "id": "4",
+        "hint": "두 방문의 CAL을 각각 구한 뒤 그 차이를 보세요."
       },
       {
         "case": "1",
@@ -261,7 +275,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L2a · Furcation. The distinction depends on horizontal through-and-through involvement, not vertical PD or the radiograph alone.",
-        "id": "5"
+        "id": "5",
+        "hint": "수직으로 잰 깊이와 치근 사이의 수평 경로는 별개입니다."
       },
       {
         "case": "1",
@@ -276,7 +291,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L9 · Clinical re-evaluation; L7b · Outcomes. Suppuration at a residual deep site is a directly unfavorable finding.",
-        "id": "6"
+        "id": "6",
+        "hint": "초진 때의 손상과 오늘도 남아 있는 질환 소견을 구분해 보세요."
       },
       {
         "case": "1",
@@ -291,7 +307,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L6a · Occlusal findings; L9 · Re-evaluation. Mobility matters for prognosis, but it is distinct from furcation, attachment level and progression grade.",
-        "id": "7"
+        "id": "7",
+        "hint": "동요도가 직접 측정하는 것과 예후에 간접적으로 알려주는 것을 구분하세요."
       },
       {
         "case": "1",
@@ -306,7 +323,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L2b · Radiographic examination. The interradicular region lies between the roots; use that location rather than inferring a cause.",
-        "id": "8"
+        "id": "8",
+        "hint": "치근 끝, 치근 사이, 치조정의 위치를 따로 짚어 보세요."
       },
       {
         "id": "9",
@@ -321,7 +339,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L7a and L7b · Systemic adjuncts and acute care. With localized disease and achievable source control, the findings alone do not support routine systemic antibiotic use. Reassess promptly if the presentation worsens."
+        "reference": "L7a and L7b · Systemic adjuncts and acute care. With localized disease and achievable source control, the findings alone do not support routine systemic antibiotic use. Reassess promptly if the presentation worsens.",
+        "hint": "국소 처치가 되었는지와 전신 소견이 있는지를 따로 확인하세요."
       },
       {
         "id": "10",
@@ -336,7 +355,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "Dr. Tang · Diagnostic sequence; L7b · Clinical history, probing and radiographic appearance. Neither a single image nor a deep reading independently establishes the primary source."
+        "reference": "Dr. Tang · Diagnostic sequence; L7b · Clinical history, probing and radiographic appearance. Neither a single image nor a deep reading independently establishes the primary source.",
+        "hint": "과거 치료, 현재 차트, 영상에서 얻는 정보가 어떻게 서로 보완되는지 보세요."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -390,7 +410,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L6b · Staging and grading. Six of 28 is <30%; middle-third loss and the intrabony defect support Stage III. The worst-site ratio 45/34 exceeds 1.0.",
-        "id": "1"
+        "id": "1",
+        "hint": "세 칸을 만들어 severity, progression, distribution의 근거를 각각 넣어 보세요."
       },
       {
         "case": "1",
@@ -405,7 +426,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L6b · Extent. The numerator is teeth affected, not bleeding sites, plaque-positive surfaces, or percent root length.",
-        "id": "2"
+        "id": "2",
+        "hint": "분모가 치아, 탐침 부위, 치면 중 무엇인지 먼저 확인하세요."
       },
       {
         "case": "1",
@@ -420,7 +442,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L4b and L6b. Prior exposure is 15 pack-years. The current-smoking modifier is distinct from cumulative history; the ratio supports Grade C independently.",
-        "id": "3"
+        "id": "3",
+        "hint": "누적 노출량과 현재 흡연 여부를 따로 처리하세요."
       },
       {
         "case": "1",
@@ -435,7 +458,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L5 · Treatment sequence. Home care and instrumentation precede reassessment; readiness for elective treatment is judged after re-evaluation.",
-        "id": "4"
+        "id": "4",
+        "hint": "선택 치료를 시작하기 전에 어떤 판단을 끝내야 하는지 보세요."
       },
       {
         "case": "1",
@@ -450,7 +474,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L9 · Future treatment. Residual site inflammation and plaque warrant targeted reassessment. A whole-mouth improvement does not settle the decision.",
-        "id": "5"
+        "id": "5",
+        "hint": "전반적으로 좋아진 수치와 여전히 문제가 있는 부위를 나눠 보세요."
       },
       {
         "case": "1",
@@ -465,7 +490,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L2a · Charting. CAL is 7 mm initially and 6 mm at follow-up. Most of the PD change is attributable to recession.",
-        "id": "6"
+        "id": "6",
+        "hint": "두 시점의 CEJ 기준 값을 각각 구해 비교하세요."
       },
       {
         "case": "1",
@@ -480,7 +506,8 @@ window.perioPractice = {
           "c"
         ],
         "reference": "L6b · Classification. The ratio informs grade. The other choices are severity or complexity findings used for stage.",
-        "id": "7"
+        "id": "7",
+        "hint": "각 수치를 Stage 또는 Grade에 연결해 보고, 다른 범주에 속하는 보기를 찾으세요."
       },
       {
         "case": "1",
@@ -495,7 +522,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L6b · Classification. Periodontitis-related tooth loss and Stage IV complexity can alter stage. The ratio and progression evidence inform grade.",
-        "id": "8"
+        "id": "8",
+        "hint": "Stage III와 IV가 공유하는 소견부터 제외해 보세요."
       },
       {
         "id": "9",
@@ -510,7 +538,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L5 and L9. Formal Phase I re-evaluation is timed from completion of initial therapy. Maintenance is a later decision."
+        "reference": "L5 and L9. Formal Phase I re-evaluation is timed from completion of initial therapy. Maintenance is a later decision.",
+        "hint": "첫 재평가와 안정된 뒤의 유지관리는 서로 다른 방문입니다."
       },
       {
         "id": "10",
@@ -525,7 +554,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "Dr. Tang · Periodontal Diagnosis. Determine whether disease exists before describing its pattern and explaining its drivers."
+        "reference": "Dr. Tang · Periodontal Diagnosis. Determine whether disease exists before describing its pattern and explaining its drivers.",
+        "hint": "질환이 있는지를 판단하는 단계와 질환을 설명하는 단계를 나눠 보세요."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -576,7 +606,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L2a and L2b. A blind-end furcation supports Class II. Baseline films show a localized vertical component.",
-        "id": "1"
+        "id": "1",
+        "hint": "치근 사이의 수평 소견과 영상의 골소실 양상을 따로 분류하세요."
       },
       {
         "case": "1",
@@ -591,7 +622,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L2a · Instrumentation and furcation. Vertical readings and radiographic changes do not establish horizontal continuity.",
-        "id": "2"
+        "id": "2",
+        "hint": "두 탐침 수치가 크다는 것과 두 입구가 연결된다는 것은 다른 정보입니다."
       },
       {
         "case": "1",
@@ -606,7 +638,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L2a · Charting. Initial CAL 10 + 2 = 12; review CAL 4 + 3 = 7; difference 5 mm.",
-        "id": "3"
+        "id": "3",
+        "hint": "처음과 재평가에서 각각 margin 위치를 반영한 뒤 비교하세요."
       },
       {
         "case": "1",
@@ -621,7 +654,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L2a and L9. Exudate and BOP reflect current findings. The structural measures document past and/or present breakdown.",
-        "id": "4"
+        "id": "4",
+        "hint": "오늘 관찰되는 변화와 오래 남을 수 있는 구조적 소견을 분리하세요."
       },
       {
         "case": "1",
@@ -636,7 +670,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L5 · Sequence; L9 · Future treatment. Initial care and reassessment inform whether more treatment is indicated.",
-        "id": "5"
+        "id": "5",
+        "hint": "강의에서 초기 치료가 끝난 뒤 어떤 평가를 두는지 떠올려 보세요."
       },
       {
         "case": "1",
@@ -651,7 +686,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L9 · Clinical outcomes. Probing and BOP show a favorable response. Furcation and CAL need separate assessment.",
-        "id": "6"
+        "id": "6",
+        "hint": "이 결과가 한 치아에서 나온 것인지 전체 구강에서 나온 것인지 확인하세요."
       },
       {
         "case": "1",
@@ -666,7 +702,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L6b · Extent. A single tooth cannot establish the proportion affected across the dentition.",
-        "id": "7"
+        "id": "7",
+        "hint": "한 치아의 여섯 부위와 전체 치열을 구분하세요."
       },
       {
         "case": "1",
@@ -681,7 +718,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L9 · Determining future treatment. Lingering disease plus access and anatomic complexity inform additional care.",
-        "id": "8"
+        "id": "8",
+        "hint": "잔존 염증과 기구 접근의 어려움이 각각 다음 판단에 어떤 영향을 주는지 보세요."
       },
       {
         "id": "9",
@@ -696,7 +734,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L2a and L2b. Vertical site probing, horizontal furcation examination and imaging give complementary information."
+        "reference": "L2a and L2b. Vertical site probing, horizontal furcation examination and imaging give complementary information.",
+        "hint": "세 검사로 같은 것을 측정하는지, 서로 다른 것을 측정하는지 따져 보세요."
       },
       {
         "id": "10",
@@ -711,7 +750,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L5 and L9. Use completion of initial treatment as the anchor; timing in the report describes follow-up data."
+        "reference": "L5 and L9. Use completion of initial treatment as the anchor; timing in the report describes follow-up data.",
+        "hint": "재평가 기간을 어느 방문부터 세는지 먼저 정하세요."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -753,7 +793,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L6a · Occlusion. Migration and reduced support fit together. Overjet and a bruxism history do not establish a specific traumatic lesion or explain all CAL.",
-        "id": "1"
+        "id": "1",
+        "hint": "치아 위치 변화와 감소한 지지조직을 연결해 보세요."
       },
       {
         "case": "1",
@@ -768,7 +809,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L2a · Charting. The margin is 3 mm apical to CEJ, so CAL = 5 + 3.",
-        "id": "2"
+        "id": "2",
+        "hint": "치은변연이 CEJ의 어느 쪽인지부터 표시하세요."
       },
       {
         "case": "1",
@@ -783,7 +825,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L6a · Occlusion. Overjet and overbite measure separate dimensions.",
-        "id": "3"
+        "id": "3",
+        "hint": "두 측정치를 수평축과 수직축에 놓아 보세요."
       },
       {
         "case": "1",
@@ -798,7 +841,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L6a · Occlusion. Fremitus is movement under functional or occlusal contact. Manual mobility and wear are separate signs.",
-        "id": "4"
+        "id": "4",
+        "hint": "손으로 눌렀을 때와 환자가 치아를 접촉시킬 때를 비교하세요."
       },
       {
         "case": "1",
@@ -813,7 +857,8 @@ window.perioPractice = {
           "c"
         ],
         "reference": "L5 and L9. A patient receiving maintenance can still have residual disease. Clinical re-evaluation informs readiness.",
-        "id": "5"
+        "id": "5",
+        "hint": "이전에 치료를 받았다는 사실과 오늘의 질환 상태를 구분하세요."
       },
       {
         "case": "1",
@@ -828,7 +873,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L6a · Occlusal assessment. Parafunction is relevant to load and wear, but neither measures periodontitis progression nor rules out inflammation.",
-        "id": "6"
+        "id": "6",
+        "hint": "힘과 마모에 관한 정보가 질환 진행 속도까지 설명하는지 생각해 보세요."
       },
       {
         "case": "1",
@@ -843,7 +889,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L6a and L9. Clinical inflammation and attachment are assessed independently of force-related findings.",
-        "id": "7"
+        "id": "7",
+        "hint": "염증을 보여주는 정보와 하중을 보여주는 정보를 나눠 보세요."
       },
       {
         "case": "1",
@@ -858,7 +905,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L9 · Maintenance. Clinical measurements track inflammation and attachment relative to the baseline.",
-        "id": "8"
+        "id": "8",
+        "hint": "똑같은 부위에서 여러 시점에 비교할 수 있는 소견을 고르세요."
       },
       {
         "id": "9",
@@ -873,7 +921,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L9 · How Often Should We Do a PMP and PMP Interval. The course gives three months as a starting schedule while considering severity, oral hygiene and local or systemic factors."
+        "reference": "L9 · How Often Should We Do a PMP and PMP Interval. The course gives three months as a starting schedule while considering severity, oral hygiene and local or systemic factors.",
+        "hint": "이 환자가 초기 치료 직후인지, 치료가 끝나 안정된 상태인지 확인하세요."
       },
       {
         "id": "10",
@@ -888,7 +937,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L9 · What Is Done at a PMP Visit. Review history and new concerns, assess, compare and then plan future care."
+        "reference": "L9 · What Is Done at a PMP Visit. Review history and new concerns, assess, compare and then plan future care.",
+        "hint": "L9의 유지관리 방문에서 다음 간격을 정하기 전 무엇을 확인하는지 떠올려 보세요."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -944,7 +994,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L6b · Extent. The threshold uses affected teeth, independent of plaque prevalence, location of the chief complaint, and deepest probing site.",
-        "id": "1"
+        "id": "1",
+        "hint": "부위 수가 아니라 치아 수에 관한 정보가 있는지 찾아보세요."
       },
       {
         "case": "1",
@@ -959,7 +1010,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L2b · Radiography. Extent and bone-loss pattern are different descriptors. The source films document both patterns.",
-        "id": "2"
+        "id": "2",
+        "hint": "전체적인 골높이와 일부 치아의 결손 모양을 따로 보세요."
       },
       {
         "case": "1",
@@ -974,7 +1026,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L6b · Staging. The criterion is tooth loss due to periodontitis. Stage IV complexity is assessed separately.",
-        "id": "3"
+        "id": "3",
+        "hint": "상실된 치아의 개수와 그 원인을 별개로 생각하세요."
       },
       {
         "case": "1",
@@ -989,7 +1042,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L6b · Grading. Indirect evidence uses worst-site percentage bone loss divided by age; the other measurements do not substitute.",
-        "id": "4"
+        "id": "4",
+        "hint": "추적 자료가 없을 때 강의에서 어떤 두 값을 짝짓는지 떠올려 보세요."
       },
       {
         "case": "1",
@@ -1004,7 +1058,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L5 and L9. Initial biofilm control and instrumentation are followed by reassessment before complex care.",
-        "id": "5"
+        "id": "5",
+        "hint": "현재 방문의 목표가 염증 조절인지 최종 재건인지 구분하세요."
       },
       {
         "case": "1",
@@ -1019,7 +1074,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L2a · Charting. CAL = 4 + 2; keratinized width = 7 − 2 = 5; attached width = 5 − 4 = 1.",
-        "id": "6"
+        "id": "6",
+        "hint": "CEJ를 0점으로 표시하고 margin, MGJ, pocket base 위치를 그려 보세요."
       },
       {
         "case": "1",
@@ -1034,7 +1090,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L5 · Initial periodontal therapy; L7a · Systemic drugs. An allergy constrains drug selection when a drug is indicated. It does not independently create an antibiotic indication. The case establishes a need for initial biofilm control and re-evaluation.",
-        "id": "7"
+        "id": "7",
+        "hint": "약의 적응증을 먼저 검토한 뒤 알레르기를 적용하세요."
       },
       {
         "case": "1",
@@ -1049,7 +1106,8 @@ window.perioPractice = {
           "c"
         ],
         "reference": "L9 · Re-evaluation. Future treatment uses current clinical findings and the response to the initial phase.",
-        "id": "8"
+        "id": "8",
+        "hint": "다음 단계로 넘어갈 수 있는지는 초진 진단보다 치료 반응을 봐야 합니다."
       },
       {
         "id": "9",
@@ -1064,7 +1122,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L5 and L9. Re-evaluation comes after Phase I and precedes the maintenance decision."
+        "reference": "L5 and L9. Re-evaluation comes after Phase I and precedes the maintenance decision.",
+        "hint": "초기 치료 종료와 유지관리 시작 사이에 어떤 방문이 필요한지 보세요."
       },
       {
         "id": "10",
@@ -1079,7 +1138,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "Dr. Tang · Diagnostic sequence; L6b · Staging. Missing teeth count toward stage only if lost to periodontitis. Assessment precedes classification."
+        "reference": "Dr. Tang · Diagnostic sequence; L6b · Staging. Missing teeth count toward stage only if lost to periodontitis. Assessment precedes classification.",
+        "hint": "결측치가 있는 분류 기준은 먼저 병력으로 확인해 보세요."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -1134,7 +1194,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L9 · Re-evaluation. BOP and mean PD rose. CAL and causation require additional evidence.",
-        "id": "1"
+        "id": "1",
+        "hint": "두 지표가 각각 좋아졌는지 나빠졌는지 먼저 표시하세요."
       },
       {
         "case": "1",
@@ -1149,7 +1210,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L5 and L9. The course gives 4–8 weeks after completion. The delayed follow-up in the paper is not the course interval.",
-        "id": "2"
+        "id": "2",
+        "hint": "강의의 표준 창과 이 환자에게 실제로 적용된 일정을 나눠 보세요."
       },
       {
         "case": "1",
@@ -1164,7 +1226,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L2a · Charting. PD uses the gingival margin and CAL uses the CEJ. Margin shift changes their relationship.",
-        "id": "3"
+        "id": "3",
+        "hint": "PD를 잰 시작점이 두 시점에 고정되어 있는지 생각하세요."
       },
       {
         "case": "1",
@@ -1179,7 +1242,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L9. Residual inflammatory sites and contributing factors guide refinement.",
-        "id": "4"
+        "id": "4",
+        "hint": "전체 평균보다 같은 부위에서 전후로 비교할 수 있는 자료를 찾으세요."
       },
       {
         "case": "1",
@@ -1194,7 +1258,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L9 · Evaluation of inflammation. Stable residual osseous morphology documents support loss. Exudate, BOP and soft-tissue inflammatory changes relate more directly to present inflammation.",
-        "id": "5"
+        "id": "5",
+        "hint": "활성 염증 징후와 이전 손상이 남긴 흔적을 분리하세요."
       },
       {
         "case": "1",
@@ -1209,7 +1274,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L2b · Radiographic examination. Overall horizontal loss does not preclude angular defects at individual aspects.",
-        "id": "6"
+        "id": "6",
+        "hint": "전반적인 양상과 일부 부위의 양상이 동시에 존재할 수 있는지 보세요."
       },
       {
         "case": "1",
@@ -1224,7 +1290,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L9 · Timing and outcomes. The observation did not control other care or isolate the instrumentation sequence.",
-        "id": "7"
+        "id": "7",
+        "hint": "두 시점에 변화가 있었다는 사실과 그 변화의 원인에 대한 주장을 구분하세요."
       },
       {
         "case": "1",
@@ -1239,7 +1306,8 @@ window.perioPractice = {
           "c"
         ],
         "reference": "L9 · Future treatment. The current disease response needs review before deciding whether treatment is complete.",
-        "id": "8"
+        "id": "8",
+        "hint": "유지관리로 전환하기 전에 해결해야 할 현재 문제를 찾으세요."
       },
       {
         "id": "9",
@@ -1254,7 +1322,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L7a and L9. Review reasons for persistent disease and determine whether specific indications exist before choosing adjuncts."
+        "reference": "L7a and L9. Review reasons for persistent disease and determine whether specific indications exist before choosing adjuncts.",
+        "hint": "SRP 후 수치 악화가 원인을 알려주는지, 아니면 재평가가 필요함을 알려주는지 보세요."
       },
       {
         "id": "10",
@@ -1269,7 +1338,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L9. The transition to supportive care depends on the clinical response. Its interval does not replace active management."
+        "reference": "L9. The transition to supportive care depends on the clinical response. Its interval does not replace active management.",
+        "hint": "기간을 고르기 전에 현재 환자가 어느 치료 단계에 있는지 확인하세요."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -1316,7 +1386,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L9 and L6b. Improvement is documented. The site-level observations do not determine disease extent or establish periodontal health on their own.",
-        "id": "1"
+        "id": "1",
+        "hint": "변화의 방향을 본 뒤, 남아 있는 이상 소견도 따로 확인하세요."
       },
       {
         "case": "1",
@@ -1331,7 +1402,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L2a · Assessment. BOP is elicited at examination and can be present without spontaneous bleeding.",
-        "id": "2"
+        "id": "2",
+        "hint": "환자가 보고한 증상과 검사로 유발된 소견을 구분하세요."
       },
       {
         "case": "1",
@@ -1346,7 +1418,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L6b · Direct evidence. Serial measured changes are direct; the bone-loss-to-age ratio is indirect.",
-        "id": "3"
+        "id": "3",
+        "hint": "한 시점의 추정과 두 시점 이상의 실제 변화를 구분하세요."
       },
       {
         "case": "1",
@@ -1361,7 +1434,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L6b · Grading. 40/32 = 1.25. No systemic history does not negate the indirect progression estimate.",
-        "id": "4"
+        "id": "4",
+        "hint": "간접 진행 지표에 쓰는 두 값을 먼저 찾아보세요."
       },
       {
         "case": "1",
@@ -1376,7 +1450,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L6b · Grading handout. 24/32 = 0.75, the Grade B range for indirect evidence. In a patient with diabetes, HbA1c ≥7% is a Grade C modifier.",
-        "id": "5"
+        "id": "5",
+        "hint": "간접 등급을 먼저 판단하고, 그다음 modifier를 적용하세요."
       },
       {
         "case": "1",
@@ -1391,7 +1466,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L9. Site-specific inflammation and local contributing factors guide refinement.",
-        "id": "6"
+        "id": "6",
+        "hint": "전체 평균을 잠시 내려놓고 그 소수 부위에서 무엇을 확인할지 생각하세요."
       },
       {
         "case": "1",
@@ -1406,7 +1482,8 @@ window.perioPractice = {
           "c"
         ],
         "reference": "L2b and L6b. A single radiograph documents support at one point in time.",
-        "id": "7"
+        "id": "7",
+        "hint": "한 장의 영상으로 측정할 수 있는 것과 시간에 따른 변화는 다릅니다."
       },
       {
         "case": "1",
@@ -1421,7 +1498,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L2b and L9. Radiographic changes complement clinical reassessment.",
-        "id": "8"
+        "id": "8",
+        "hint": "영상에서 보이는 변화가 임상 평가를 대신할 수 있는지 따져 보세요."
       },
       {
         "id": "9",
@@ -1436,7 +1514,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L9 and L7a. Reassessment is driven by site findings and risk, not aggregate improvement or a reflex antibiotic choice."
+        "reference": "L9 and L7a. Reassessment is driven by site findings and risk, not aggregate improvement or a reflex antibiotic choice.",
+        "hint": "남은 부위의 상태를 확인한 뒤 결정하는 보기를 찾으세요."
       },
       {
         "id": "10",
@@ -1451,7 +1530,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L5 and L9. The study follow-up is a data point; course timing governs the question."
+        "reference": "L5 and L9. The study follow-up is a data point; course timing governs the question.",
+        "hint": "보고된 추적 관찰 시점과 강의의 표준 방문은 용도가 다릅니다."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -1498,7 +1578,8 @@ window.perioPractice = {
           "c"
         ],
         "reference": "L2a and L9. The threshold excludes measured sites ≥6 mm. Other pocket depths, bleeding and CAL are separate outcomes.",
-        "id": "1"
+        "id": "1",
+        "hint": "각 퍼센트가 무엇을 세었는지 확인하세요. 두 분모가 비슷해 보여도 결과를 합칠 수는 없습니다."
       },
       {
         "case": "1",
@@ -1513,7 +1594,8 @@ window.perioPractice = {
           "c"
         ],
         "reference": "L2b · Imaging. A radiograph does not prove regeneration or quantify clinical attachment by itself.",
-        "id": "2"
+        "id": "2",
+        "hint": "영상에서 보이는 것과 조직학적으로 입증해야 하는 것을 나눠 보세요."
       },
       {
         "case": "1",
@@ -1528,7 +1610,8 @@ window.perioPractice = {
           "c"
         ],
         "reference": "L9. Whole-mouth aggregates do not track the status of individual sites.",
-        "id": "3"
+        "id": "3",
+        "hint": "질문이 전체 평균인지 동일 부위의 변화인지 먼저 확인하세요."
       },
       {
         "case": "1",
@@ -1543,7 +1626,8 @@ window.perioPractice = {
           "c"
         ],
         "reference": "L2a · Charting. Baseline CAL is 6 mm; review CAL is also 6 mm (3 + 3).",
-        "id": "4"
+        "id": "4",
+        "hint": "각 시점의 CEJ 기준 값을 써 보고서 두 값을 비교하세요."
       },
       {
         "case": "1",
@@ -1558,7 +1642,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L6b · Classification. Treatment response does not erase the severity or complexity at presentation.",
-        "id": "5"
+        "id": "5",
+        "hint": "처음 분류에 쓰인 중증도와 오늘의 치료 반응을 구분하세요."
       },
       {
         "case": "1",
@@ -1573,7 +1658,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L6b. BOP and response to treatment do not determine progression grade.",
-        "id": "6"
+        "id": "6",
+        "hint": "진행 속도를 추정하는 데 필요한 값이 실제로 주어졌는지 보세요."
       },
       {
         "case": "1",
@@ -1588,7 +1674,8 @@ window.perioPractice = {
           "c"
         ],
         "reference": "L9 · Future treatment and maintenance. Overall improvement does not substitute for checking residual sites.",
-        "id": "7"
+        "id": "7",
+        "hint": "평균이 좋아져도 남아 있는 부위의 상태가 어떤 결정에 영향을 주는지 생각하세요."
       },
       {
         "case": "1",
@@ -1603,7 +1690,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L9. Subtract the reported initial and final numbers. There is no reported matching CAL change.",
-        "id": "8"
+        "id": "8",
+        "hint": "PD와 BOP 변화량을 따로 구하고, 확인하지 않은 CAL 주장은 걸러내세요."
       },
       {
         "id": "9",
@@ -1618,7 +1706,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L9 · PMP. A three-month starting interval is taught for patients with a history of periodontitis. Individual factors may change it."
+        "reference": "L9 · PMP. A three-month starting interval is taught for patients with a history of periodontitis. Individual factors may change it.",
+        "hint": "이미 치료가 끝나 안정된 상황인지부터 확인하세요."
       },
       {
         "id": "10",
@@ -1633,7 +1722,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L9. Evaluate outcome at patient and site level before deciding on the next phase."
+        "reference": "L9. Evaluate outcome at patient and site level before deciding on the next phase.",
+        "hint": "치료를 종료하기 전에 전체 수치와 특정 부위에서 무엇을 함께 봐야 할지 생각하세요."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -1680,7 +1770,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L6b · Complexity. The distractors already fit Stage III complexity. Functional rehabilitation can support Stage IV.",
-        "id": "1"
+        "id": "1",
+        "hint": "Stage III에서도 가능한 소견을 먼저 제외해 보세요."
       },
       {
         "case": "1",
@@ -1695,7 +1786,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L2b and L6b. The films show mixed patterns; radiographs alone do not determine clinical furcation class or Stage IV.",
-        "id": "2"
+        "id": "2",
+        "hint": "영상에서 직접 볼 수 있는 것과 임상 검사로 확정해야 하는 것을 나누세요."
       },
       {
         "case": "1",
@@ -1710,7 +1802,8 @@ window.perioPractice = {
           "c"
         ],
         "reference": "L2a. Clinical horizontal continuity, not a single vertical or radiographic measurement, distinguishes the classes.",
-        "id": "3"
+        "id": "3",
+        "hint": "furcation의 수평 진행을 PD나 영상상의 폭과 구분하세요."
       },
       {
         "case": "1",
@@ -1725,7 +1818,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L9 · Re-evaluation. Local disease can persist despite a favorable mean response.",
-        "id": "4"
+        "id": "4",
+        "hint": "남아 있는 깊은 부위와 출혈 부위가 겹치는지 생각하세요."
       },
       {
         "case": "1",
@@ -1740,7 +1834,8 @@ window.perioPractice = {
           "d"
         ],
         "reference": "L9. A percentage-point change subtracts 3.3 from 26.3. The 87.5 figure is approximately the relative decrease in percent.",
-        "id": "5"
+        "id": "5",
+        "hint": "percentage points와 baseline 대비 상대 감소율을 구분하세요."
       },
       {
         "case": "1",
@@ -1755,7 +1850,8 @@ window.perioPractice = {
           "b"
         ],
         "reference": "L9. The reported changes are early measures, and BOP remains 33.3%.",
-        "id": "6"
+        "id": "6",
+        "hint": "초기 개선, 남은 이상 소견, 장기 안정성을 따로 판단하세요."
       },
       {
         "case": "1",
@@ -1770,7 +1866,8 @@ window.perioPractice = {
           "c"
         ],
         "reference": "L6b. Longitudinal progression is direct grading evidence. Furcation and mobility inform complexity and prognosis.",
-        "id": "7"
+        "id": "7",
+        "hint": "진행의 직접 근거를 보여주는 자료인지, 복잡도를 보여주는 자료인지 보세요."
       },
       {
         "case": "1",
@@ -1785,7 +1882,8 @@ window.perioPractice = {
           "a"
         ],
         "reference": "L9 · Residual disease. Current clinical findings and accessibility guide treatment decisions.",
-        "id": "8"
+        "id": "8",
+        "hint": "결손의 모양이 같더라도 오늘의 염증과 침착물에 따라 판단이 달라질 수 있습니다."
       },
       {
         "id": "9",
@@ -1800,7 +1898,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L9 · Re-evaluation and PMP Interval. Improvement is documented, but the appropriate phase depends on reassessment of disease. Three months is a starting point once stable."
+        "reference": "L9 · Re-evaluation and PMP Interval. Improvement is documented, but the appropriate phase depends on reassessment of disease. Three months is a starting point once stable.",
+        "hint": "숫자 하나로 간격을 정하기 전에 활성 치료가 끝났는지 확인하세요."
       },
       {
         "id": "10",
@@ -1815,7 +1914,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "Dr. Tang · Diagnostic sequence; L6b · Classification. Furcations are one complexity feature. BOP does not measure progression grade."
+        "reference": "Dr. Tang · Diagnostic sequence; L6b · Classification. Furcations are one complexity feature. BOP does not measure progression grade.",
+        "hint": "한 치아 영상과 환자 전체의 분류에 필요한 정보를 구분하세요."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -1860,7 +1960,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L4b · Eke et al., NHANES 2009–2010. 47.2% is the overall study estimate. 70.1% refers to the older group. This is a specific survey estimate."
+        "reference": "L4b · Eke et al., NHANES 2009–2010. 47.2% is the overall study estimate. 70.1% refers to the older group. This is a specific survey estimate.",
+        "hint": "같은 슬라이드의 전체 모집단 수치와 연령 하위군 수치를 나눠 보세요."
       },
       {
         "id": "2",
@@ -1875,7 +1976,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L4b · Eke et al., NHANES 2009–2010. The older group had 70.1% prevalence; the overall estimate was 47.2%."
+        "reference": "L4b · Eke et al., NHANES 2009–2010. The older group had 70.1% prevalence; the overall estimate was 47.2%.",
+        "hint": "같은 자료에서 고령군을 전체 성인 평균과 혼동하지 마세요."
       },
       {
         "id": "3",
@@ -1890,7 +1992,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L4b · NHANES III summary. The lecture distinguishes historical advanced and aggressive categories. These numbers are separate from the later overall survey estimate."
+        "reference": "L4b · NHANES III summary. The lecture distinguishes historical advanced and aggressive categories. These numbers are separate from the later overall survey estimate.",
+        "hint": "두 용어가 쓰인 역사적 분류를 먼저 떠올려 보세요."
       },
       {
         "id": "4",
@@ -1905,7 +2008,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L4b · Prevalence of gingivitis. The slide gives an approximate 50% and 3–4 teeth."
+        "reference": "L4b · Prevalence of gingivitis. The slide gives an approximate 50% and 3–4 teeth.",
+        "hint": "유병률과 침범한 치아 수의 단위를 나눠 기억하세요."
       },
       {
         "id": "5",
@@ -1920,7 +2024,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L4b · Epidemiology. Prevalence describes existing disease. Incidence requires observation over time."
+        "reference": "L4b · Epidemiology. Prevalence describes existing disease. Incidence requires observation over time.",
+        "hint": "한 번의 조사와 일정 기간 추적 조사에서 셀 수 있는 것을 비교하세요."
       },
       {
         "id": "6",
@@ -1935,7 +2040,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L4b · Risk factors. The lecture identifies smoking as a risk factor and age as a nonmodifiable determinant."
+        "reference": "L4b · Risk factors. The lecture identifies smoking as a risk factor and age as a nonmodifiable determinant.",
+        "hint": "두 요소 각각을 바꿀 수 있는지 생각하세요."
       },
       {
         "id": "7",
@@ -1950,7 +2056,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L1b · Junctional epithelium. The JE is 0.25–1.35 mm in the slide. The 0.75–1.49 mm range is for a different anatomic distance."
+        "reference": "L1b · Junctional epithelium. The JE is 0.25–1.35 mm in the slide. The 0.75–1.49 mm range is for a different anatomic distance.",
+        "hint": "상피의 길이인지 골 높이와 관련된 거리인지 구분하세요."
       },
       {
         "id": "8",
@@ -1965,7 +2072,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L1b · Alveolar bone. The stated range is 0.75–1.49 mm, averaging 1.08 mm."
+        "reference": "L1b · Alveolar bone. The stated range is 0.75–1.49 mm, averaging 1.08 mm.",
+        "hint": "두 끝점이 모두 치주 조직의 어디에 있는지 머릿속으로 그려 보세요."
       },
       {
         "id": "9",
@@ -1980,7 +2088,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L1b and L6b · Supracrestal tissue attachment. The sulcus is distinct from the attached epithelial and connective tissue components."
+        "reference": "L1b and L6b · Supracrestal tissue attachment. The sulcus is distinct from the attached epithelial and connective tissue components.",
+        "hint": "sulcus 자체와 치아에 붙는 조직을 따로 그려 보세요."
       },
       {
         "id": "10",
@@ -1995,7 +2104,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L1b · Junctional epithelium. The internal basal lamina faces the tooth, where hemidesmosomes mediate attachment."
+        "reference": "L1b · Junctional epithelium. The internal basal lamina faces the tooth, where hemidesmosomes mediate attachment.",
+        "hint": "치아 쪽 경계와 결합조직 쪽 경계를 나눠 떠올리세요."
       },
       {
         "id": "11",
@@ -2010,7 +2120,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L1b · Gingival epithelium. The two epithelia differ in location and attachment."
+        "reference": "L1b · Gingival epithelium. The two epithelia differ in location and attachment.",
+        "hint": "두 상피 이름을 각 위치에 놓아 보세요."
       },
       {
         "id": "12",
@@ -2025,7 +2136,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L1b · Cementum. The lecture gives overlap as the most common relationship, edge-to-edge around 30%, and gap 5–10%."
+        "reference": "L1b · Cementum. The lecture gives overlap as the most common relationship, edge-to-edge around 30%, and gap 5–10%.",
+        "hint": "CEJ 관계 세 가지를 그림으로 떠올리고 가장 흔한 패턴을 골라 보세요."
       },
       {
         "id": "13",
@@ -2040,7 +2152,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L2a · Probing measurements. CAL measures attachment relative to the CEJ. PD is referenced to the gingival margin."
+        "reference": "L2a · Probing measurements. CAL measures attachment relative to the CEJ. PD is referenced to the gingival margin.",
+        "hint": "측정값의 끝점은 같아도 시작점이 같은지 확인하세요."
       },
       {
         "id": "14",
@@ -2055,7 +2168,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L2a · Gingival measurements. Keratinized width includes marginal and attached gingiva. PD is subtracted when estimating attached gingival width."
+        "reference": "L2a · Gingival measurements. Keratinized width includes marginal and attached gingiva. PD is subtracted when estimating attached gingival width.",
+        "hint": "keratinized tissue 전체와 그 안에 포함된 attached 부분을 구분하세요."
       },
       {
         "id": "15",
@@ -2070,7 +2184,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L2a and L3b · Pockets. Gingival enlargement can increase PD without loss of attachment."
+        "reference": "L2a and L3b · Pockets. Gingival enlargement can increase PD without loss of attachment.",
+        "hint": "깊어진 이유가 부착의 이동인지 margin의 이동인지 생각하세요."
       },
       {
         "id": "16",
@@ -2085,7 +2200,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L3b · Pocket types. The relationship to the alveolar crest distinguishes infrabony and suprabony pockets."
+        "reference": "L3b · Pocket types. The relationship to the alveolar crest distinguishes infrabony and suprabony pockets.",
+        "hint": "infrabony를 정할 때 기준으로 삼는 해부학적 구조를 먼저 찾으세요."
       },
       {
         "id": "17",
@@ -2100,7 +2216,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L2a · Furcations. Horizontal continuity, not pocket depth or BOP, separates the classes."
+        "reference": "L2a · Furcations. Horizontal continuity, not pocket depth or BOP, separates the classes.",
+        "hint": "furcation class를 수직 PD로 읽고 있지 않은지 확인하세요."
       },
       {
         "id": "18",
@@ -2115,7 +2232,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L2b · Radiographic examination. Radiographs show mineralized tissues; clinical measures characterize the soft-tissue pocket and inflammation."
+        "reference": "L2b · Radiographic examination. Radiographs show mineralized tissues; clinical measures characterize the soft-tissue pocket and inflammation.",
+        "hint": "방사선이 보여주는 조직과 탐침으로만 얻는 정보를 분리하세요."
       },
       {
         "id": "19",
@@ -2130,7 +2248,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L3a · Microbial complexes. Only the first trio is the red complex. The substitutions are other organisms associated with oral biofilms."
+        "reference": "L3a · Microbial complexes. Only the first trio is the red complex. The substitutions are other organisms associated with oral biofilms.",
+        "hint": "보기마다 바뀐 균 한 종에 집중해, 강의의 군집표와 대조해 보세요."
       },
       {
         "id": "20",
@@ -2145,7 +2264,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L3a · Biofilm. Calculus is a retention factor as well as a mineralized deposit. Biofilm control remains necessary."
+        "reference": "L3a · Biofilm. Calculus is a retention factor as well as a mineralized deposit. Biofilm control remains necessary.",
+        "hint": "제거 대상과 실제 세균성 자극을 분리해서 생각하세요."
       },
       {
         "id": "21",
@@ -2160,7 +2280,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L3a · Dysbiosis. Dysbiosis is an altered host–microbial relationship and community balance."
+        "reference": "L3a · Dysbiosis. Dysbiosis is an altered host–microbial relationship and community balance.",
+        "hint": "한 종의 존재를 뜻하는지, 군집 수준의 변화인지 구분해 보세요."
       },
       {
         "id": "22",
@@ -2175,7 +2296,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L3b · Initial lesion. Early and established changes come later. The initial lesion can be clinically unapparent."
+        "reference": "L3b · Initial lesion. Early and established changes come later. The initial lesion can be clinically unapparent.",
+        "hint": "시간축에서 임상적으로 잘 보이지 않는 가장 이른 변화를 떠올리세요."
       },
       {
         "id": "23",
@@ -2190,7 +2312,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L3b · Early lesion. The lecture pairs 4–7 days with lymphoid accumulation, lateral epithelial proliferation and collagen loss."
+        "reference": "L3b · Early lesion. The lecture pairs 4–7 days with lymphoid accumulation, lateral epithelial proliferation and collagen loss.",
+        "hint": "initial, early, established를 시간순으로 놓은 뒤 조직 변화를 짝지으세요."
       },
       {
         "id": "24",
@@ -2205,7 +2328,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L3b · Established and advanced lesions. The lecture's established lesion has no alveolar bone loss. The advanced lesion has bone loss and pocket formation."
+        "reference": "L3b · Established and advanced lesions. The lecture's established lesion has no alveolar bone loss. The advanced lesion has bone loss and pocket formation.",
+        "hint": "두 단계에 공통인 연조직 염증을 제외하면 어떤 조직이 남을까요?"
       },
       {
         "id": "25",
@@ -2220,7 +2344,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L6b · Gingival health. The criterion shown is strictly below 10%. At 10%, the inflammatory threshold is met."
+        "reference": "L6b · Gingival health. The criterion shown is strictly below 10%. At 10%, the inflammatory threshold is met.",
+        "hint": "경계값이 포함되는지 문장 부등호를 확인하세요."
       },
       {
         "id": "26",
@@ -2235,7 +2360,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L6b · Extent. For extent, the denominator is teeth affected, and localized is below 30%."
+        "reference": "L6b · Extent. For extent, the denominator is teeth affected, and localized is below 30%.",
+        "hint": "퍼센트뿐 아니라 분모가 무엇인지 함께 보세요."
       },
       {
         "id": "27",
@@ -2250,7 +2376,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L6b · Stage I and II. These thresholds are complexity descriptors. CAL, RBL and other findings still matter."
+        "reference": "L6b · Stage I and II. These thresholds are complexity descriptors. CAL, RBL and other findings still matter.",
+        "hint": "CAL 표와 PD 복잡도 표의 숫자를 섞지 않도록 주의하세요."
       },
       {
         "id": "28",
@@ -2265,7 +2392,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L6b · Severity. The handout lists 1–2 and 3–4 mm. A CAL of ≥5 mm is compatible with the Stage III or IV severity range."
+        "reference": "L6b · Severity. The handout lists 1–2 and 3–4 mm. A CAL of ≥5 mm is compatible with the Stage III or IV severity range.",
+        "hint": "가장 심한 부위의 interdental CAL 범위를 두 Stage별로 떠올리세요."
       },
       {
         "id": "29",
@@ -2280,7 +2408,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L6b · Stage II vs III. A vertical defect of at least 3 mm is listed under Stage III complexity."
+        "reference": "L6b · Stage II vs III. A vertical defect of at least 3 mm is listed under Stage III complexity.",
+        "hint": "중증도 측정과 치료를 어렵게 만드는 국소 요인을 분리하세요."
       },
       {
         "id": "30",
@@ -2295,7 +2424,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L6b · Stage III vs IV. The handout lists Stage III ≤4 and Stage IV ≥5 periodontitis-related losses. Complexity can also shift the stage."
+        "reference": "L6b · Stage III vs IV. The handout lists Stage III ≤4 and Stage IV ≥5 periodontitis-related losses. Complexity can also shift the stage.",
+        "hint": "상실 개수의 경계값과 치아 상실 원인을 따로 확인하세요."
       },
       {
         "id": "31",
@@ -2310,7 +2440,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L6b · Grade direct evidence. Serial CAL or RBL progression of ≥2 mm over five years is the direct Grade C threshold."
+        "reference": "L6b · Grade direct evidence. Serial CAL or RBL progression of ≥2 mm over five years is the direct Grade C threshold.",
+        "hint": "기간, 변화량, 사용한 측정 항목을 함께 확인하세요."
       },
       {
         "id": "32",
@@ -2325,7 +2456,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L6b · Grade indirect evidence. Grade B spans 0.25 to 1.0. Grade C is strictly greater than 1.0."
+        "reference": "L6b · Grade indirect evidence. Grade B spans 0.25 to 1.0. Grade C is strictly greater than 1.0.",
+        "hint": "1.0이 어느 범위에 포함되는지 경계값부터 생각하세요."
       },
       {
         "id": "33",
@@ -2340,7 +2472,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L6b · Smoking modifier. The table uses current consumption of ≥10 cigarettes per day."
+        "reference": "L6b · Smoking modifier. The table uses current consumption of ≥10 cigarettes per day.",
+        "hint": "누적 노출이 아니라 현재 사용량인지, 단위가 하루인지 확인하세요."
       },
       {
         "id": "34",
@@ -2355,7 +2488,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L6b · Diabetes modifier. The grading modifier is HbA1c ≥7.0% in a patient with diabetes."
+        "reference": "L6b · Diabetes modifier. The grading modifier is HbA1c ≥7.0% in a patient with diabetes.",
+        "hint": "당뇨 진단 문턱과 periodontal grade modifier 기준을 구분하세요."
       },
       {
         "id": "35",
@@ -2370,7 +2504,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L6b · Gingival recession. RT1 requires absence of interproximal loss. RT2 and RT3 involve interproximal loss."
+        "reference": "L6b · Gingival recession. RT1 requires absence of interproximal loss. RT2 and RT3 involve interproximal loss.",
+        "hint": "퇴축 깊이만 보지 말고 인접면의 부착 상태를 확인하세요."
       },
       {
         "id": "36",
@@ -2385,7 +2520,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L6a · Occlusion. Fremitus is movement detected during occlusal contact and is distinct from passive mobility."
+        "reference": "L6a · Occlusion. Fremitus is movement detected during occlusal contact and is distinct from passive mobility.",
+        "hint": "치아가 언제 움직이는지를 보기마다 비교해 보세요."
       },
       {
         "id": "37",
@@ -2400,7 +2536,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L6a · Tooth wear. Attrition is tooth contact, abrasion is external mechanical wear, and erosion is chemical."
+        "reference": "L6a · Tooth wear. Attrition is tooth contact, abrasion is external mechanical wear, and erosion is chemical.",
+        "hint": "치아 접촉, 외부 기계력, 화학적 작용을 각각 나눠 보세요."
       },
       {
         "id": "38",
@@ -2415,7 +2552,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L7a · Antimicrobial rinses. Chlorhexidine binds to oral surfaces and is released over time."
+        "reference": "L7a · Antimicrobial rinses. Chlorhexidine binds to oral surfaces and is released over time.",
+        "hint": "헹군 직후 효과와 시간이 지난 뒤에도 남는 효과의 차이를 생각하세요."
       },
       {
         "id": "39",
@@ -2430,7 +2568,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L7a · Local delivery. Arestin contains minocycline; Atridox contains doxycycline; PerioChip contains chlorhexidine."
+        "reference": "L7a · Local delivery. Arestin contains minocycline; Atridox contains doxycycline; PerioChip contains chlorhexidine.",
+        "hint": "제품 이름을 전달 형태와 활성 성분이라는 두 칸에 나눠 보세요."
       },
       {
         "id": "40",
@@ -2445,7 +2584,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L7a · Host modulation. The slide identifies Periostat 20 mg doxycycline, twice daily, as a host-modulating dose."
+        "reference": "L7a · Host modulation. The slide identifies Periostat 20 mg doxycycline, twice daily, as a host-modulating dose.",
+        "hint": "이 용량이 목표로 하는 것이 균 억제인지 숙주 반응인지 생각하세요."
       },
       {
         "id": "41",
@@ -2460,7 +2600,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L7b · Abscess differential. The lecture differentiates gingival abscess by confinement to gingiva without attachment or bone loss from the lesion."
+        "reference": "L7b · Abscess differential. The lecture differentiates gingival abscess by confinement to gingiva without attachment or bone loss from the lesion.",
+        "hint": "감염이 포함하는 조직 범위를 기준으로 보기들을 비교하세요."
       },
       {
         "id": "42",
@@ -2475,7 +2616,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L7b · Necrotizing disease. Necrosis can be seen in both. Periodontal attachment or bone destruction separates the more destructive form."
+        "reference": "L7b · Necrotizing disease. Necrosis can be seen in both. Periodontal attachment or bone destruction separates the more destructive form.",
+        "hint": "두 진단에 공통인 치은 소견을 먼저 지워 보세요."
       },
       {
         "id": "43",
@@ -2490,7 +2632,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L7b · Urgent treatment. Systemic features change the antibiotic decision. Local source control remains part of treatment."
+        "reference": "L7b · Urgent treatment. Systemic features change the antibiotic decision. Local source control remains part of treatment.",
+        "hint": "이미 국소 처치가 되었다는 조건을 먼저 적용하세요."
       },
       {
         "id": "44",
@@ -2505,7 +2648,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L5 and L9 · Timing. Connective tissue repair continues through 4–8 weeks. The maintenance interval is a separate decision."
+        "reference": "L5 and L9 · Timing. Connective tissue repair continues through 4–8 weeks. The maintenance interval is a separate decision.",
+        "hint": "치료 시작일이 아니라 무엇이 끝난 시점부터 재는지 떠올리세요."
       },
       {
         "id": "45",
@@ -2520,7 +2664,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L9 · Periodontal maintenance. The lecture teaches a three-month starting schedule, individualized by disease, home care and patient factors."
+        "reference": "L9 · Periodontal maintenance. The lecture teaches a three-month starting schedule, individualized by disease, home care and patient factors.",
+        "hint": "안정된 환자의 방문인지, 초기 치료 반응을 처음 확인하는 방문인지 구분하세요."
       },
       {
         "id": "46",
@@ -2535,7 +2680,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L9 · Microbial recolonization. The lecture cites 60–90 days as part of its rationale for maintenance scheduling."
+        "reference": "L9 · Microbial recolonization. The lecture cites 60–90 days as part of its rationale for maintenance scheduling.",
+        "hint": "연조직 치유 기간과 세균 재집락화 기간을 섞지 마세요."
       },
       {
         "id": "47",
@@ -2550,7 +2696,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L5 · Treatment sequence. Confirm the diagnosis and treatment plan, start home care, perform instrumentation, and assess response afterward."
+        "reference": "L5 · Treatment sequence. Confirm the diagnosis and treatment plan, start home care, perform instrumentation, and assess response afterward.",
+        "hint": "왜 하는지 결정하는 단계와 결과를 확인하는 단계를 양 끝에 놓아 보세요."
       },
       {
         "id": "48",
@@ -2565,7 +2712,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L2a · Calculation. Subtract the 2 mm coronal offset from PD. If the margin had been apical, it would be added."
+        "reference": "L2a · Calculation. Subtract the 2 mm coronal offset from PD. If the margin had been apical, it would be added.",
+        "hint": "CEJ, margin, pocket base를 세로로 그려 보세요. margin이 CEJ보다 위인지 확인하세요."
       },
       {
         "id": "49",
@@ -2580,7 +2728,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L2a · Calculation. Keratinized width = 8 − 2 = 6 mm. Attached gingiva = 6 − 4 = 2 mm."
+        "reference": "L2a · Calculation. Keratinized width = 8 − 2 = 6 mm. Attached gingiva = 6 − 4 = 2 mm.",
+        "hint": "두 거리의 출발점이 CEJ라는 점을 먼저 보세요. 먼저 margin–MGJ 거리를 구하세요."
       },
       {
         "id": "50",
@@ -2595,7 +2744,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L2a · Calculation. The denominator is 25 × 4 = 100 scored surfaces. The plaque score is 35 ÷ 100 = 35%."
+        "reference": "L2a · Calculation. The denominator is 25 × 4 = 100 scored surfaces. The plaque score is 35 ÷ 100 = 35%.",
+        "hint": "분자는 양성 치면, 분모는 전체 검사 치면입니다. 치아 수와 혼동하지 마세요."
       }
     ],
     "note": "47 concepts · 3 calculations",
@@ -2620,7 +2770,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L6b · Gingival diseases. Amlodipine can contribute to enlargement. Bleeding and loss of bone support remain separate clinical findings to assess."
+        "reference": "L6b · Gingival diseases. Amlodipine can contribute to enlargement. Bleeding and loss of bone support remain separate clinical findings to assess.",
+        "hint": "약물과 연관될 수 있는 연조직 소견과 영상의 지지조직 소견을 따로 설명해 보세요."
       },
       {
         "id": "2",
@@ -2635,7 +2786,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L2a and L6b · Charting. A coronal shift of the margin can deepen PD without moving the attachment."
+        "reference": "L2a and L6b · Charting. A coronal shift of the margin can deepen PD without moving the attachment.",
+        "hint": "치은이 커져서 탐침이 더 길게 들어가는 것과 부착이 소실된 것은 별개입니다."
       },
       {
         "id": "3",
@@ -2650,7 +2802,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "Dr. Tang · Diagnostic sequence. A systemic and medication review plus clinical and radiographic examination precede final classification."
+        "reference": "Dr. Tang · Diagnostic sequence. A systemic and medication review plus clinical and radiographic examination precede final classification.",
+        "hint": "약력과 차트가 각각 확인해 주는 정보를 나눠 보세요."
       },
       {
         "id": "4",
@@ -2665,7 +2818,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L5 · Phase I. Initial periodontal therapy addresses local biofilm and calculus. A medication modification is coordinated with the clinician managing blood pressure."
+        "reference": "L5 · Phase I. Initial periodontal therapy addresses local biofilm and calculus. A medication modification is coordinated with the clinician managing blood pressure.",
+        "hint": "국소 조절을 어떻게 하고 약 변경을 누가 결정하는지 따로 생각하세요."
       },
       {
         "id": "5",
@@ -2680,7 +2834,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L6b · Grading. The grade modifier uses HbA1c, not duration of diabetes or the size of the tissue."
+        "reference": "L6b · Grading. The grade modifier uses HbA1c, not duration of diabetes or the size of the tissue.",
+        "hint": "당뇨가 있다는 사실과 현재 조절 상태에 해당하는 값을 구분하세요."
       },
       {
         "id": "6",
@@ -2695,7 +2850,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L7a · Systemic adjuncts. BOP indicates inflammation. Drug involvement or bone loss does not independently indicate an acute systemic adjunct."
+        "reference": "L7a · Systemic adjuncts. BOP indicates inflammation. Drug involvement or bone loss does not independently indicate an acute systemic adjunct.",
+        "hint": "출혈과 전신 감염 징후가 같은 의미인지 확인하세요."
       },
       {
         "id": "7",
@@ -2710,7 +2866,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L5 and L9 · Re-evaluation. The initial-therapy review is timed from completion and is distinct from supportive recall."
+        "reference": "L5 and L9 · Re-evaluation. The initial-therapy review is timed from completion and is distinct from supportive recall.",
+        "hint": "어느 날부터 시계를 시작하는지 보기마다 비교해 보세요."
       },
       {
         "id": "8",
@@ -2725,7 +2882,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L9 · Outcome. Persistent functional interference can change the treatment decision even if inflammation improves."
+        "reference": "L9 · Outcome. Persistent functional interference can change the treatment decision even if inflammation improves.",
+        "hint": "염증이 줄어도 환자가 칫솔질하기 어려운 부위가 남을 수 있습니다."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -2773,7 +2931,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L2a · Periodontal charting. Percussion may be positive for several reasons. A film obtained after treatment cannot establish the baseline pulp status."
+        "reference": "L2a · Periodontal charting. Percussion may be positive for several reasons. A film obtained after treatment cannot establish the baseline pulp status.",
+        "hint": "오늘의 검사와 나중에 촬영된 영상의 순서부터 정리하세요."
       },
       {
         "id": "2",
@@ -2788,7 +2947,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "Dr. Tang and L6b · Diagnostic sequence. Extent uses the pattern and number of affected teeth; a single deep site does not describe the whole mouth."
+        "reference": "Dr. Tang and L6b · Diagnostic sequence. Extent uses the pattern and number of affected teeth; a single deep site does not describe the whole mouth.",
+        "hint": "가장 깊은 한 부위가 전체 분포를 대표하는지 따져 보세요."
       },
       {
         "id": "3",
@@ -2803,7 +2963,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L6b · Stage III versus IV. Deep readings, angular defects and CAL ≥5 mm can occur in Stage III. Document the Stage IV functional criterion separately."
+        "reference": "L6b · Stage III versus IV. Deep readings, angular defects and CAL ≥5 mm can occur in Stage III. Document the Stage IV functional criterion separately.",
+        "hint": "Stage III에서도 나올 수 있는 보기부터 걸러 보세요."
       },
       {
         "id": "4",
@@ -2818,7 +2979,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L6b · Grading. Ex-smoking is not the same as current consumption. Use progression evidence and applicable modifiers."
+        "reference": "L6b · Grading. Ex-smoking is not the same as current consumption. Use progression evidence and applicable modifiers.",
+        "hint": "현재 흡연 여부와 과거 누적 노출을 분리하세요."
       },
       {
         "id": "5",
@@ -2833,7 +2995,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L6b · Cairo classification. Cairo classification compares buccal and interproximal attachment; visible recession alone does not determine RT class."
+        "reference": "L6b · Cairo classification. Cairo classification compares buccal and interproximal attachment; visible recession alone does not determine RT class.",
+        "hint": "Cairo 분류에서 비교하는 치아의 두 면을 떠올려 보세요."
       },
       {
         "id": "6",
@@ -2848,7 +3011,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L5 and L9 · Initial care. Initial care and reassessment inform prognosis and the definitive plan."
+        "reference": "L5 and L9 · Initial care. Initial care and reassessment inform prognosis and the definitive plan.",
+        "hint": "최종 수복 전에 어떤 상태가 달라지는지 확인해야 할까요?"
       },
       {
         "id": "7",
@@ -2863,7 +3027,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L7a · Adjunct selection. Local and systemic assessment determines whether an adjunct is justified. Drug safety information is reviewed if an antibiotic is needed."
+        "reference": "L7a · Adjunct selection. Local and systemic assessment determines whether an adjunct is justified. Drug safety information is reviewed if an antibiotic is needed.",
+        "hint": "깊은 부위가 있다는 정보만으로 약의 종류까지 고를 수 있는지 보세요."
       },
       {
         "id": "8",
@@ -2878,7 +3043,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L9 · Supportive therapy. The lecture starts with three months for a history of periodontitis and individualizes subsequent care."
+        "reference": "L9 · Supportive therapy. The lecture starts with three months for a history of periodontitis and individualizes subsequent care.",
+        "hint": "지금 선택하는 것이 재평가인지 안정 후 유지관리인지 먼저 확인하세요."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -2931,7 +3097,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L7b · Differential diagnosis. The exam supplies direct periodontal involvement and concern about pulpal status. The cause or temporal sequence cannot be inferred from the film alone."
+        "reference": "L7b · Differential diagnosis. The exam supplies direct periodontal involvement and concern about pulpal status. The cause or temporal sequence cannot be inferred from the film alone.",
+        "hint": "서로 다른 두 조직에 대한 직접 검사 소견을 찾아 보세요."
       },
       {
         "id": "2",
@@ -2946,7 +3113,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "Dr. Tang and L7b · Assessment. Urgent assessment integrates local and systemic information before committing to irreversible decisions."
+        "reference": "Dr. Tang and L7b · Assessment. Urgent assessment integrates local and systemic information before committing to irreversible decisions.",
+        "hint": "되돌릴 수 없는 처치를 정하기 전에 어느 정보를 확인하는지 보기마다 따져 보세요."
       },
       {
         "id": "3",
@@ -2961,7 +3129,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L7b · Acute treatment. L7b lists drainage as immediate treatment. The definitive plan depends on diagnosis and prognosis."
+        "reference": "L7b · Acute treatment. L7b lists drainage as immediate treatment. The definitive plan depends on diagnosis and prognosis.",
+        "hint": "국소 증상을 해결하는 오늘의 처치와 장기 보존의 결정을 나누세요."
       },
       {
         "id": "4",
@@ -2976,7 +3145,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L7a and L7b · Antibiotic decision. Local drainage and definitive care remain necessary. Added systemic signs would change the adjunct decision."
+        "reference": "L7a and L7b · Antibiotic decision. Local drainage and definitive care remain necessary. Added systemic signs would change the adjunct decision.",
+        "hint": "이미 국소 감염원이 처리되었다는 조건을 먼저 적용하세요."
       },
       {
         "id": "5",
@@ -2991,7 +3161,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "Dr. Tang · Medical history; L7a · Systemic drugs. Immediate hives are consistent with an immediate-type reaction. Excluding amoxicillin does not establish that any of the other options is the right regimen."
+        "reference": "Dr. Tang · Medical history; L7a · Systemic drugs. Immediate hives are consistent with an immediate-type reaction. Excluding amoxicillin does not establish that any of the other options is the right regimen.",
+        "hint": "이번에는 적응증이 주어졌습니다. 이제 약력의 반응과 약 이름을 대조하세요."
       },
       {
         "id": "6",
@@ -3006,7 +3177,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L9 · Re-evaluation. Use the end of Phase I as the anchor. Acute infection follow-up is a separate appointment."
+        "reference": "L9 · Re-evaluation. Use the end of Phase I as the anchor. Acute infection follow-up is a separate appointment.",
+        "hint": "응급 치료 날짜와 Phase I 완료 날짜를 각각 표시하세요."
       },
       {
         "id": "7",
@@ -3021,7 +3193,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L2b and L9 · Follow-up. A film may suggest fill; it cannot verify new attachment or identify clinical stability on its own."
+        "reference": "L2b and L9 · Follow-up. A film may suggest fill; it cannot verify new attachment or identify clinical stability on its own.",
+        "hint": "밀도 변화가 임상적으로 입증하지 못하는 것을 생각하세요."
       },
       {
         "id": "8",
@@ -3036,7 +3209,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L9 · Prognosis. A revised prognosis considers support, inflammation, function and feasibility of retaining the tooth."
+        "reference": "L9 · Prognosis. A revised prognosis considers support, inflammation, function and feasibility of retaining the tooth.",
+        "hint": "증상 완화, 치주 지지, 수복 가능성을 각각 따로 평가하세요."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -3085,7 +3259,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L2a and L2b · Furcation. Class II is a cul-de-sac defect. Recession and a radiograph do not establish through-and-through involvement."
+        "reference": "L2a and L2b · Furcation. Class II is a cul-de-sac defect. Recession and a radiograph do not establish through-and-through involvement.",
+        "hint": "영상의 그림자보다 실제 horizontal probing 경로가 무엇을 보여주는지 보세요."
       },
       {
         "id": "2",
@@ -3100,7 +3275,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L2a · Attachment. An apical gingival margin makes CAL equal to PD plus recession."
+        "reference": "L2a · Attachment. An apical gingival margin makes CAL equal to PD plus recession.",
+        "hint": "CEJ와 margin의 관계로 어느 쪽에서 거리가 시작되는지 확인하세요."
       },
       {
         "id": "3",
@@ -3115,7 +3291,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L6b · Recession classification. RT1, RT2 and RT3 distinguish patterns of interproximal loss relative to facial loss."
+        "reference": "L6b · Recession classification. RT1, RT2 and RT3 distinguish patterns of interproximal loss relative to facial loss.",
+        "hint": "recession 높이 외에도 어느 면을 확인해야 하는지 떠올리세요."
       },
       {
         "id": "4",
@@ -3130,7 +3307,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L9 · Residual disease. A persistent deep site should be assessed for current inflammation and feasibility of additional treatment."
+        "reference": "L9 · Residual disease. A persistent deep site should be assessed for current inflammation and feasibility of additional treatment.",
+        "hint": "잔존 PD의 크기와 그 부위의 현재 염증 상태를 구분하세요."
       },
       {
         "id": "5",
@@ -3145,7 +3323,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L7a · Local agents and allergy. PerioChip is chlorhexidine. Minocycline, doxycycline and tetracycline are in the tetracycline class. This asks about class selection after an indication is established."
+        "reference": "L7a · Local agents and allergy. PerioChip is chlorhexidine. Minocycline, doxycycline and tetracycline are in the tetracycline class. This asks about class selection after an indication is established.",
+        "hint": "제품명이 아니라 각 약의 성분과 계열로 보기들을 분류하세요."
       },
       {
         "id": "6",
@@ -3160,7 +3339,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L7a · Local versus systemic therapy. An allergy constrains medication options; it does not determine whether an adjunct is indicated."
+        "reference": "L7a · Local versus systemic therapy. An allergy constrains medication options; it does not determine whether an adjunct is indicated.",
+        "hint": "사용 가능 여부와 애초에 투여해야 하는지는 별개입니다."
       },
       {
         "id": "7",
@@ -3175,7 +3355,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L9 · Timing. The transition is a clinical decision based on response."
+        "reference": "L9 · Timing. The transition is a clinical decision based on response.",
+        "hint": "시간이 충분히 지났다는 것과 상태가 안정됐다는 것을 구분하세요."
       },
       {
         "id": "8",
@@ -3190,7 +3371,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L2b and L9 · Outcome. The best assessment integrates probing, attachment and inflammatory response."
+        "reference": "L2b and L9 · Outcome. The best assessment integrates probing, attachment and inflammatory response.",
+        "hint": "하나의 숫자나 영상보다 서로 독립된 임상 지표를 함께 보세요."
       }
     ],
     "note": "Clinical and radiographic exhibits",
@@ -3231,7 +3413,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "Dr. Tang and L7b · Diagnostic reasoning. The extreme buccal site is localized and coexists with absent sensibility and a trauma history. Other sites do not establish a generalized pattern."
+        "reference": "Dr. Tang and L7b · Diagnostic reasoning. The extreme buccal site is localized and coexists with absent sensibility and a trauma history. Other sites do not establish a generalized pattern.",
+        "hint": "한 치아의 두 면과 주변 치아를 비교해서 분포를 먼저 살펴보세요."
       },
       {
         "id": "2",
@@ -3246,7 +3429,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "Dr. Tang · Sequence of procedures. The lecture calls for a systematic assessment and integration of history, clinical findings and tests."
+        "reference": "Dr. Tang · Sequence of procedures. The lecture calls for a systematic assessment and integration of history, clinical findings and tests.",
+        "hint": "병력, 탐침, 치수 반응, 영상이 각기 다른 질문에 답한다는 점부터 시작하세요."
       },
       {
         "id": "3",
@@ -3261,7 +3445,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L6b · Periodontitis case definition. Classification requires a consistent pattern and exclusion of other causes such as a local endodontic lesion."
+        "reference": "L6b · Periodontitis case definition. Classification requires a consistent pattern and exclusion of other causes such as a local endodontic lesion.",
+        "hint": "하나의 깊은 국소 부위가 있는 이유가 여러 가지일 수 있습니다."
       },
       {
         "id": "4",
@@ -3276,7 +3461,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L7b · Immediate versus definitive care. Acute source control is the priority. Response to an antibiotic does not distinguish the origin."
+        "reference": "L7b · Immediate versus definitive care. Acute source control is the priority. Response to an antibiotic does not distinguish the origin.",
+        "hint": "급한 문제를 해결하는 단계와 원인에 맞는 최종 처치를 나눠 보세요."
       },
       {
         "id": "5",
@@ -3291,7 +3477,8 @@ window.perioPractice = {
         "key": [
           "d"
         ],
-        "reference": "L7a · Allergy and indication. Determine whether a systemic adjunct is needed before selecting an agent. Allergies affect selection if there is an indication."
+        "reference": "L7a · Allergy and indication. Determine whether a systemic adjunct is needed before selecting an agent. Allergies affect selection if there is an indication.",
+        "hint": "알레르기를 고려하기 전에 먼저 현재 처방 적응증이 있는지 점검하세요."
       },
       {
         "id": "6",
@@ -3306,7 +3493,8 @@ window.perioPractice = {
         "key": [
           "b"
         ],
-        "reference": "L9 · Clinical outcome. Changes in PD and the margin can both contribute. CAL needs a stable reference."
+        "reference": "L9 · Clinical outcome. Changes in PD and the margin can both contribute. CAL needs a stable reference.",
+        "hint": "깊이의 차이가 고정된 기준점에서 잰 길이의 차이인지 확인하세요."
       },
       {
         "id": "7",
@@ -3321,7 +3509,8 @@ window.perioPractice = {
         "key": [
           "c"
         ],
-        "reference": "L2b · Radiographic interpretation. A film shows location and mineralized changes but cannot supply the complete etiologic diagnosis."
+        "reference": "L2b · Radiographic interpretation. A film shows location and mineralized changes but cannot supply the complete etiologic diagnosis.",
+        "hint": "영상의 위치 정보와 병력 및 임상 검사 정보를 맞춰 보세요."
       },
       {
         "id": "8",
@@ -3336,7 +3525,8 @@ window.perioPractice = {
         "key": [
           "a"
         ],
-        "reference": "L9 · Follow-up. New or recurrent acute findings warrant earlier clinical reassessment."
+        "reference": "L9 · Follow-up. New or recurrent acute findings warrant earlier clinical reassessment.",
+        "hint": "과거 소견과 오늘 새로 나타난 소견을 구분하세요."
       }
     ],
     "note": "Clinical and radiographic exhibits",

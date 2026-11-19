@@ -7,6 +7,7 @@ const questionPanel = byId('question');
 const palette = byId('palette');
 const dialog = byId('confirm');
 const caseNotes = byId('case-notes');
+const drugReference = byId('drug-reference');
 let year;
 let state;
 
@@ -84,6 +85,10 @@ function openExam(selectedYear, previous) {
   state = previous || { index: 0, answers: {}, flags: {}, started: Date.now(), finished: null, notes: priorNotes || '' };
   home.hidden = true;
   attempt.hidden = false;
+  if (drugReference) {
+    drugReference.hidden = !exam.figures;
+    drugReference.open = false;
+  }
   if (caseNotes) {
     byId('notes-panel').hidden = !exam.figures;
     byId('notes-panel').open = true;
@@ -194,6 +199,13 @@ function render() {
   const stem = element('p', q.stem);
   stem.id = 'current-stem';
   questionPanel.append(stem);
+  if (q.hint && !state.finished) {
+    const hint = element('details', null, 'question-hint');
+    const text = element('p', q.hint);
+    text.lang = 'ko';
+    hint.append(element('summary', 'Hint'), text);
+    questionPanel.append(hint);
+  }
   if (q.image) addImage(q.image, 'Illustration from the recall PDF');
   if (q.missingImage) questionPanel.append(element('p', 'The original image is missing from the recall.', 'note'));
   if (q.edited) questionPanel.append(element('p', 'Prompt reconstructed from the recall.', 'note'));
