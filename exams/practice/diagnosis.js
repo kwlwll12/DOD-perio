@@ -39,124 +39,125 @@ Object.assign(window.perioPractice, {
       {
         "id": "1",
         "case": "1",
-        "stem": "The baseline chart shows a deep pocket next to a root-filled tooth. Which finding best argues against a gingival abscess confined to the soft tissue?",
+        "stem": "Use the baseline chart and panels A–B. An isolated deep tract also occurs with a vertical root fracture. Which entry best reflects what is established at intake?",
         "choices": {
-          "a": "A defective coronal restoration",
-          "b": "Loss of periodontal attachment at the deep site",
-          "c": "Pain on chewing",
-          "d": "Buccal swelling alone"
+          "a": "Acute periodontal abscess of confirmed periodontal origin",
+          "b": "Suppurating periodontal defect; endodontic communication or root fracture still needs assessment",
+          "c": "Primary endodontic lesion with confirmed secondary drainage through the sulcus",
+          "d": "Vertical root fracture established by the unfavourable probing pattern"
         },
         "key": [
           "b"
         ],
-        "reference": "L7b · Differential diagnosis. The marked loss of attachment supports deeper periodontal involvement."
+        "reference": "L6b/L7b · Endodontic–periodontal lesions. Deep probing and suppuration establish clinical involvement. The root-filled tooth and localized pattern warrant assessment of the root and endodontic source before assigning a primary cause."
       },
       {
         "id": "2",
         "case": "1",
-        "stem": "Which next assessment best addresses the possibility of a combined lesion?",
+        "stem": "Suppose repeat examination shows a narrow isolated pocket, and a sinus tract traces to the middle third of one root rather than its apex. How should these findings change the differential?",
         "choices": {
-          "a": "Trace a patent sinus tract if present, probe around the roots, and assess the prior endodontic treatment and the film together",
-          "b": "Base the diagnosis on pulp sensibility of the root-filled tooth alone",
-          "c": "Repeat a panoramic film and classify by radiolucency size",
-          "d": "Confirm only whether the tooth is mobile"
+          "a": "They favor primary apical disease and rule out a fracture",
+          "b": "They establish a periodontal abscess arising in a pre-existing generalized pocket",
+          "c": "They raise suspicion for a root defect but do not establish it",
+          "d": "They confirm endodontic–periodontal communication through the apical foramen"
         },
         "key": [
-          "d"
+          "c"
         ],
-        "reference": "L7b · Diagnosis. Probing, tract location, prior endodontic status and imaging together help localize the source."
+        "reference": "L7b · Source localization. An isolated probing tract and lateral tracing raise suspicion of root damage. Neither maps the underlying lesion to a single cause."
       },
       {
         "id": "3",
         "case": "1",
-        "stem": "Which radiographic finding would most strongly prompt a targeted clinical furcation examination?",
+        "stem": "Assume drainage is accessible through the pocket. The patient is afebrile with no spread today. Which sequence best fits this visit and the next?",
         "choices": {
-          "a": "Widening of the pulp chamber",
-          "b": "Radiolucency between the roots",
-          "c": "An opacity in the crown",
-          "d": "A supragingival restoration margin"
-        },
-        "key": [
-          "a"
-        ],
-        "reference": "L2b · Radiographic examination. Interradicular loss is a reason to probe the furcation clinically."
-      },
-      {
-        "id": "4",
-        "case": "1",
-        "stem": "Assume the collection is accessible and the patient has no systemic or spreading signs. Which plan is most appropriate at the urgent visit?",
-        "choices": {
-          "a": "Proceed directly to regenerative surgery",
-          "b": "Wait for spontaneous drainage before reassessment",
-          "c": "Start systemic antibiotics and delay drainage",
-          "d": "Establish local drainage, debride as indicated, and arrange review"
-        },
-        "key": [
-          "c"
-        ],
-        "reference": "L7b · Urgent treatment. Source control comes first when accessible. Systemic antibiotics are adjunctive when indicated."
-      },
-      {
-        "id": "5",
-        "case": "1",
-        "stem": "Which new finding most changes the decision about an adjunctive systemic antibiotic?",
-        "choices": {
-          "a": "A radiolucency at the furcation",
-          "b": "A long-standing defective restoration",
-          "c": "Two adjacent deep probing readings",
-          "d": "Fever with spreading swelling"
-        },
-        "key": [
-          "d"
-        ],
-        "reference": "L7a/L7b · Systemic adjuncts. Fever and spread change the urgency and support consideration of a systemic adjunct."
-      },
-      {
-        "id": "6",
-        "case": "1",
-        "stem": "A charted 9 mm pocket becomes 3 mm. If the margin was initially at the CEJ, which follow-up margin would make the attachment gain only 2 mm?",
-        "choices": {
-          "a": "2 mm apical to CEJ",
-          "b": "4 mm apical to CEJ",
-          "c": "2 mm coronal to CEJ",
-          "d": "4 mm coronal to CEJ"
-        },
-        "key": [
-          "a"
-        ],
-        "reference": "L2a · Charting. Follow-up CAL must be 7 mm. A 3 mm pocket plus 4 mm recession gives 7 mm."
-      },
-      {
-        "id": "7",
-        "case": "1",
-        "stem": "Which follow-up observation most directly challenges the impression that the site is controlled?",
-        "choices": {
-          "a": "A smaller residual radiolucency at early review",
-          "b": "Suppuration from a persistent deep site",
-          "c": "Detectable recession after the acute inflammation subsides",
-          "d": "An intact restoration at the review visit"
-        },
-        "key": [
-          "c"
-        ],
-        "reference": "L9 · Re-evaluation. Persistent suppuration with deep probing warrants renewed site assessment."
-      },
-      {
-        "id": "8",
-        "case": "1",
-        "stem": "Once the acute swelling resolves, which order best supports a decision to retain and treat the tooth?",
-        "choices": {
-          "a": "Choose an antibiotic based on mobility, then decide whether to chart",
-          "b": "Regenerate the defect, then measure its initial prognosis",
-          "c": "Reassess the source, periodontal response and restorability, then select definitive care",
-          "d": "Book supportive care, then revisit the etiology if symptoms recur"
+          "a": "Instrument the quadrant and prescribe an adjunct today → then review the source",
+          "b": "Drain and debride the affected site as feasible → reassess the source and prognosis → select definitive care",
+          "c": "Drain and prescribe empiric systemic therapy today → proceed to surgery if pain resolves",
+          "d": "Retreat the root canal first → drain only if the swelling persists"
         },
         "key": [
           "b"
         ],
-        "reference": "L7b/L9 · Definitive care. The combined post-acute findings guide the definitive treatment plan."
+        "reference": "L7b · Acute management. The urgent target is accessible drainage and source control. No systemic indication is supplied, and definitive treatment depends on reassessment."
+      },
+      {
+        "id": "4",
+        "case": "1",
+        "stem": "At urgent review, assume fever and progressive regional swelling have developed, no drug allergy is documented, and amoxicillin is selected as an adjunct. Which order reproduces the L7a example and preserves the role of local care?",
+        "choices": {
+          "a": "Drainage as indicated; 500 mg every 8 hours for 7 days, #21",
+          "b": "Drainage as indicated; 500 mg every 12 hours for 8 days, #16",
+          "c": "Drainage as indicated; 500 mg every 8 hours for 8 days, #24",
+          "d": "Drainage after the course; 500 mg every 8 hours for 8 days, #24"
+        },
+        "key": [
+          "c"
+        ],
+        "reference": "L7a/L7b · Prescriptions. L7a uses 500 mg three times daily for eight days. Systemic involvement changes the adjunct decision but does not remove the need for local source control."
+      },
+      {
+        "id": "5",
+        "case": "1",
+        "stem": "At the same aspect, the baseline chart records 9 mm and the review records 3 mm. In this exercise, the margin shifts from 1 mm coronal to 3 mm apical to the CEJ. What changed? (PD reduction : CAL gain)",
+        "choices": {
+          "a": "6 mm : 2 mm",
+          "b": "6 mm : 4 mm",
+          "c": "4 mm : 2 mm",
+          "d": "6 mm : 6 mm"
+        },
+        "key": [
+          "a"
+        ],
+        "reference": "L2a/L9 · Chart comparison. CAL moves from 8 mm to 6 mm. The 4 mm apical margin shift accounts for the difference between 6 mm PD reduction and 2 mm attachment gain."
+      },
+      {
+        "id": "6",
+        "case": "1",
+        "stem": "Statement 1: An interradicular radiolucency alone distinguishes Class II from Class III. Statement 2: A through-and-through furcation covered by gingiva is Class III rather than Class IV.",
+        "choices": {
+          "a": "Both statements are true",
+          "b": "Both statements are false",
+          "c": "Statement 1 is true; statement 2 is false",
+          "d": "Statement 1 is false; statement 2 is true"
+        },
+        "key": [
+          "d"
+        ],
+        "reference": "L2a/L2b · Glickman furcation. Horizontal clinical probing establishes patency. Class IV is through-and-through with the entrance clinically exposed by recession."
+      },
+      {
+        "id": "7",
+        "case": "1",
+        "stem": "Which paired follow-up finding is least consistent with satisfactory acute control, even though the probing readings have improved?",
+        "choices": {
+          "a": "3 mm PD with increased recession and no exudate",
+          "b": "3 mm PD with ongoing exudate on probing",
+          "c": "4 mm PD with no pain and a persistent early radiolucency",
+          "d": "4 mm PD with reduced mobility and no swelling"
+        },
+        "key": [
+          "b"
+        ],
+        "reference": "L7b/L9 · Outcome. Persistent exudate is specifically an unfavorable outcome. Recession and early residual radiographic change alone are weaker indicators."
+      },
+      {
+        "id": "8",
+        "case": "1",
+        "stem": "If the tooth becomes comfortable and the pocket shrinks, which finding would most directly redirect the definitive plan toward a root-related prognosis rather than defect repair alone?",
+        "choices": {
+          "a": "Residual angular bone morphology alongside an intact root",
+          "b": "A detectable incomplete furcation with no suppuration",
+          "c": "Direct visualization of a vertical fracture communicating with the defect",
+          "d": "Residual mobility that falls further after inflammation control"
+        },
+        "key": [
+          "c"
+        ],
+        "reference": "L6b/L7b · Prognosis. Confirmed communicating root damage changes the nature of the lesion and the prognosis despite symptomatic improvement."
       }
-    ]
+    ],
+    "revision": 2
   },
   "diagnosis-b": {
     "title": "Diagnosis B · Anterior spacing with a localized deep defect",
@@ -195,124 +196,125 @@ Object.assign(window.perioPractice, {
       {
         "id": "1",
         "case": "1",
-        "stem": "Use the worst-site estimate and affected tooth count supplied for the exercise. Which classification fits best?",
+        "stem": "Correlate the baseline films with the exercise measurements. Six of 28 teeth are affected; worst RBL is 45% of root length and the vertical component exceeds 3 mm. No periodontal tooth loss or functional complexity is reported. Which classification is best?",
         "choices": {
-          "a": "Localized Stage II Grade B",
-          "b": "Generalized Stage III Grade C",
+          "a": "Localized Stage II Grade C",
+          "b": "Localized Stage III Grade B",
           "c": "Localized Stage III Grade C",
-          "d": "Localized Stage IV Grade C"
+          "d": "Generalized Stage III Grade C"
         },
         "key": [
           "c"
         ],
-        "reference": "L6b · Staging and grading. Six of 28 is under 30%. A deep vertical defect and 45% bone loss support Stage III. 45 ÷ 34 is greater than 1."
+        "reference": "L6b · Classification. Six of 28 is below 30%; middle-third loss and the vertical defect support Stage III; 45 ÷ 34 exceeds 1."
       },
       {
         "id": "2",
         "case": "1",
-        "stem": "Using 28 teeth as the denominator, what is the smallest affected tooth count that reaches the generalized threshold?",
+        "stem": "At full-mouth charting, three more teeth meet the case criteria, with the same worst site and no specific molar/incisor distribution. Which classification changes?",
         "choices": {
-          "a": "7",
-          "b": "9",
-          "c": "8",
-          "d": "10"
+          "a": "Generalized Stage III Grade C",
+          "b": "Generalized Stage III Grade B",
+          "c": "Localized Stage III Grade C",
+          "d": "Generalized Stage IV Grade C"
         },
         "key": [
           "a"
         ],
-        "reference": "L6b · Extent. The cutoff is at least 30%. Eight of 28 is below it and nine of 28 is above it."
+        "reference": "L6b · Extent and grade. Nine of 28 is about 32%; extent changes. The severity, complexity and indirect grading evidence stay the same."
       },
       {
         "id": "3",
         "case": "1",
-        "stem": "If comparable five-year films subsequently show ≥2 mm of progression, how should that evidence be used?",
+        "stem": "Comparable prior records are then located and show 1 mm of loss over five years at the most affected site, with no site progressing more. She is still a former smoker with no diabetes. Which grade is best supported now?",
         "choices": {
-          "a": "To move automatically to Stage IV",
-          "b": "As direct evidence supporting Grade C",
-          "c": "As evidence of current clinical inflammation",
-          "d": "To set the extent independently of tooth counts"
+          "a": "Grade A, using the five-year rate per year",
+          "b": "Grade B, using the direct five-year change",
+          "c": "Grade C, using the higher of direct and indirect criteria",
+          "d": "Grade C, using the former one-pack-per-day history as a current modifier"
         },
         "key": [
-          "d"
+          "b"
         ],
-        "reference": "L6b · Direct evidence. The grading table prioritizes direct longitudinal progression evidence when available."
+        "reference": "L6b · Grading evidence. Direct progression evidence takes precedence here. One millimeter over five years fits Grade B; past smoking does not trigger the current-smoker modifier."
       },
       {
         "id": "4",
         "case": "1",
-        "stem": "Which entry best represents the documented tobacco exposure?",
+        "stem": "The worst site probes 7 mm with the margin 1 mm coronal to the CEJ. At that aspect the alveolar crest is measured 4 mm apical to the CEJ. What is the combination? (CAL : pocket relative to crest)",
         "choices": {
-          "a": "Three pack-years, because she quit three years ago",
-          "b": "Current smoker at one pack a day",
-          "c": "Former smoker with 15 pack-years",
-          "d": "Fifteen cigarettes per day currently"
-        },
-        "key": [
-          "b"
-        ],
-        "reference": "L4b/L6b · Smoking. One pack per day for 15 years yields 15 pack-years. The current smoking modifier does not apply."
-      },
-      {
-        "id": "5",
-        "case": "1",
-        "stem": "In a calculation exercise, a site probes 6 mm with the margin 2 mm coronal to the CEJ. What is its CAL?",
-        "choices": {
-          "a": "8 mm",
-          "b": "6 mm",
-          "c": "4 mm",
-          "d": "2 mm"
+          "a": "6 mm : suprabony",
+          "b": "8 mm : infrabony",
+          "c": "6 mm : infrabony",
+          "d": "8 mm : suprabony"
         },
         "key": [
           "c"
         ],
-        "reference": "L2a · CAL. Subtract the 2 mm coronal margin from 6 mm probing depth."
+        "reference": "L2a/L2b · Pocket morphology. The base is 6 mm apical to the CEJ, 2 mm apical to the crest, so the pocket is infrabony."
       },
       {
-        "id": "6",
+        "id": "5",
         "case": "1",
-        "stem": "Which recorded observation would support the Stage III complexity decision rather than the grading decision?",
+        "stem": "That site later probes 4 mm with its margin 2 mm apical to the CEJ. Which statement correctly interprets the paired readings?",
         "choices": {
-          "a": "Bone-loss-to-age ratio greater than 1",
-          "b": "Vertical bone loss at least 3 mm deep",
-          "c": "Prior exposure of 15 pack-years",
-          "d": "A documented ≥2 mm change over five years"
-        },
-        "key": [
-          "a"
-        ],
-        "reference": "L2b/L6b · Complexity. Vertical bone loss is a staging-complexity finding. Age-relative loss and longitudinal progression inform grade."
-      },
-      {
-        "id": "7",
-        "case": "1",
-        "stem": "The patient requests orthodontic closure this month. Which sequence best fits the course?",
-        "choices": {
-          "a": "Use antibiotics alone to stabilize the defect before moving teeth",
-          "b": "Close the space, then determine if subgingival treatment is needed",
-          "c": "Complete initial periodontal therapy, re-evaluate, then decide when movement can begin",
-          "d": "Schedule maintenance immediately and defer active treatment until tooth movement ends"
-        },
-        "key": [
-          "b"
-        ],
-        "reference": "L5/L9 · Treatment sequence. Establish periodontal control and review site response before elective movement."
-      },
-      {
-        "id": "8",
-        "case": "1",
-        "stem": "Which interpretation is most appropriate when discussing systemic antibiotics in this case?",
-        "choices": {
-          "a": "Any single angular defect selects metronidazole monotherapy",
-          "b": "The request for orthodontics determines the need",
-          "c": "Systemic antibiotics are a case-selected adjunct to mechanical therapy",
-          "d": "A former smoking history is an indication by itself"
+          "a": "PD fell 3 mm and CAL improved 3 mm",
+          "b": "PD fell 3 mm and CAL worsened 2 mm",
+          "c": "PD fell 2 mm and CAL was unchanged",
+          "d": "PD fell 3 mm and CAL was unchanged"
         },
         "key": [
           "d"
         ],
-        "reference": "L7a · Adjuncts. Grading and risk inform consideration of an adjunct. Instrumentation remains central to initial therapy."
+        "reference": "L2a/L9 · Re-evaluation. Baseline CAL is 7 − 1 = 6 mm and review CAL is 4 + 2 = 6 mm."
+      },
+      {
+        "id": "6",
+        "case": "1",
+        "stem": "At the first review, the spacing is unchanged; one 6 mm site bleeds and has a detectable deposit. Which plan best fits at this point?",
+        "choices": {
+          "a": "Begin movement with a shortened maintenance interval → reassess the defect after closure",
+          "b": "Give systemic adjunctive therapy → proceed with closure if the bleeding stops",
+          "c": "Refine local instrumentation and plaque control → reassess the residual site → coordinate any movement",
+          "d": "Proceed to regenerative surgery based on baseline defect depth → evaluate local cause after healing"
+        },
+        "key": [
+          "c"
+        ],
+        "reference": "L5/L9 · Treatment sequence. Current local inflammation and residual deposits warrant targeted care before elective movement. Baseline morphology alone does not settle the next step."
+      },
+      {
+        "id": "7",
+        "case": "1",
+        "stem": "Which added scenario best supports discussing a site-directed adjunct rather than immediately choosing a systemic combination?",
+        "choices": {
+          "a": "One residual bleeding pocket after adequate mechanical care, with good plaque control elsewhere",
+          "b": "Poor plaque control and widespread accessible calculus before initial instrumentation",
+          "c": "An asymptomatic residual bone contour with shallow, nonbleeding probing",
+          "d": "Fever with expanding facial swelling from an acute collection"
+        },
+        "key": [
+          "a"
+        ],
+        "reference": "L7a/L9 · Adjunct selection. A residual localized site after mechanical therapy is the setting for considering local delivery. Other options instead call for mechanical care, surveillance, or urgent assessment."
+      },
+      {
+        "id": "8",
+        "case": "1",
+        "stem": "Statement 1: After successful therapy, shallow pockets alone justify relabeling the original Stage III case as Stage I. Statement 2: Former smoking remains relevant to the maintenance assessment even without a current smoking grade modifier.",
+        "choices": {
+          "a": "Both statements are true",
+          "b": "Both statements are false",
+          "c": "Statement 1 is true; statement 2 is false",
+          "d": "Statement 1 is false; statement 2 is true"
+        },
+        "key": [
+          "d"
+        ],
+        "reference": "L6b/L9 · Paired statements. Current control is recorded separately from the established presentation stage. Prior exposure belongs in the risk history."
       }
-    ]
+    ],
+    "revision": 2
   },
   "diagnosis-c": {
     "title": "Diagnosis C · Incisor displacement in a previously treated patient",
@@ -356,124 +358,125 @@ Object.assign(window.perioPractice, {
       {
         "id": "1",
         "case": "1",
-        "stem": "Which conclusion best integrates the migration, bruxism history and loss of support?",
+        "stem": "At the displaced incisors, assume reproducible fremitus in normal excursions and CAL loss shown on the chart; the patient reports night grinding. Which designation fits the force-related finding if tissue injury is corroborated?",
         "choices": {
-          "a": "Overbite alone determines whether the disease is active",
-          "b": "Bruxism explains all attachment loss in the chart",
-          "c": "Migration establishes primary occlusal trauma on a sound periodontium",
-          "d": "Reduced support can permit pathologic migration, and force-related findings need their own examination"
+          "a": "Primary trauma from occlusion, because a parafunction is present",
+          "b": "Secondary trauma from occlusion, because the involved teeth have reduced support",
+          "c": "Primary trauma from occlusion, because the incisors were previously treated",
+          "d": "Pathologic migration with no possibility of occlusal trauma during normal excursions"
         },
         "key": [
-          "d"
+          "b"
         ],
-        "reference": "L6a · Occlusion. Pathologic migration and occlusal loading can accompany reduced support. Current inflammation requires charting."
+        "reference": "L6a · Occlusal diagnosis. Primary versus secondary depends on periodontal support, not simply force magnitude or parafunction."
       },
       {
         "id": "2",
         "case": "1",
-        "stem": "Suppose a site has recession of 2 mm and probing depth of 4 mm. Which distance runs from the CEJ to the base of the pocket?",
+        "stem": "Which paired interpretation is least defensible in this case?",
         "choices": {
-          "a": "6 mm",
-          "b": "4 mm",
-          "c": "2 mm",
-          "d": "8 mm"
-        },
-        "key": [
-          "b"
-        ],
-        "reference": "L2a · Chart labels. The CEJ-to-pocket-base distance is CAL, calculated here as 2 + 4."
-      },
-      {
-        "id": "3",
-        "case": "1",
-        "stem": "Which step would establish fremitus at the displaced incisors?",
-        "choices": {
-          "a": "Compare tooth lengths on the clinical photograph",
-          "b": "Palpate the incisors while the patient brings teeth into contact",
-          "c": "Measure overjet when the teeth are apart",
-          "d": "Read the horizontal overlap on the periapical film"
-        },
-        "key": [
-          "a"
-        ],
-        "reference": "L6a · Occlusal examination. Fremitus is movement detected during function or tooth contact."
-      },
-      {
-        "id": "4",
-        "case": "1",
-        "stem": "Which added fact would most strongly support Stage IV complexity if Stage III severity is already established?",
-        "choices": {
-          "a": "A localized ≥3 mm vertical defect",
-          "b": "One site with ≥6 mm probing depth",
-          "c": "A history of night-time clenching",
-          "d": "Periodontal bite collapse requiring complex rehabilitation"
-        },
-        "key": [
-          "c"
-        ],
-        "reference": "L6b · Complexity. Functional complexity requiring rehabilitation can support Stage IV. Isolated deep pockets and vertical defects are Stage III complexity indicators."
-      },
-      {
-        "id": "5",
-        "case": "1",
-        "stem": "Which comparison best separates current instability from historical support loss?",
-        "choices": {
-          "a": "Compare overjet with average overbite at the first visit",
-          "b": "Repeat same-site PD, gingival margins and BOP against previous records",
-          "c": "Read the depth from the radiograph alone",
-          "d": "Use prior maintenance attendance as a surrogate for examination"
-        },
-        "key": [
-          "b"
-        ],
-        "reference": "L9 · Current status. Longitudinal clinical measures and current bleeding help assess stability."
-      },
-      {
-        "id": "6",
-        "case": "1",
-        "stem": "If a residual site merits a local adjunct after instrumentation, which pairing is correct?",
-        "choices": {
-          "a": "Atridox — doxycycline",
-          "b": "PerioChip — metronidazole",
-          "c": "Arestin — chlorhexidine",
-          "d": "Arestin — amoxicillin"
-        },
-        "key": [
-          "c"
-        ],
-        "reference": "L7a · Local delivery. Atridox is a locally delivered doxycycline formulation."
-      },
-      {
-        "id": "7",
-        "case": "1",
-        "stem": "The review shows unresolved bleeding at several deep sites. What should precede elective tooth movement?",
-        "choices": {
-          "a": "Space closure to test how the gingiva responds",
-          "b": "Treat residual disease as indicated and confirm periodontal control",
-          "c": "Systemic antibiotic prophylaxis solely because the incisors have moved",
-          "d": "A new maintenance interval set without examination"
+          "a": "Displacement and reduced support : migration warrants combined periodontal and occlusal assessment",
+          "b": "Palpable movement during contact : clinical fremitus",
+          "c": "Widened PDL space and mobility : findings that may support an occlusal component",
+          "d": "An angular defect and a bruxism history : sufficient to attribute the attachment loss to traumatic forces"
         },
         "key": [
           "d"
         ],
-        "reference": "L5/L9 · Sequence. Active sites need assessment and treatment before elective treatment advances."
+        "reference": "L6a/L2b · Findings and inference. The combination cannot establish the etiology of attachment loss; assess inflammation and the occlusal findings separately."
       },
       {
-        "id": "8",
+        "id": "3",
         "case": "1",
-        "stem": "After active treatment and confirmation of stability, which appointment plan follows the course?",
+        "stem": "For chart interpretation, compare one site with recession of 3 mm and PD 5 mm, then recession of 4 mm and PD 3 mm. Which entry is correct? (Review CAL : attachment gain)",
         "choices": {
-          "a": "Yearly visits while the overjet remains unchanged",
-          "b": "A 4–8 week Phase I review repeated indefinitely as maintenance",
-          "c": "About three months initially, then individualize to risk and findings",
-          "d": "A fixed six-month recall for all treated cases"
+          "a": "7 mm : 1 mm",
+          "b": "7 mm : 2 mm",
+          "c": "8 mm : 1 mm",
+          "d": "8 mm : 2 mm"
         },
         "key": [
           "a"
         ],
-        "reference": "L8/L9 · Supportive care. A roughly three-month maintenance interval is a starting point for a treated periodontitis patient."
+        "reference": "L2a/L9 · Site comparison. CAL changes from 8 to 7 mm. The 2 mm PD decrease includes a 1 mm apical margin shift."
+      },
+      {
+        "id": "4",
+        "case": "1",
+        "stem": "Assume CAL severity already meets Stage III. Which added fact most supports a change to Stage IV?",
+        "choices": {
+          "a": "Pathologic migration with preserved function and no need for complex rehabilitation",
+          "b": "Adjacent pockets of 6 and 7 mm with isolated angular loss",
+          "c": "Periodontal bite collapse with functional impairment requiring complex rehabilitation",
+          "d": "Class II furcation involvement in a retainable molar"
+        },
+        "key": [
+          "c"
+        ],
+        "reference": "L6b · Stage complexity. Stage IV can be driven by functional complexity and the need for rehabilitation. Deep pockets, angular loss and Class II furcation support Stage III complexity."
+      },
+      {
+        "id": "5",
+        "case": "1",
+        "stem": "A residual site is considered for local treatment. Assume a confirmed tetracycline allergy and no chlorhexidine allergy. Which choice identifies both the eligible product and its active agent?",
+        "choices": {
+          "a": "Arestin : minocycline",
+          "b": "Atridox : doxycycline",
+          "c": "PerioChip : minocycline",
+          "d": "PerioChip : chlorhexidine"
+        },
+        "key": [
+          "d"
+        ],
+        "reference": "L7a · Local delivery. Arestin and Atridox contain tetracycline-class drugs. PerioChip contains chlorhexidine."
+      },
+      {
+        "id": "6",
+        "case": "1",
+        "stem": "Statement 1: Improvement in mobility after inflammation control can occur without proof of attachment gain. Statement 2: Overjet reduction alone establishes successful periodontal therapy.",
+        "choices": {
+          "a": "Both statements are true",
+          "b": "Both statements are false",
+          "c": "Statement 1 is true; statement 2 is false",
+          "d": "Statement 1 is false; statement 2 is true"
+        },
+        "key": [
+          "c"
+        ],
+        "reference": "L6a/L9 · Attribution. Mobility can reflect inflammation and functional loading as well as support. Treatment response still requires a periodontal examination."
+      },
+      {
+        "id": "7",
+        "case": "1",
+        "stem": "Assume bleeding persists at multiple deep anterior sites and occlusal interference is confirmed. Which sequence best supports eventual space correction?",
+        "choices": {
+          "a": "Manage active disease and evaluate the interference → confirm periodontal response → coordinate elective movement",
+          "b": "Perform adjustment alone → move the teeth once mobility improves → check bleeding at maintenance",
+          "c": "Move the teeth to remove the interference → instrument residual sites after alignment",
+          "d": "Perform regenerative surgery at all deep sites → begin movement before a clinical review"
+        },
+        "key": [
+          "a"
+        ],
+        "reference": "L5/L9 · Sequence. Periodontal disease control and appropriate occlusal assessment precede elective movement and help establish the prognosis."
+      },
+      {
+        "id": "8",
+        "case": "1",
+        "stem": "Which paired plan is appropriate if the patient has a 7 mm bleeding site today, but stable shallow nonbleeding sites after further active care? (Today : after stability)",
+        "choices": {
+          "a": "Three-month supportive care only : routine annual cleaning",
+          "b": "Site assessment and further care as indicated : roughly three-month supportive care, individualized",
+          "c": "Systemic antibiotics because of migration : supportive care only when migration reverses",
+          "d": "Elective movement : first Phase I evaluation in three months"
+        },
+        "key": [
+          "b"
+        ],
+        "reference": "L9 · Recall decision. The deep bleeding site first needs a decision about active treatment. Stable treated periodontitis then enters risk-adjusted maintenance."
       }
-    ]
+    ],
+    "revision": 2
   },
   "diagnosis-d": {
     "title": "Diagnosis D · Generalized support loss with an incomplete extraction history",
@@ -516,124 +519,125 @@ Object.assign(window.perioPractice, {
       {
         "id": "1",
         "case": "1",
-        "stem": "Which descriptor follows from the charted distribution given for this patient?",
+        "stem": "For this question, use only the chart and these exercise assumptions: worst interdental CAL 6 mm, 44% RBL, age 46, no direct progression data or risk modifiers, and no documented Stage IV feature. Which provisional classification is supported?",
         "choices": {
-          "a": "Generalized",
-          "b": "Localized",
-          "c": "Molar/incisor pattern exclusively",
-          "d": "Extent indeterminate until the grade is known"
+          "a": "Generalized Stage II Grade B",
+          "b": "Generalized Stage III Grade B",
+          "c": "Generalized Stage III Grade C",
+          "d": "Generalized Stage IV Grade B"
         },
         "key": [
-          "a"
+          "b"
         ],
-        "reference": "L6b · Extent. More than 30% affected supports generalized extent."
+        "reference": "L6b · Classification. Chart extent is generalized, attachment loss supports Stage III, and 44 ÷ 46 ≈ 0.96 supports Grade B. Unexplained missing teeth cannot establish Stage IV."
       },
       {
         "id": "2",
         "case": "1",
-        "stem": "Which description best conveys the two types of bone loss seen in the baseline films?",
+        "stem": "The extraction history confirms five teeth lost to periodontitis and comparable records show 2 mm CAL progression over five years. Under those findings, which diagnosis replaces the provisional assessment?",
         "choices": {
-          "a": "Widespread horizontal loss with superimposed angular defects",
-          "b": "Uniform apical radiolucencies with intact marginal bone",
-          "c": "Angular defects only, with a uniform normal crest elsewhere",
-          "d": "Isolated proximal caries without a marginal bone change"
+          "a": "Generalized Stage IV Grade B",
+          "b": "Generalized Stage III Grade C",
+          "c": "Generalized Stage IV Grade C",
+          "d": "Generalized Stage III Grade B"
         },
         "key": [
           "c"
         ],
-        "reference": "L2b · Patterns of bone loss. Crestal reduction extends across the dentition, with additional localized angular loss."
+        "reference": "L6b · Competing grade evidence. Periodontitis-related loss of five teeth supports Stage IV, and direct progression of at least 2 mm over five years supports Grade C."
       },
       {
         "id": "3",
         "case": "1",
-        "stem": "Which clarification is essential before counting missing teeth toward Stage IV severity?",
+        "stem": "For a repeat plaque calculation, 24 teeth are present. Four surfaces are planned per tooth, but four surfaces are unscorable and excluded. There are 28 positive sites. What is the nearest whole percent?",
         "choices": {
-          "a": "Whether teeth were extracted before or after the patient turned 30",
-          "b": "Whether the missing teeth were above or below the occlusal plane",
-          "c": "Whether at least five were lost because of periodontitis",
-          "d": "Whether all missing sites have prosthetic replacements"
+          "a": "29%",
+          "b": "30%",
+          "c": "32%",
+          "d": "34%"
         },
         "key": [
           "b"
         ],
-        "reference": "L6b · Stage assignment. The severity criterion counts teeth lost from periodontitis."
+        "reference": "L2a · O’Leary score. The denominator is 24 × 4 − 4 = 92, so 28 ÷ 92 is about 30%. Counting the excluded sites would give 29%."
       },
       {
         "id": "4",
         "case": "1",
-        "stem": "For calculation practice only, assume worst-site RBL of 44% at age 46 and no grade modifiers. What ratio and grade fit?",
+        "stem": "At an example site the MGJ is 7 mm apical to the CEJ, the gingival margin is 2 mm apical to the CEJ, and PD is 4 mm. What are the measurements? (CAL : width of attached gingiva)",
         "choices": {
-          "a": "1.05, Grade C",
-          "b": "0.96, Grade A",
-          "c": "0.96, Grade B",
-          "d": "0.44, Grade A"
-        },
-        "key": [
-          "d"
-        ],
-        "reference": "L6b · Indirect grade. 44 ÷ 46 is about 0.96, within the Grade B indirect band."
-      },
-      {
-        "id": "5",
-        "case": "1",
-        "stem": "If 100 surfaces were evaluated for the recorded O’Leary score, how many were plaque-positive?",
-        "choices": {
-          "a": "70",
-          "b": "30",
-          "c": "45",
-          "d": "7"
+          "a": "6 mm : 1 mm",
+          "b": "6 mm : 3 mm",
+          "c": "2 mm : 1 mm",
+          "d": "4 mm : 5 mm"
         },
         "key": [
           "a"
         ],
-        "reference": "L2a · Plaque score. A positive fraction of 70% corresponds to 70 of 100 surfaces."
+        "reference": "L2a · Mucogingival measurements. CAL is 2 + 4 = 6 mm. The gingival margin-to-MGJ width is 5 mm; subtract 4 mm PD to obtain 1 mm attached gingiva."
+      },
+      {
+        "id": "5",
+        "case": "1",
+        "stem": "Assume clindamycin allergy, no other reported drug allergy, and no acute fever or spread. Which statement about the initial visit is most defensible?",
+        "choices": {
+          "a": "Confirm the allergy and perform instrumentation; systemic adjunct selection requires a separate clinical indication",
+          "b": "Use amoxicillin plus metronidazole before instrumentation because the chart is generalized",
+          "c": "Use local minocycline at all deep sites because clindamycin cannot be used",
+          "d": "Await a systemic susceptibility panel before initiating plaque control and instrumentation"
+        },
+        "key": [
+          "a"
+        ],
+        "reference": "L7a · Drug decision. Allergy excludes a candidate drug if one is indicated; extent and allergy alone do not create an indication."
       },
       {
         "id": "6",
         "case": "1",
-        "stem": "Which plan best addresses the clindamycin allergy at the initial visit if there are no acute spreading signs?",
+        "stem": "Statement 1: The baseline films can show horizontal and angular loss in the same patient. Statement 2: The coexistence of these patterns is direct evidence of 2 mm progression over five years.",
         "choices": {
-          "a": "Record the allergy and proceed with periodontal instrumentation and plaque control; review any indication for adjuncts separately",
-          "b": "Defer instrumentation until antibiotic sensitivity testing is completed",
-          "c": "Use clindamycin at a lower dose because the pockets are generalized",
-          "d": "Automatically substitute another systemic agent before instrumentation"
-        },
-        "key": [
-          "d"
-        ],
-        "reference": "L7a · Drug decision. An allergy informs drug selection if needed. Initial mechanical care and plaque control are indicated from the supplied findings."
-      },
-      {
-        "id": "7",
-        "case": "1",
-        "stem": "At which visit is the decision to proceed with definitive periodontal treatment best supported?",
-        "choices": {
-          "a": "During the first instrumentation visit, using the worst pocket alone",
-          "b": "At intake, using the baseline plaque percentage only",
-          "c": "At Phase I re-evaluation, using the updated chart and response",
-          "d": "At the first maintenance visit after scheduling surgery from the baseline films"
-        },
-        "key": [
-          "b"
-        ],
-        "reference": "L5/L9 · Treatment sequence. Updated plaque control, BOP and depth establish the response to initial therapy."
-      },
-      {
-        "id": "8",
-        "case": "1",
-        "stem": "Which result at review most directly calls for a site-specific treatment decision?",
-        "choices": {
-          "a": "A lower average PD with no residual bleeding or deep sites",
-          "b": "Persistent recession where the tissues are now healthy",
-          "c": "A corrected extraction history with no changes on examination",
-          "d": "Residual 7 mm probing with bleeding or exudate"
+          "a": "Both statements are true",
+          "b": "Both statements are false",
+          "c": "Statement 1 is true; statement 2 is false",
+          "d": "Statement 1 is false; statement 2 is true"
         },
         "key": [
           "c"
         ],
-        "reference": "L9 · Re-evaluation. Residual deep inflamed sites warrant assessment for further active care."
+        "reference": "L2b/L6b · Paired statements. One image series shows distribution and morphology. Direct grading requires comparable longitudinal measurements."
+      },
+      {
+        "id": "7",
+        "case": "1",
+        "stem": "After initial therapy, plaque recording improves to 24%, but two 7 mm sites continue to bleed and one still has detectable calculus. Which finding–action pair is least appropriate?",
+        "choices": {
+          "a": "Residual calculus : reassess access and instrument as indicated",
+          "b": "Bleeding at a deep site : investigate residual site-level disease",
+          "c": "Improved plaque score : reinforce the measures that worked and evaluate remaining plaque sites",
+          "d": "Reduced overall plaque : transfer to maintenance without deciding on the two residual sites"
+        },
+        "key": [
+          "d"
+        ],
+        "reference": "L5/L9 · Re-evaluation. A better full-mouth score can coexist with persistent local disease that needs an active decision."
+      },
+      {
+        "id": "8",
+        "case": "1",
+        "stem": "If residual deep sites remain after improved home care, which sequence best separates the decisions for additional therapy and supportive care?",
+        "choices": {
+          "a": "Choose an initial three-month recall → defer site diagnosis to that visit → decide on active care if symptoms recur",
+          "b": "Review clinical response and local anatomy → select additional active therapy as indicated → set supportive care after reassessment",
+          "c": "Base surgical selection on the baseline film → repeat charting during supportive care only",
+          "d": "Select an antibiotic by allergy history → reassess the extraction history after completing treatment"
+        },
+        "key": [
+          "b"
+        ],
+        "reference": "L5/L9 · Sequence. Updated findings determine active treatment, and the reassessed response informs maintenance."
       }
-    ]
+    ],
+    "revision": 2
   },
   "diagnosis-e": {
     "title": "Diagnosis E · Deep defects around permanent first molars",
@@ -665,123 +669,124 @@ Object.assign(window.perioPractice, {
       {
         "id": "1",
         "case": "1",
-        "stem": "The deep defects cluster around permanent first molars, and the incisors show no CAL. Which diagnosis matches the course case?",
+        "stem": "Read the chart and films with the exercise grading values. Which pairing best accounts for both extent and severity, given first-molar clustering, spared incisors and no tooth loss?",
         "choices": {
-          "a": "Generalized Stage III Grade C periodontitis",
-          "b": "Stage III Grade C periodontitis, molar/incisor pattern",
-          "c": "Localized Stage II Grade B periodontitis",
-          "d": "Stage IV Grade C periodontitis, molar/incisor pattern"
+          "a": "Localized Stage II Grade C : spared incisors exclude a molar/incisor pattern",
+          "b": "Stage III Grade B, molar/incisor pattern : the ratio uses 20 ÷ 50",
+          "c": "Stage III Grade C, molar/incisor pattern : deep vertical loss and RBL/age above 1",
+          "d": "Stage IV Grade C, molar/incisor pattern : deep first-molar pockets by themselves meet Stage IV"
         },
         "key": [
-          "b"
+          "c"
         ],
-        "reference": "L11 · Case 2 / L6b · Staging. First-molar involvement can support the pattern even without incisor involvement. CAL up to 6 mm and the vertical defects support Stage III."
+        "reference": "L11 · Case 2 / L6b · Diagnosis. The pattern can be concentrated in first molars. Deep vertical loss and CAL support Stage III, and 50 ÷ 20 = 2.5."
       },
       {
         "id": "2",
         "case": "1",
-        "stem": "Which combination from the case most strongly supports Stage III complexity?",
+        "stem": "Suppose full charting instead shows 8 of 28 affected teeth, with at least three affected teeth outside the first-molar/incisor distribution. Severity and grade are unchanged. Which classification is supported using the L11 pattern rule?",
         "choices": {
-          "a": "Probing up to 8 mm and vertical bone loss at least 3 mm deep",
-          "b": "Class I furcations without probing ≥6 mm",
-          "c": "Class I mobility and no reported systemic disease",
-          "d": "No tooth loss and no incisor involvement"
+          "a": "Localized Stage III Grade C",
+          "b": "Generalized Stage III Grade C",
+          "c": "Stage III Grade C, molar/incisor pattern",
+          "d": "Localized Stage IV Grade C"
         },
         "key": [
-          "c"
+          "a"
         ],
-        "reference": "L11 · Case 2 / L6b · Complexity. Deep pockets and ≥3 mm vertical bone loss are Stage III complexity features."
+        "reference": "L11 · Case 2 / L6b · Distribution. Eight of 28 is below 30%. More than two affected teeth outside the defining distribution exceeds the lecture's molar/incisor rule."
       },
       {
         "id": "3",
         "case": "1",
-        "stem": "The grading slide uses 50% bone loss at age 20. What grade does this calculation support?",
+        "stem": "For a first-molar site, assume PD 8 mm, a gingival margin 2 mm coronal to the CEJ, and the nearby alveolar crest 4 mm apical to the CEJ. Which pair is correct? (CAL : pocket type)",
         "choices": {
-          "a": "Grade B, because the molars represent a localized pattern",
-          "b": "Grade C, because the ratio is 2.5",
-          "c": "Grade A, because no smoking or diabetes modifier is present",
-          "d": "Grade B, because the ratio is 0.4"
+          "a": "8 mm : infrabony",
+          "b": "6 mm : suprabony",
+          "c": "10 mm : infrabony",
+          "d": "6 mm : infrabony"
         },
         "key": [
           "d"
         ],
-        "reference": "L11 · Case 2 / L6b · Grading. 50 ÷ 20 is 2.5, above the Grade C threshold for indirect evidence."
+        "reference": "L2a/L2b · Site anatomy. The base is 6 mm apical to the CEJ and therefore apical to the adjacent crest."
       },
       {
         "id": "4",
         "case": "1",
-        "stem": "Which finding would most challenge the specific molar/incisor pattern in these exhibits?",
+        "stem": "Statement 1: The grading ratio can establish Stage IV even with no tooth loss or Stage IV functional complexity. Statement 2: A vertical defect of at least 3 mm can support Stage III complexity.",
         "choices": {
-          "a": "Early onset of first-molar destruction",
-          "b": "Angular loss at multiple permanent first molars",
-          "c": "Attachment loss on more than two teeth outside the first-molar/incisor distribution",
-          "d": "No attachment loss on the incisors"
-        },
-        "key": [
-          "a"
-        ],
-        "reference": "L11 · Case 2 / L6b · Extent pattern. The course description allows at most two affected teeth outside the defining distribution."
-      },
-      {
-        "id": "5",
-        "case": "1",
-        "stem": "Which organism does the lecture associate with this clinical pattern?",
-        "choices": {
-          "a": "Fusobacterium nucleatum",
-          "b": "Actinomyces odontolyticus",
-          "c": "Aggregatibacter actinomycetemcomitans",
-          "d": "Tannerella forsythia"
-        },
-        "key": [
-          "c"
-        ],
-        "reference": "L11 · Case 2 · Microbiology. L11 names A. actinomycetemcomitans as a frequent association in this pattern."
-      },
-      {
-        "id": "6",
-        "case": "1",
-        "stem": "Which systemic combination appears in the lecture’s initial plan for this specific case?",
-        "choices": {
-          "a": "Amoxicillin plus metronidazole",
-          "b": "Doxycycline plus chlorhexidine",
-          "c": "Clindamycin plus minocycline",
-          "d": "Metronidazole plus azithromycin"
-        },
-        "key": [
-          "b"
-        ],
-        "reference": "L11 · Case 2 / L7a · Adjuncts. The L11 teaching plan pairs amoxicillin and metronidazole with quadrant SRP."
-      },
-      {
-        "id": "7",
-        "case": "1",
-        "stem": "Which sequence best follows the presentation’s treatment plan?",
-        "choices": {
-          "a": "Open-flap debridement first, then plaque control and SRP",
-          "b": "Initial plaque control and SRP with the selected adjunct, re-evaluation, then consider surgery for residual defects",
-          "c": "Antibiotics alone, then supportive care",
-          "d": "Maintenance first, then initial SRP only if the patient reports new symptoms"
-        },
-        "key": [
-          "a"
-        ],
-        "reference": "L11 · Case 2 / L5 · Sequencing. L11 places the adjunct in initial therapy and reassesses before the proposed surgical phase."
-      },
-      {
-        "id": "8",
-        "case": "1",
-        "stem": "Which schedule distinguishes the two follow-up stages actually proposed in L11?",
-        "choices": {
-          "a": "Two-week initial review and fixed annual maintenance",
-          "b": "Three-month intervals for both initial review and maintenance",
-          "c": "Initial review at 4–6 weeks and maintenance about every three months",
-          "d": "Three-month initial review and six-month maintenance"
+          "a": "Both statements are true",
+          "b": "Both statements are false",
+          "c": "Statement 1 is true; statement 2 is false",
+          "d": "Statement 1 is false; statement 2 is true"
         },
         "key": [
           "d"
         ],
-        "reference": "L11 · Case 2 / L9 · Follow-up. The course case proposes review 4–6 weeks after initial treatment and three-month periodontal maintenance."
+        "reference": "L11 · Case 2 / L6b · Severity and progression. The RBL/age ratio estimates progression grade. Vertical bone loss is a staging-complexity feature."
+      },
+      {
+        "id": "5",
+        "case": "1",
+        "stem": "Use the course case treatment plan. Which pairing gets both the selected adjunct and its role right?",
+        "choices": {
+          "a": "Amoxicillin plus metronidazole : a substitute for instrumentation at deep molar sites",
+          "b": "Amoxicillin plus metronidazole : adjunct to initial quadrant SRP",
+          "c": "Amoxicillin alone : the listed regimen for all stages of molar-pattern disease",
+          "d": "Metronidazole alone : routine prophylaxis before proposed flap surgery"
+        },
+        "key": [
+          "b"
+        ],
+        "reference": "L11 · Case 2 / L7a · Adjunct. L11 lists the combination with SRP during initial therapy for this specific case."
+      },
+      {
+        "id": "6",
+        "case": "1",
+        "stem": "Which sequence matches the course plan once OHI, risk-factor management and any indicated workup are underway?",
+        "choices": {
+          "a": "Give the selected adjunct → wait until it finishes to start SRP → enter maintenance if symptoms improve",
+          "b": "Proceed to flap surgery at all molars → start SRP after surgical healing → then reassess",
+          "c": "Perform quadrant SRP with the selected adjunct → re-evaluate in 4–6 weeks → plan treatment for persistent defects",
+          "d": "Perform quadrant SRP → move directly to three-month maintenance → use surgery only if symptoms recur"
+        },
+        "key": [
+          "c"
+        ],
+        "reference": "L11 · Case 2 / L7a · Timing. L11 uses reassessment to determine the proposed surgical phase after initial therapy."
+      },
+      {
+        "id": "7",
+        "case": "1",
+        "stem": "Which finding–interpretation pair is least consistent with the teaching case?",
+        "choices": {
+          "a": "Sparse visible deposits relative to support loss : destruction exceeds the biofilm burden",
+          "b": "First-molar clustering : distribution helps identify the phenotype",
+          "c": "Healthy systemic history : rapid progression remains possible",
+          "d": "Frequent detection of A. actinomycetemcomitans : organism identification is required to diagnose the pattern"
+        },
+        "key": [
+          "d"
+        ],
+        "reference": "L11 · Case 2 · Phenotype. The association is taught, but clinical pattern and progression evidence establish classification."
+      },
+      {
+        "id": "8",
+        "case": "1",
+        "stem": "At 5 weeks, one molar site still has 7 mm PD with BOP and a vertical defect. Later, after additional active care, all treated sites are stable. Which paired plan fits the course? (Week 5 : after stability)",
+        "choices": {
+          "a": "Begin three-month maintenance only : repeat Phase I review in 4–6 weeks",
+          "b": "Evaluate the molar for further site-specific care : begin roughly three-month supportive care",
+          "c": "Repeat the combination solely because of PD : stop recalls once BOP is absent",
+          "d": "Schedule surgery solely from baseline RBL : repeat systemic therapy at each maintenance visit"
+        },
+        "key": [
+          "b"
+        ],
+        "reference": "L11 · Case 2 / L9 · Two visits. The first review drives the residual-site decision. Three-month supportive care follows completion and assessment of active care."
       }
-    ]
+    ],
+    "revision": 2
   }
 });
