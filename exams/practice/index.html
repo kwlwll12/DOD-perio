@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Perio Case Practice | Perio Atlas</title>
-  <link rel="stylesheet" href="../exam.css?v=eliminate">
+  <link rel="stylesheet" href="../exam.css?v=annotation-tools">
   <script src="data.js?v=hints-reference" defer></script>
-  <script src="../exam.js?v=instant-feedback" defer></script>
+  <script src="diagnosis.js?v=diagnosis-cases" defer></script>
+  <script src="../exam.js?v=annotation-tools" defer></script>
 </head>
 <body>
   <header class="top">
@@ -78,6 +79,27 @@
       </div>
     </section>
   </main>
+  <dialog id="calculator" aria-labelledby="calculator-title">
+    <h2 id="calculator-title">Calculator</h2>
+    <form id="calculator-form">
+      <div class="calculator-inputs">
+        <label>First number <input name="left" type="number" step="any" required autofocus></label>
+        <label>Operation <select name="operator">
+          <option value="+">Add (+)</option>
+          <option value="−">Subtract (−)</option>
+          <option value="×">Multiply (×)</option>
+          <option value="÷">Divide (÷)</option>
+        </select></label>
+        <label>Second number <input name="right" type="number" step="any" required></label>
+      </div>
+      <output id="calculation-result" aria-label="Result"></output>
+      <div class="controls">
+        <button type="reset">Clear</button>
+        <button class="primary" type="submit">Calculate</button>
+      </div>
+    </form>
+    <form method="dialog" class="calculator-close"><button>Close calculator</button></form>
+  </dialog>
   <dialog id="confirm">
     <form method="dialog">
       <h2>Submit set?</h2>

@@ -8,6 +8,9 @@ const palette = byId('palette');
 const dialog = byId('confirm');
 const caseNotes = byId('case-notes');
 const drugReference = byId('drug-reference');
+const calculator = byId('calculator');
+let annotationTool;
+let dragTarget;
 let year;
 let state;
 
@@ -52,7 +55,8 @@ function showHome() {
   list.replaceChildren();
   const sets = Object.entries(exams);
   sets.sort(([a, first], [b, second]) => practice
-    ? Number(Boolean(second.figures)) - Number(Boolean(first.figures)) || a.localeCompare(b)
+    ? Number(Boolean(second.featured)) - Number(Boolean(first.featured)) ||
+      Number(Boolean(second.figures)) - Number(Boolean(first.figures)) || a.localeCompare(b)
     : Number(b) - Number(a));
   for (const [selectedYear, exam] of sets) {
     const previous = load(selectedYear);
@@ -79,6 +83,8 @@ function previousNotes(id, revision) {
 }
 
 function openExam(selectedYear, previous) {
+  annotationTool = null;
+  dragTarget = null;
   year = selectedYear;
   const exam = exams[year];
   const priorNotes = exam.revision && !load(year) ? previousNotes(year, exam.revision) : '';
@@ -165,50 +171,94 @@ function renderHighlights(target) {
 
 function highlightControls() {
   const controls = element('div', null, 'highlight-controls');
-  const status = element('span', 'Select text in the case or question.');
+  controls.setAttribute('role', 'group');
+  controls.setAttribute('aria-label', 'Question tools');
+  const status = element('span');
   status.setAttribute('role', 'status');
-  const toggle = button('Highlight / erase', () => {
-    const selection = window.getSelection();
-    const range = selection?.rangeCount && selection.getRangeAt(0);
-    const target = range && Array.from(questionPanel.querySelectorAll('[data-highlight]'))
-      .find(node => node.contains(range.startContainer) && node.contains(range.endContainer));
-    if (!target || range.collapsed || !range.toString().trim()) {
-      status.textContent = 'Select a passage within one case or question text block first.';
-      return;
+  const tools = ['Highlight', 'Erase'].map(tool => button(tool, () => {
+    annotationTool = annotationTool === tool ? null : tool;
+    window.getSelection()?.removeAllRanges();
+    updateTools();
+  }));
+
+  function updateTools() {
+    for (const tool of tools) {
+      tool.setAttribute('aria-pressed', String(tool.textContent === annotationTool));
     }
-    const prefix = document.createRange();
-    prefix.selectNodeContents(target);
-    prefix.setEnd(range.startContainer, range.startOffset);
-    const start = prefix.toString().length;
-    const end = start + range.toString().length;
-    const key = target.dataset.highlight;
-    state.highlights ||= {};
-    const existing = state.highlights[key] || [];
-    const erasing = existing.some(([left, right]) => left <= start && end <= right);
-    const updated = [];
-    for (const [left, right] of existing) {
-      if (erasing ? right <= start || end <= left : right < start || end < left) updated.push([left, right]);
-      else if (erasing) {
-        if (left < start) updated.push([left, start]);
-        if (end < right) updated.push([end, right]);
-      }
-    }
-    if (!erasing) {
-      const overlapping = existing.filter(([left, right]) => left <= end && start <= right);
-      updated.push([
-        Math.min(start, ...overlapping.map(([left]) => left)),
-        Math.max(end, ...overlapping.map(([, right]) => right))
-      ]);
-    }
-    state.highlights[key] = updated.sort(([a], [b]) => a - b);
-    selection.removeAllRanges();
-    renderHighlights(target);
-    save();
-    status.textContent = erasing ? 'Highlight erased.' : 'Highlight saved.';
-  });
-  toggle.addEventListener('mousedown', event => event.preventDefault());
-  controls.append(toggle, status);
+    status.textContent = annotationTool ? `${annotationTool}: drag across text.` : 'Choose a tool, then drag across text.';
+  }
+
+  updateTools();
+  controls.append(...tools, button('Calculator', () => calculator.showModal()), status);
   return controls;
+}
+
+function applyAnnotation(target, range) {
+  const prefix = document.createRange();
+  prefix.selectNodeContents(target);
+  prefix.setEnd(range.startContainer, range.startOffset);
+  const start = prefix.toString().length;
+  const end = start + range.toString().length;
+  const key = target.dataset.highlight;
+  state.highlights ||= {};
+  const existing = state.highlights[key] || [];
+  const updated = [];
+  const erasing = annotationTool === 'Erase';
+  let left = start;
+  let right = end;
+  for (const [from, to] of existing) {
+    if (erasing) {
+      if (from < start) updated.push([from, Math.min(to, start)]);
+      if (end < to) updated.push([Math.max(from, end), to]);
+    } else if (to < left || right < from) {
+      updated.push([from, to]);
+    } else {
+      left = Math.min(left, from);
+      right = Math.max(right, to);
+    }
+  }
+  if (!erasing) updated.push([left, right]);
+  state.highlights[key] = updated.sort(([from], [to]) => from - to);
+  renderHighlights(target);
+  save();
+}
+
+if (practice) {
+  questionPanel.addEventListener('pointerdown', event => {
+    dragTarget = annotationTool && event.isPrimary && event.button === 0
+      ? event.target.closest('[data-highlight]') : null;
+  });
+  document.addEventListener('pointercancel', () => { dragTarget = null; });
+  document.addEventListener('pointerup', event => {
+    if (!event.isPrimary) return;
+    const target = dragTarget;
+    dragTarget = null;
+    if (!target?.isConnected || !annotationTool) return;
+    const selection = window.getSelection();
+    const range = selection?.rangeCount ? selection.getRangeAt(0) : null;
+    if (!range || range.collapsed || !range.toString().trim() ||
+        !target.contains(range.startContainer) || !target.contains(range.endContainer)) return;
+    applyAnnotation(target, range);
+    selection.removeAllRanges();
+  });
+
+  const form = byId('calculator-form');
+  const output = byId('calculation-result');
+  const operations = {
+    '+': (a, b) => a + b,
+    '−': (a, b) => a - b,
+    '×': (a, b) => a * b,
+    '÷': (a, b) => b === 0 ? NaN : a / b
+  };
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+    const [left, operator, right] = ['left', 'operator', 'right'].map(name => form.elements.namedItem(name));
+    const result = operations[operator.value](left.valueAsNumber, right.valueAsNumber);
+    output.textContent = Number.isFinite(result)
+      ? String(Number(result.toPrecision(12)))
+      : operator.value === '÷' && right.valueAsNumber === 0 ? 'Cannot divide by zero.' : 'Result is out of range.';
+  });
+  form.addEventListener('reset', () => { output.textContent = ''; });
 }
 
 function render() {
@@ -223,10 +273,10 @@ function render() {
   byId('source').hidden = !state.finished || !(exam.pdf || exam.source);
   const credit = byId('credit');
   if (credit) {
-    credit.hidden = !state.finished || !exam.citation;
-    credit.textContent = exam.citation
+    credit.textContent = exam.exhibitCredit || (exam.citation
       ? `${exam.authors.join(', ')}. ${exam.citation}. Image license: ${exam.license}. Figures: ${exam.figures.map(figure => figure.number).join(', ')}.`
-      : '';
+      : '');
+    credit.hidden = !credit.textContent || (!exam.featured && !state.finished);
   }
   if (state.finished) {
     const correct = grading.filter(item => item.key.includes(state.answers[item.id])).length;
@@ -300,7 +350,15 @@ function render() {
         label.classList.add('incorrect');
       }
       radio.addEventListener('change', () => record(q.id, id));
-      label.append(radio, element('span', `${id.toUpperCase()}. ${value}`));
+      const choiceText = element('span', `${id.toUpperCase()}. ${value}`);
+      if (practice) {
+        choiceText.dataset.highlight = `question-${q.id}-option-${id}`;
+        renderHighlights(choiceText);
+        choiceText.addEventListener('click', event => {
+          if (annotationTool) event.preventDefault();
+        });
+      }
+      label.append(radio, choiceText);
       if (state.finished && incorrect && radio.checked) label.append(element('span', 'Incorrect', 'answer-status'));
       if (!practice || state.finished) {
         choices.append(label);

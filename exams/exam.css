@@ -142,3 +142,18 @@ dialog::backdrop { background: #132b2390; }
 .eliminate-choice { padding: 0; min-height: 44px; font-size: 1.2rem; }
 .option.eliminated { background: #f3f6f3; color: #53635b; cursor: default; }
 .option.eliminated span { text-decoration: line-through; }
+
+.highlight-controls [aria-pressed="true"] { background: var(--green); border-color: var(--green); color: white; }
+[data-highlight] { user-select: text; }
+.calculator-inputs { display: flex; gap: 10px; flex-wrap: wrap; }
+.calculator-inputs label { display: grid; gap: 4px; flex: 1 1 100px; font-size: .88rem; }
+.calculator-inputs input, .calculator-inputs select {
+  width: 100%;
+  min-width: 0;
+  padding: 7px;
+  border: 1px solid #b8ccc1;
+  border-radius: 6px;
+  font: inherit;
+}
+#calculation-result { display: block; min-height: 1.5em; margin-top: 12px; font-weight: 650; overflow-wrap: anywhere; }
+.calculator-close { margin-top: 12px; }
