@@ -146,6 +146,67 @@ function addImage(path, caption) {
   questionPanel.append(figure);
 }
 
+function renderHighlights(target) {
+  const text = target.textContent;
+  const ranges = state.highlights?.[target.dataset.highlight] || [];
+  const fragments = document.createDocumentFragment();
+  let offset = 0;
+  for (const [start, end] of ranges) {
+    fragments.append(text.slice(offset, start), element('mark', text.slice(start, end)));
+    offset = end;
+  }
+  fragments.append(text.slice(offset));
+  target.replaceChildren(fragments);
+}
+
+function highlightControls() {
+  const controls = element('div', null, 'highlight-controls');
+  const status = element('span', 'Select text in the case or question.');
+  status.setAttribute('role', 'status');
+  const toggle = button('Highlight / erase', () => {
+    const selection = window.getSelection();
+    const range = selection?.rangeCount && selection.getRangeAt(0);
+    const target = range && Array.from(questionPanel.querySelectorAll('[data-highlight]'))
+      .find(node => node.contains(range.startContainer) && node.contains(range.endContainer));
+    if (!target || range.collapsed || !range.toString().trim()) {
+      status.textContent = 'Select a passage within one case or question text block first.';
+      return;
+    }
+    const prefix = document.createRange();
+    prefix.selectNodeContents(target);
+    prefix.setEnd(range.startContainer, range.startOffset);
+    const start = prefix.toString().length;
+    const end = start + range.toString().length;
+    const key = target.dataset.highlight;
+    state.highlights ||= {};
+    const existing = state.highlights[key] || [];
+    const erasing = existing.some(([left, right]) => left <= start && end <= right);
+    const updated = [];
+    for (const [left, right] of existing) {
+      if (erasing ? right <= start || end <= left : right < start || end < left) updated.push([left, right]);
+      else if (erasing) {
+        if (left < start) updated.push([left, start]);
+        if (end < right) updated.push([end, right]);
+      }
+    }
+    if (!erasing) {
+      const overlapping = existing.filter(([left, right]) => left <= end && start <= right);
+      updated.push([
+        Math.min(start, ...overlapping.map(([left]) => left)),
+        Math.max(end, ...overlapping.map(([, right]) => right))
+      ]);
+    }
+    state.highlights[key] = updated.sort(([a], [b]) => a - b);
+    selection.removeAllRanges();
+    renderHighlights(target);
+    save();
+    status.textContent = erasing ? 'Highlight erased.' : 'Highlight saved.';
+  });
+  toggle.addEventListener('mousedown', event => event.preventDefault());
+  controls.append(toggle, status);
+  return controls;
+}
+
 function render() {
   const exam = exams[year];
   const q = exam.questions[state.index];
@@ -173,10 +234,16 @@ function render() {
   const heading = element('h2', `${q.id.includes('.') ? 'Case item' : 'Question'} ${q.id}`);
   heading.tabIndex = -1;
   questionPanel.append(heading);
+  if (practice) questionPanel.append(highlightControls());
   if (q.case) {
     const details = element('details', null, 'case');
     details.open = true;
-    details.append(element('summary', practice ? 'Patient information and exhibits' : `Case ${q.case} · Patient information`), element('p', exam.cases[q.case]));
+    const patient = element('p', exam.cases[q.case]);
+    if (practice) {
+      patient.dataset.highlight = `case-${q.case}`;
+      renderHighlights(patient);
+    }
+    details.append(element('summary', practice ? 'Patient information and exhibits' : `Case ${q.case} · Patient information`), patient);
     if (exam.figures) {
       const exhibits = element('div', null, 'exhibits');
       for (const {path, caption} of exam.figures) {
@@ -198,6 +265,10 @@ function render() {
   }
   const stem = element('p', q.stem);
   stem.id = 'current-stem';
+  if (practice) {
+    stem.dataset.highlight = `question-${q.id}`;
+    renderHighlights(stem);
+  }
   questionPanel.append(stem);
   if (q.hint && !state.finished) {
     const hint = element('details', null, 'question-hint');

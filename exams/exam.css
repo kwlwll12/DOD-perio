@@ -134,3 +134,6 @@ dialog::backdrop { background: #132b2390; }
 .drug-table thead th { background: var(--wash); }
 .drug-table th:first-child { width: 26%; }
 .drug-footnote { margin: 4px 0 0; color: var(--muted); }
+.highlight-controls { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 12px; margin: 0 0 14px; font-size: .84rem; }
+.highlight-controls span { color: var(--muted); }
+[data-highlight] mark { background: #ffeb82; color: #25332c; border-radius: 2px; }
