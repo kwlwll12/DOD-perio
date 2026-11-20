@@ -111,9 +111,13 @@ function updateMetrics() {
   byId('progress').textContent = `${answeredCount()} / ${exams[year].questions.length} answered`;
 }
 
+function hasInstantFeedback() {
+  return practice && !exams[year].figures;
+}
+
 function isIncorrect(q) {
   const answer = state.answers[q.id];
-  return Boolean(state.finished && q.key && !q.missingImage &&
+  return Boolean((state.finished || hasInstantFeedback()) && q.key && !q.missingImage &&
     Object.keys(q.choices).length > 1 && answer && !q.key.includes(answer));
 }
 
@@ -212,7 +216,6 @@ function render() {
   const q = exam.questions[state.index];
   const options = Object.entries(q.choices);
   const grading = exam.questions.filter(item => item.key && Object.keys(item.choices).length > 1 && !item.missingImage);
-  const gradable = grading.includes(q);
   const incorrect = isIncorrect(q);
   const result = byId('result');
   result.hidden = !state.finished;
@@ -298,7 +301,7 @@ function render() {
       }
       radio.addEventListener('change', () => record(q.id, id));
       label.append(radio, element('span', `${id.toUpperCase()}. ${value}`));
-      if (incorrect && radio.checked) label.append(element('span', 'Incorrect', 'answer-status'));
+      if (state.finished && incorrect && radio.checked) label.append(element('span', 'Incorrect', 'answer-status'));
       if (!practice || state.finished) {
         choices.append(label);
         continue;
@@ -344,20 +347,13 @@ function render() {
     questionPanel.append(element('p', 'The complete choice set was not preserved.', 'note'), label, response);
   }
 
-  if (state.finished) {
-    const review = element('div', null, incorrect ? 'review incorrect' : 'review');
-    if (q.key) {
-      const title = gradable ? (q.key.includes(state.answers[q.id]) ? 'Correct' : (incorrect ? 'Incorrect' : 'Unanswered')) : 'Compare your response';
-      review.append(element('h2', title), element('p', `Practice key: ${q.key.map(id => q.choices[id]).join(' / ')}`));
-    }
-    if (q.reference) review.append(element('p', q.reference));
-    if (!q.key && !q.reference) {
-      review.append(element('p', options.length === 1
-        ? `The recall lists: ${options[0][1]}. Credit for this response is unverified.`
-        : 'The available recall does not establish a reliable key for this item.'));
-    }
+  if (state.finished || hasInstantFeedback()) {
+    const review = element('div', null, 'review');
+    review.id = 'answer-feedback';
+    if (!state.finished) review.setAttribute('aria-live', 'polite');
     questionPanel.append(review);
-    if (q.reviewImage) addImage(q.reviewImage, 'Annotated illustration from the recall PDF');
+    updateAnswerFeedback(q, review);
+    if (state.finished && q.reviewImage) addImage(q.reviewImage, 'Annotated illustration from the recall PDF');
   }
 
   const controls = element('div', null, 'controls');
@@ -396,8 +392,36 @@ function render() {
   updateMetrics();
 }
 
+function updateAnswerFeedback(q, review) {
+  const answer = state.answers[q.id];
+  const options = Object.values(q.choices);
+  const incorrect = isIncorrect(q);
+  review.hidden = !state.finished && !answer;
+  review.classList.toggle('incorrect', incorrect);
+  review.replaceChildren();
+  if (review.hidden) return;
+  if (q.key) {
+    const gradable = options.length > 1 && !q.missingImage;
+    const title = gradable ? (q.key.includes(answer) ? 'Correct' : (incorrect ? 'Incorrect' : 'Unanswered')) : 'Compare your response';
+    review.append(element('h2', title), element('p', `Practice key: ${q.key.map(id => q.choices[id]).join(' / ')}`));
+  }
+  if (q.reference) review.append(element('p', q.reference));
+  if (!q.key && !q.reference) {
+    review.append(element('p', options.length === 1
+      ? `The recall lists: ${options[0]}. Credit for this response is unverified.`
+      : 'The available recall does not establish a reliable key for this item.'));
+  }
+}
+
 function record(id, value) {
   state.answers[id] = value;
+  if (hasInstantFeedback() && !state.finished) {
+    const q = exams[year].questions[state.index];
+    updateAnswerFeedback(q, byId('answer-feedback'));
+    for (const radio of questionPanel.querySelectorAll('input[name="answer"]')) {
+      radio.closest('label').classList.toggle('incorrect', radio.value === value && isIncorrect(q));
+    }
+  }
   save();
   updatePalette();
   updateMetrics();
@@ -411,7 +435,9 @@ caseNotes?.addEventListener('input', () => {
 byId('back').addEventListener('click', showHome);
 byId('submit').addEventListener('click', () => {
   const outstanding = exams[year].questions.length - answeredCount();
-  byId('confirm-status').textContent = outstanding
+  byId('confirm-status').textContent = hasInstantFeedback()
+    ? (outstanding ? `${outstanding} unanswered. Submit to see the overall score.` : 'Submit to see the overall score.')
+    : outstanding
     ? `${outstanding} unanswered. You can review the practice key after submission.`
     : 'All questions are answered. The practice key will appear after submission.';
   dialog.returnValue = '';
