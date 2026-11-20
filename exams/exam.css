@@ -137,3 +137,8 @@ dialog::backdrop { background: #132b2390; }
 .highlight-controls { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 12px; margin: 0 0 14px; font-size: .84rem; }
 .highlight-controls span { color: var(--muted); }
 [data-highlight] mark { background: #ffeb82; color: #25332c; border-radius: 2px; }
+.choice-row { display: grid; grid-template-columns: minmax(0, 1fr) 44px; gap: 7px; margin-bottom: 7px; }
+.choice-row .option { margin: 0; }
+.eliminate-choice { padding: 0; min-height: 44px; font-size: 1.2rem; }
+.option.eliminated { background: #f3f6f3; color: #53635b; cursor: default; }
+.option.eliminated span { text-decoration: line-through; }

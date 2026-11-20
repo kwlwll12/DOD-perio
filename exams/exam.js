@@ -299,7 +299,38 @@ function render() {
       radio.addEventListener('change', () => record(q.id, id));
       label.append(radio, element('span', `${id.toUpperCase()}. ${value}`));
       if (incorrect && radio.checked) label.append(element('span', 'Incorrect', 'answer-status'));
-      choices.append(label);
+      if (!practice || state.finished) {
+        choices.append(label);
+        continue;
+      }
+      const row = element('div', null, 'choice-row');
+      const optionName = id.toUpperCase();
+      const toggle = button('×', () => {
+        state.eliminated ||= {};
+        state.eliminated[q.id] ||= {};
+        const eliminated = state.eliminated[q.id];
+        if (eliminated[id]) delete eliminated[id];
+        else eliminated[id] = true;
+        updateChoice();
+        if (radio.disabled && radio.checked) {
+          radio.checked = false;
+          record(q.id, '');
+        } else {
+          save();
+        }
+      }, 'eliminate-choice');
+      function updateChoice() {
+        const eliminated = Boolean(state.eliminated?.[q.id]?.[id]);
+        radio.disabled = eliminated;
+        label.classList.toggle('eliminated', eliminated);
+        toggle.textContent = eliminated ? '↶' : '×';
+        const action = `${eliminated ? 'Restore' : 'Eliminate'} option ${optionName}`;
+        toggle.setAttribute('aria-label', action);
+        toggle.title = action;
+      }
+      updateChoice();
+      row.append(label, toggle);
+      choices.append(row);
     }
     questionPanel.append(choices);
   } else {
